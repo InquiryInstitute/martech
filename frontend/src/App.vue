@@ -101,24 +101,27 @@ const initReveal = () => {
     if (typeof (window as any).Reveal !== 'undefined') {
       clearInterval(checkReveal);
       
-      const revealElement = document.querySelector('.reveal');
-      if (revealElement) {
-        const Reveal = (window as any).Reveal;
-        const RevealMarkdown = (window as any).RevealMarkdown;
-        const RevealHighlight = (window as any).RevealHighlight;
-        const RevealNotes = (window as any).RevealNotes;
-        
-        const reveal = new Reveal(revealElement, {
-          plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-        });
-        
-        reveal.initialize({
-          hash: true,
-          transition: 'slide',
-          transitionSpeed: 'default',
-          backgroundTransition: 'fade',
-        });
-      }
+      // Wait for Vue to render the slide deck
+      setTimeout(() => {
+        const revealElement = document.querySelector('.reveal');
+        if (revealElement && revealElement.parentElement) {
+          const Reveal = (window as any).Reveal;
+          const RevealMarkdown = (window as any).RevealMarkdown;
+          const RevealHighlight = (window as any).RevealHighlight;
+          const RevealNotes = (window as any).RevealNotes;
+          
+          const reveal = new Reveal(revealElement, {
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+          });
+          
+          reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+          });
+        }
+      }, 100);
     }
   }, 100);
 };
