@@ -106,19 +106,41 @@ const initReveal = () => {
         const revealElement = document.querySelector('.reveal');
         if (revealElement && revealElement.parentElement) {
           const Reveal = (window as any).Reveal;
-          const RevealMarkdown = (window as any).RevealMarkdown;
-          const RevealHighlight = (window as any).RevealHighlight;
-          const RevealNotes = (window as any).RevealNotes;
           
-          const reveal = new Reveal(revealElement, {
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-          });
+          // Dynamically load markdown plugin after DOM is ready
+          const loadPlugins = () => {
+            return new Promise<void>((resolve) => {
+              // Check if plugins are already loaded
+              if (typeof (window as any).RevealMarkdown !== 'undefined') {
+                resolve();
+                return;
+              }
+              
+              // Load markdown plugin dynamically
+              const script = document.createElement('script');
+              script.src = '/martech/reveal/plugin/markdown/markdown.js';
+              script.onload = () => {
+                resolve();
+              };
+              document.head.appendChild(script);
+            });
+          };
           
-          reveal.initialize({
-            hash: true,
-            transition: 'slide',
-            transitionSpeed: 'default',
-            backgroundTransition: 'fade',
+          loadPlugins().then(() => {
+            const RevealMarkdown = (window as any).RevealMarkdown;
+            const RevealHighlight = (window as any).RevealHighlight;
+            const RevealNotes = (window as any).RevealNotes;
+            
+            const reveal = new Reveal(revealElement, {
+              plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            });
+            
+            reveal.initialize({
+              hash: true,
+              transition: 'slide',
+              transitionSpeed: 'default',
+              backgroundTransition: 'fade',
+            });
           });
         }
       }, 100);
