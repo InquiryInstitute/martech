@@ -61,7 +61,7 @@ const slides = ref<any[]>([]);
 // Load slides from markdown
 const loadSlides = async () => {
   try {
-    const response = await fetch('/castalia-marketing-deck.md');
+    const response = await fetch('/martech/castalia-marketing-deck.md');
     const markdown = await response.text();
     
     // Parse markdown into slides
