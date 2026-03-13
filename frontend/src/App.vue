@@ -94,22 +94,22 @@ const handleLogout = async () => {
   }
 };
 
-// Initialize on mount
-onMounted(async () => {
-  await initAuth();
-  
-  // Initialize Reveal.js after auth check
-  if (user.value) {
-    // Wait for DOM to be ready
-    setTimeout(() => {
+// Initialize Reveal.js
+const initReveal = () => {
+  // Wait for Reveal to be available
+  const checkReveal = setInterval(() => {
+    if (typeof (window as any).Reveal !== 'undefined') {
+      clearInterval(checkReveal);
+      
       const revealElement = document.querySelector('.reveal');
       if (revealElement) {
+        const Reveal = (window as any).Reveal;
+        const RevealMarkdown = (window as any).RevealMarkdown;
+        const RevealHighlight = (window as any).RevealHighlight;
+        const RevealNotes = (window as any).RevealNotes;
+        
         const reveal = new Reveal(revealElement, {
-          plugins: [
-            RevealMarkdown,
-            RevealHighlight,
-            RevealNotes,
-          ],
+          plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         });
         
         reveal.initialize({
@@ -119,8 +119,30 @@ onMounted(async () => {
           backgroundTransition: 'fade',
         });
       }
-    }, 100);
+    }
+  }, 100);
+};
+
+// Initialize on mount
+onMounted(async () => {
+  const session = await checkAuth();
+  if (session) {
+    user.value = await getUser();
+    // Initialize Reveal if already logged in
+    setTimeout(initReveal, 100);
   }
+  
+  // Listen for auth changes
+  supabase.auth.onAuthStateChange(async (event, session) => {
+    console.log('Auth state changed:', event, session);
+    if (session) {
+      user.value = session.user;
+      // Initialize Reveal.js after auth
+      setTimeout(initReveal, 100);
+    } else {
+      user.value = null;
+    }
+  });
 });
 </script>
 
