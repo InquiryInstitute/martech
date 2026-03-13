@@ -174,7 +174,7 @@
   <div id="slide-deck" class="slide-deck" style="display: none;">
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="/castalia-marketing-deck.md"
+        <section data-markdown="/martech/castalia-marketing-deck.md"
                  data-separator="^\n---\n$"
                  data-separator-vertical="^\n--\n$">
         </section>
@@ -192,7 +192,7 @@
     const supabaseUrl = 'https://pilmscrodlitdrygabvo.supabase.co';
     const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpbG1zY3JvZGxpdGRyeWdhYnZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIzNTAyMTAsImV4cCI6MjA3NzkyNjIxMH0.BZxQiztlwtKjhL1Jjjqd0CnvfIbuwYHV0YL2s50cQiA';
 
-    const supabaseClient = supabase.createClient(supabaseUrl, supabaseAnonKey);
+    const supabase = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
     // DOM elements
     const authContainer = document.getElementById('auth-container');
@@ -203,33 +203,33 @@
 
     // Check auth status
     async function checkAuth() {
-      const { data: { session } } = await supabaseClient.auth.getSession();
+      const { data: { session } } = await supabase.auth.getSession();
       return session;
     }
 
     // Get current user
     async function getUser() {
-      const { data: { user } } = await supabaseClient.auth.getUser();
+      const { data: { user } } = await supabase.auth.getUser();
       return user;
     }
 
     // Login with Google
     async function loginWithGoogle() {
-      await supabaseClient.auth.signInWithOAuth({
+      await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
           queryParams: {
             access_type: 'offline',
             prompt: 'consent',
           },
-          redirectTo: 'https://martech.castalia.institute/',
+          redirectTo: 'https://inquiryinstitute.github.io/martech/',
         },
       });
     }
 
     // Logout
     async function logout() {
-      await supabaseClient.auth.signOut();
+      await supabase.auth.signOut();
     }
 
     // Update UI based on auth state
@@ -291,7 +291,7 @@
     });
 
     // Listen for auth changes
-    supabaseClient.auth.onAuthStateChange((event, session) => {
+    supabase.auth.onAuthStateChange((event, session) => {
       console.log('Auth state changed:', event, session);
       if (session) {
         getUser().then(user => updateAuthUI(user));
