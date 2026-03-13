@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Castalia Institute - Marketing Slide Deck</title>
-  <link rel="stylesheet" href="/martech/reveal/dist/reset.css" />
-  <link rel="stylesheet" href="/martech/reveal/dist/reveal.css" />
-  <link rel="stylesheet" href="/martech/reveal/dist/theme/white.css" />
+  <link rel="stylesheet" href="/reveal/dist/reset.css" />
+  <link rel="stylesheet" href="/reveal/dist/reveal.css" />
+  <link rel="stylesheet" href="/reveal/dist/theme/white.css" />
   <style>
     * {
       margin: 0;
@@ -174,7 +174,7 @@
   <div id="slide-deck" class="slide-deck" style="display: none;">
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="/martech/castalia-marketing-deck.md"
+        <section data-markdown="/castalia-marketing-deck.md"
                  data-separator="^\n---\n$"
                  data-separator-vertical="^\n--\n$">
         </section>
@@ -182,17 +182,17 @@
     </div>
   </div>
 
-  <script src="/martech/reveal/dist/reveal.js"></script>
-  <script src="/martech/reveal/plugin/markdown/markdown.js"></script>
-  <script src="/martech/reveal/plugin/highlight/highlight.js"></script>
-  <script src="/martech/reveal/plugin/notes/notes.js"></script>
+  <script src="/reveal/dist/reveal.js"></script>
+  <script src="/reveal/plugin/markdown/markdown.js"></script>
+  <script src="/reveal/plugin/highlight/highlight.js"></script>
+  <script src="/reveal/plugin/notes/notes.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script>
     // Supabase configuration
     const supabaseUrl = 'https://pilmscrodlitdrygabvo.supabase.co';
     const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpbG1zY3JvZGxpdGRyeWdhYnZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIzNTAyMTAsImV4cCI6MjA3NzkyNjIxMH0.BZxQiztlwtKjhL1Jjjqd0CnvfIbuwYHV0YL2s50cQiA';
 
-    const supabase = supabase.createClient(supabaseUrl, supabaseAnonKey);
+    const supabaseClient = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
     // DOM elements
     const authContainer = document.getElementById('auth-container');
@@ -203,33 +203,33 @@
 
     // Check auth status
     async function checkAuth() {
-      const { data: { session } } = await supabase.auth.getSession();
+      const { data: { session } } = await supabaseClient.auth.getSession();
       return session;
     }
 
     // Get current user
     async function getUser() {
-      const { data: { user } } = await supabase.auth.getUser();
+      const { data: { user } } = await supabaseClient.auth.getUser();
       return user;
     }
 
     // Login with Google
     async function loginWithGoogle() {
-      await supabase.auth.signInWithOAuth({
+      await supabaseClient.auth.signInWithOAuth({
         provider: 'google',
         options: {
           queryParams: {
             access_type: 'offline',
             prompt: 'consent',
           },
-          redirectTo: 'https://inquiryinstitute.github.io/martech/',
+          redirectTo: 'https://martech.castalia.institute/',
         },
       });
     }
 
     // Logout
     async function logout() {
-      await supabase.auth.signOut();
+      await supabaseClient.auth.signOut();
     }
 
     // Update UI based on auth state
@@ -291,7 +291,7 @@
     });
 
     // Listen for auth changes
-    supabase.auth.onAuthStateChange((event, session) => {
+    supabaseClient.auth.onAuthStateChange((event, session) => {
       console.log('Auth state changed:', event, session);
       if (session) {
         getUser().then(user => updateAuthUI(user));
