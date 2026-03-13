@@ -45,14 +45,15 @@ layout: section
 
 # Our Solution
 
-**An AI-native learning platform that:**
+**An AI-native learning platform — bootstrapped and capital-efficient:**
 
 <v-clicks>
 
 - Publishes high-quality content at **5x velocity**
 - Learns from user behavior to **personalize recommendations**
 - Combines human expertise with **AI assistance**
-- Scales cost-effectively at **< $0.50 per user/month**
+- Launches on **$3K in cloud credits** — scales only on revenue
+- Targets **< $0.50 per user/month** at scale
 
 </v-clicks>
 
@@ -63,7 +64,7 @@ layoutClass: gap-16
 
 # The Castalia Ecosystem
 
-Four integrated products forming a self-improving learning platform.
+Five integrated products forming a self-improving learning platform.
 
 ::right::
 
@@ -81,6 +82,9 @@ Four integrated products forming a self-improving learning platform.
 **iNQ Cards** — Personalized learning cards
 <br>Behavioral recommendations, spaced repetition, mobile-first
 
+**iNQ Credentials** — Micro-credential courses
+<br>Stackable certificates, skill verification, employer-recognized badges
+
 </v-clicks>
 
 ---
@@ -92,21 +96,22 @@ Four integrated products forming a self-improving learning platform.
 | AI-Assisted Publishing | Creators use AI to draft, research, refine | **50/wk** vs. 10 |
 | Two-Layer Recommendations | Rules + vector similarity | **5-8% CTR** |
 | Behavioral Learning | Real-time interaction tracking | Continuous improvement |
-| Multi-Domain Content | Articles, courses, products, events | Revenue diversification |
+| Multi-Domain Content | Articles, courses, credentials, events | Revenue diversification |
+| Micro-Credentials | Stackable certificates with skill verification | Completion & retention |
 | Quality Governance | Human review gates for AI content | Institutional standards |
 
 ---
 
 # Technology Stack
 
-**AWS-Native, AI-Driven Architecture**
+**Cloud-Native, AI-Driven Architecture**
 
 ```
 Client Layer
     ↓
 API Gateway + Cognito Auth
     ↓
-Core Services (Lambda)
+Core Services (Lambda — serverless, pay-per-use)
     ├── Content Service
     ├── Search Service
     ├── Recommendation Service
@@ -120,8 +125,8 @@ Data Layer
     └── Redis (caching)
     ↓
 AI Services
-    ├── Bedrock Titan Embeddings
-    └── Bedrock Claude 3.5 Sonnet
+    ├── Bedrock Titan Embeddings ($1K AWS credits)
+    └── Google Cloud AI ($2K GCP credits)
 ```
 
 ---
@@ -154,13 +159,14 @@ layoutClass: gap-16
 
 | Metric | Target |
 |---|---|
-| Active Users | 5,000 |
+| Active Users | 1,000 |
 | Recommendation CTR | 5-8% |
-| Articles/Week | 20 |
+| Articles/Week | 10 |
 
 <br>
 
-**Cost:** ~$4,000/month
+**Cost:** Covered by cloud credits
+<br>$1K AWS + $2K GCP = **$3K runway, $0 out-of-pocket**
 
 ---
 layout: two-cols
@@ -168,7 +174,7 @@ layoutClass: gap-16
 ---
 
 # Phase 2: Growth
-**Months 4-6 — Scale & Enhance**
+**Months 4-6 — Revenue-Funded Scaling**
 
 **Deliverables:**
 - AI-assisted content creation
@@ -186,13 +192,14 @@ layoutClass: gap-16
 
 | Metric | Target |
 |---|---|
-| Active Users | 25,000 |
+| Active Users | 5,000 |
 | Conversion Rate | 2-3% |
-| Content/Week | 50 |
+| Content/Week | 25 |
 
 <br>
 
-**Cost:** ~$6,000/month
+**Cost:** Funded by early revenue
+<br>Spend only what we earn — target break-even by month 6
 
 ---
 layout: two-cols
@@ -200,7 +207,7 @@ layoutClass: gap-16
 ---
 
 # Phase 3: Intelligence
-**Months 7-12 — Scale & Lead**
+**Months 7-12 — Reinvest & Lead**
 
 **Deliverables:**
 - Graph-based recommendations
@@ -218,13 +225,29 @@ layoutClass: gap-16
 
 | Metric | Target |
 |---|---|
-| Active Users | 100,000+ |
+| Active Users | 25,000+ |
 | Scale | Target load |
 | CTR & Conversion | Industry-leading |
 
 <br>
 
-**Cost:** ~$11,000/month
+**Cost:** Reinvest revenue into infrastructure
+<br>Serverless architecture keeps costs proportional to usage
+
+---
+
+# Why Bootstrap?
+
+<v-clicks>
+
+- **No dilution** — we retain full ownership and control
+- **Revenue discipline** — every feature must earn its keep
+- **$3K cloud credits** — $1K AWS + $2K Google Cloud covers MVP infrastructure
+- **Serverless = zero idle cost** — we only pay when users are active
+- **AI costs are plummeting** — embedding and inference costs drop ~50% annually
+- **Spend income, not capital** — infrastructure scales only when revenue scales
+
+</v-clicks>
 
 ---
 layout: section
@@ -453,28 +476,28 @@ layoutClass: gap-16
 # GTM Phase 1
 **Build Awareness — Months 1-3**
 
-**Content Marketing**
+**Content Marketing (organic)**
 - 2-3 articles/week on AI in education
 - Guest posts on EdSurge, Inside Higher Ed
 - LinkedIn thought leadership
-- Target: 500+ leads/month
+- Target: 100+ leads/month
 
 ::right::
 
 <br>
 
-**Community Building**
+**Community Building (zero-cost)**
 - Discord for early adopters
-- Monthly webinars
-- EdTech influencer partnerships
+- Monthly webinars (Zoom free tier)
+- EdTech subreddits and forums
 - Target: 200+ members
 
-**Direct Outreach**
-- 50 pilot institutions (7% conversion)
+**Direct Outreach (founder-led)**
+- 20 pilot institutions (personal network)
 - Free 90-day trials
-- Target: 3-4 pilot customers
+- Target: 3-5 pilot customers
 
-**Budget:** $15,000/month
+**Budget:** $0 — founder time + organic channels
 
 ---
 layout: two-cols
@@ -488,23 +511,23 @@ layoutClass: gap-16
 - Freemium tier for individual educators
 - Self-serve onboarding
 - In-app upsell to institutional plans
-- Target: 1,500+ trials/month
+- Target: 500+ trials/month
 
 ::right::
 
 <br>
 
 **Account-Based Marketing**
-- 200 enterprise accounts targeted
+- Target 50 enterprise accounts
 - Custom demos, ROI calculators
-- Target: 15 enterprise trials
+- Target: 5 enterprise trials
 
 **Partnerships**
 - Canvas/Blackboard integrations
 - AI tool vendor co-marketing
-- Target: 5 strategic partnerships
+- Target: 2-3 strategic partnerships
 
-**Budget:** $25,000/month
+**Budget:** Reinvest 30% of revenue into growth
 
 ---
 layout: two-cols
@@ -512,29 +535,30 @@ layoutClass: gap-16
 ---
 
 # GTM Phase 3
-**Scale & Dominate — Months 7-12**
+**Scale with Revenue — Months 7-12**
 
 **Brand Building**
-- Annual AI in Education Summit
-- Research reports
+- Virtual AI in Education Summit
+- Research reports (AI-assisted)
 - Certification program
-- Target: 1,000+ attendees
+- Target: 500+ attendees
 
 ::right::
 
 <br>
 
 **Performance Marketing**
-- Paid search, LinkedIn ads
+- Paid search on high-intent keywords
+- LinkedIn ads (small budget tests)
 - Retargeting free trial users
-- Target: 8,000+ trials/month
+- Target: 2,000+ trials/month
 
 **Referral Program**
-- Institutional bonuses
+- Institutional referral bonuses
 - Student ambassadors
-- Target: 20% referral-driven
+- Target: 30% referral-driven
 
-**Budget:** $50,000/month
+**Budget:** Revenue-funded — reinvest 40% of MRR
 
 ---
 layout: section
@@ -564,7 +588,7 @@ AI content assistant
 
 Up to 500 students
 <br>Multi-domain content
-<br>Email campaigns
+<br>Micro-credential courses
 <br>Priority support
 
 </div>
@@ -575,7 +599,7 @@ Up to 500 students
 
 Unlimited students
 <br>Custom integrations
-<br>Dedicated CSM
+<br>White-label credentials
 <br>SLA guarantee
 
 </div>
@@ -591,31 +615,31 @@ Unlimited students
 
 | | Phase 1 (Mo 1-3) | Phase 2 (Mo 4-6) | Phase 3 (Mo 7-12) |
 |---|---|---|---|
-| **Active Users** | 5,000 | 25,000 | 100,000+ |
-| **Content/Week** | 20 articles | 50 pieces | At scale |
+| **Active Users** | 1,000 | 5,000 | 25,000+ |
+| **Content/Week** | 10 articles | 25 pieces | At scale |
 | **Recommendation CTR** | 5-8% | Improving | Industry-leading |
 | **Conversion** | — | 2-3% free→paid | Optimized |
 | **API Latency (p95)** | < 500ms | < 500ms | < 500ms |
-| **Monthly Cost** | < $10K | < $6K/10K users | < $0.50/user |
+| **Infra Cost** | $0 (credits) | Revenue-funded | < $0.50/user |
 
 ---
 
 # Financial Projections
 
-**3-Year Outlook**
+**3-Year Bootstrapped Outlook**
 
 | Metric | Year 1 | Year 2 | Year 3 |
 |---|---|---|---|
-| Active Users | 5K | 25K | 100K+ |
-| Revenue | $120K | $600K | $2.4M |
-| Gross Margin | 60% | 70% | 80% |
-| CAC | $200 | $150 | $120 |
-| LTV | $1,000 | $1,200 | $1,500 |
-| **LTV:CAC** | **5:1** | **8:1** | **12.5:1** |
+| Active Users | 2K | 10K | 50K+ |
+| MRR | $5K | $40K | $200K |
+| Annual Revenue | $30K | $350K | $1.8M |
+| Gross Margin | 70% | 75% | 85% |
+| CAC | ~$0 (organic) | $50 | $80 |
+| LTV | $500 | $900 | $1,200 |
 
 <br>
 
-**Path to Profitability:** Month 24 positive EBITDA → Month 30 at 15% net margin → Month 36 scale for Series B
+**Bootstrapped Path:** Cloud credits cover months 1-3 → First revenue by month 4 → Cash-flow positive by month 8 → Profitable from day one of revenue
 
 ---
 layout: two-cols
@@ -627,7 +651,7 @@ layoutClass: gap-16
 **Technical Risks**
 - AI Hallucinations → Human review gates, citation requirements
 - Embedding Quality → Monitoring, model versioning, fallbacks
-- AWS Cost Overruns → Budget alerts, usage monitoring
+- Cloud Costs → $3K credits buffer, serverless pay-per-use, hard budget alerts
 
 ::right::
 
@@ -668,10 +692,10 @@ layoutClass: gap-16
 <div class="grid grid-cols-3 gap-8 mt-8">
 <div>
 
-### For Investors
-- $2M seed round
-- 24-month path to profitability
-- $100M+ exit potential
+### For Early Customers
+- Free pilot access for 6 months
+- Direct input on product roadmap
+- Founding customer pricing locked in
 
 </div>
 <div>
@@ -679,15 +703,15 @@ layoutClass: gap-16
 ### For Partners
 - Co-marketing opportunities
 - Integration development
-- Joint customer outreach
+- Revenue share on referrals
 
 </div>
 <div>
 
 ### For Educators
-- Join early adopter program
-- Shape the product roadmap
-- Free access for 12 months
+- Join our early adopter community
+- Shape the platform you'll use
+- Get free access while we build
 
 </div>
 </div>
@@ -703,7 +727,7 @@ class: text-center
 
 <br>
 
-Atlas &middot; TerrAIn &middot; iNQ Publications &middot; iNQ Cards
+Atlas &middot; TerrAIn &middot; iNQ Publications &middot; iNQ Cards &middot; iNQ Credentials
 
 <br>
 
