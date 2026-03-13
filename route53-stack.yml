@@ -1,0 +1,80 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Route 53 and SSL for Castalia Marketing Site (martech.castalia.institute)
+
+Parameters:
+  HostedZoneName:
+    Type: String
+    Default: castalia.institute
+  DomainName:
+    Type: String
+    Default: martech.castalia.institute
+  GitHubPagesEmail:
+    Type: String
+    Description: Email for SSL certificate notifications
+
+Resources:
+  # Hosted Zone for castalia.institute
+  CastaliaHostedZone:
+    Type: AWS::Route53::HostedZone
+    Properties:
+      Name: !Ref HostedZoneName
+
+  # SSL Certificate for martech.castalia.institute
+  MarketingSiteCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      SubjectAlternativeNames:
+        - www.!Ref DomainName
+      DomainValidationOptions:
+        - DomainName: !Ref DomainName
+          HostedZoneId: !GetAtt CastaliaHostedZone.Id
+        - DomainName: www.!Ref DomainName
+          HostedZoneId: !GetAtt CastaliaHostedZone.Id
+      ValidationMethod: DNS
+
+  # A Record for martech.castalia.institute
+  MarketingSiteARecord:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !GetAtt CastaliaHostedZone.Id
+      Name: !Ref DomainName
+      Type: A
+      AliasTarget:
+        HostedZoneId: Z2FDTNDATAQYW2  # GitHub Pages alias zone ID
+        DNSName: inquiryinstitute.github.io
+        EvaluateTargetHealth: false
+
+  # CNAME for www subdomain
+  MarketingSiteWwwCname:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !GetAtt CastaliaHostedZone.Id
+      Name: www.!Ref DomainName
+      Type: CNAME
+      TTL: '300'
+      ResourceRecords:
+        - !Ref DomainName
+
+Outputs:
+  HostedZoneId:
+    Description: Route 53 Hosted Zone ID
+    Value: !GetAtt CastaliaHostedZone.Id
+    Export:
+      Name: castalia-hosted-zone-id
+
+  CertificateArn:
+    Description: SSL Certificate ARN
+    Value: !Ref MarketingSiteCertificate
+    Export:
+      Name: castalia-certificate-arn
+
+  CertificateDnsRecords:
+    Description: DNS validation records for certificate
+    Value: !GetAtt MarketingSiteCertificate.DomainValidationOptions
+
+  GitHubPagesDnsRecords:
+    Description: DNS records to configure in Route 53 for GitHub Pages
+    Value: |
+      A Record: martech.castalia.institute -> 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
+      Or use Alias: martech.castalia.institute -> inquiryinstitute.github.io (Zone ID: Z2FDTNDATAQYW2)
