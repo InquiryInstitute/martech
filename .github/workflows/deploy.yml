@@ -17,7 +17,10 @@ jobs:
       contents: read
       pages: write
       id-token: write
-    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -39,6 +42,9 @@ jobs:
           echo "VITE_SUPABASE_URL=${{ vars.SUPABASE_URL }}" >> .env
           echo "VITE_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }}" >> .env
           npm run build
+
+      - name: Copy CNAME to dist
+        run: cp CNAME frontend/dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

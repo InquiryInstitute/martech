@@ -1,0 +1,108 @@
+/* Castalia Institute — Custom Slidev Branding */
+
+:root {
+  --slidev-theme-primary: #667eea;
+  --slidev-theme-secondary: #764ba2;
+}
+
+/* Cover slide styling */
+.slidev-layout.cover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+}
+
+.slidev-layout.cover h1 {
+  color: white !important;
+  font-size: 3.2em !important;
+}
+
+.slidev-layout.cover p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Section slide styling */
+.slidev-layout.section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+}
+
+.slidev-layout.section h1 {
+  color: white !important;
+}
+
+/* Center layout styling */
+.slidev-layout.center h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Default slide headings */
+.slidev-layout h1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.slidev-layout.cover h1,
+.slidev-layout.section h1 {
+  -webkit-text-fill-color: white;
+  background: none;
+}
+
+/* Tables */
+.slidev-layout table {
+  font-size: 0.85em;
+  width: 100%;
+}
+
+.slidev-layout table th {
+  background: #f0f0f8;
+  font-weight: 600;
+}
+
+.slidev-layout table td,
+.slidev-layout table th {
+  padding: 6px 12px;
+  border-bottom: 1px solid #e8e8f0;
+}
+
+/* Code blocks */
+.slidev-layout pre {
+  font-size: 0.8em;
+}
+
+/* Slide number */
+.slidev-page-number {
+  color: #667eea;
+}
+
+/* Progress bar */
+.slidev-progress {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Pricing cards on the pricing slide */
+.slidev-layout .border {
+  border-color: #e8e8f0;
+}
+
+.slidev-layout .border-blue-500 {
+  border-color: #667eea;
+  background: linear-gradient(to bottom, rgba(102, 126, 234, 0.04), transparent);
+}
+
+/* Blockquotes (used for vision statement) */
+.slidev-layout blockquote {
+  border-left: 4px solid #667eea;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
+}
+
+/* Account for auth header when logged in */
+body.auth-active .slidev-page {
+  padding-top: 40px;
+}
