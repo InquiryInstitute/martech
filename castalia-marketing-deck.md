@@ -1,7 +1,4 @@
-# Castalia Institute - Marketing Slide Deck
-
-## Slide 1: Title Slide
-**Castalia Institute**
+## Castalia Institute
 *Where Wisdom Meets Intelligence*
 
 The AI-Powered Learning Platform for the Modern Era
@@ -14,7 +11,7 @@ The AI-Powered Learning Platform for the Modern Era
 
 ---
 
-## Slide 2: The Challenge
+## The Challenge
 **The Problem We Solve**
 
 - Content overload: 10x more information, same attention spans
@@ -25,7 +22,7 @@ The AI-Powered Learning Platform for the Modern Era
 
 ---
 
-## Slide 2a: The Castalia Ecosystem
+## The Castalia Ecosystem
 **A Unified Platform for AI-Native Learning**
 
 **Atlas**: AI-native learning platform
@@ -50,7 +47,7 @@ The AI-Powered Learning Platform for the Modern Era
 
 ---
 
-## Slide 3: Our Solution
+## Our Solution
 **Castalia Institute**
 
 An AI-native learning platform that:
@@ -68,7 +65,7 @@ An AI-native learning platform that:
 
 ---
 
-## Slide 4: What We Do
+## What We Do
 **Core Capabilities**
 
 | Capability | Description | Impact |
@@ -87,7 +84,7 @@ An AI-native learning platform that:
 
 ---
 
-## Slide 5: Technology Stack
+## Technology Stack
 **AWS-Native, AI-Driven Architecture**
 
 ```
@@ -115,7 +112,7 @@ AI Services
 
 ---
 
-## Slide 6: Phase 1 - Core (Months 1-3)
+## Phase 1: Core (Months 1-3)
 **MVP: Prove Value**
 
 **What We Deliver:**
@@ -141,7 +138,7 @@ AI Services
 
 ---
 
-## Slide 7: Phase 2 - Growth (Months 4-6)
+## Phase 2: Growth (Months 4-6)
 **Scale & Enhance**
 
 **What We Deliver:**
@@ -166,7 +163,7 @@ AI Services
 
 ---
 
-## Slide 8: Phase 3 - Intelligence (Months 7-12)
+## Phase 3: Intelligence (Months 7-12)
 **Scale & Lead**
 
 **What We Deliver:**
@@ -191,7 +188,7 @@ AI Services
 
 ---
 
-## Slide 9: Competitive Landscape
+## Competitive Landscape
 **Who We're Up Against**
 
 | Factor | Canvas | Blackboard | Moodle | Castalia Institute |
@@ -211,7 +208,7 @@ AI Services
 
 ---
 
-## Slide 10: Market Research & User Analysis
+## Market Research & User Analysis
 **Total Addressable Market: $12.4B**
 
 ### Academic Institutions ($5.2B TAM)
@@ -275,7 +272,7 @@ AI Services
 
 ---
 
-## Slide 11: User Personas
+## User Personas
 **Primary Personas**
 
 ### Dr. Sarah Chen, Associate Professor
@@ -388,7 +385,7 @@ AI Services
 
 ---
 
-## Slide 12: The Castalia Ecosystem
+## The Castalia Ecosystem: Overview
 **Strategic Overview**
 
 **What is Castalia?**
@@ -415,7 +412,7 @@ More Data → Better Recommendations → Higher Conversion
 
 ---
 
-## Slide 13: Castalia Architecture - Strategic Layers
+## Architecture: Strategic Layers
 **Four-Layer Recommendation Engine**
 
 **Layer 1: Rules-Based (40% weight)**
@@ -450,7 +447,7 @@ More Data → Better Recommendations → Higher Conversion
 
 ---
 
-## Slide 14: Castalia Tactical Implementation
+## Tactical Implementation: Core Infrastructure
 **Phase 1: Core Infrastructure (Months 1-3)**
 
 **Data Layer Setup:**
@@ -480,7 +477,7 @@ More Data → Better Recommendations → Higher Conversion
 
 ---
 
-## Slide 15: Castalia Tactical Implementation - Content Pipeline
+## Tactical: Content Pipeline
 **Content Publishing Flow:**
 
 ```
@@ -519,7 +516,7 @@ More Data → Better Recommendations → Higher Conversion
 
 ---
 
-## Slide 16: Castalia Tactical Implementation - Recommendation Engine
+## Tactical: Recommendation Engine
 **Recommendation Generation Flow:**
 
 ```
@@ -562,7 +559,7 @@ More Data → Better Recommendations → Higher Conversion
 
 ---
 
-## Slide 17: Castalia Tactical Implementation - Behavioral Tracking
+## Tactical: Behavioral Tracking
 **Event Capture Flow:**
 
 ```
@@ -599,7 +596,7 @@ Data Collected:
 
 ---
 
-## Slide 18: Castalia Tactical Implementation - AI Assistant
+## Tactical: AI Assistant
 **Editorial Assistant Flow (Phase 2):**
 
 ```
@@ -639,7 +636,7 @@ Data Collected:
 
 ---
 
-## Slide 19: Castalia Tactical Implementation - Email Distribution
+## Tactical: Email Distribution
 **Email Campaign Flow (Phase 2):**
 
 ```
@@ -690,7 +687,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 20: Go-to-Market Strategy
+## Go-to-Market: Phase 1
 **Phase 1: Build Awareness (Months 1-3)**
 
 **Supporting the Castalia Ecosystem:**
@@ -721,7 +718,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 21: Go-to-Market Strategy - Phase 2
+## Go-to-Market: Phase 2
 **Drive Conversion (Months 4-6)**
 
 **Product-Led Growth:**
@@ -752,7 +749,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 22: Go-to-Market Strategy - Phase 3
+## Go-to-Market: Phase 3
 **Scale & Dominate (Months 7-12)**
 
 **Brand Building:**
@@ -783,7 +780,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 23: Pricing Strategy
+## Pricing Strategy
 **Value-Based Pricing**
 
 **Tier 1: Individual Educator**
@@ -824,7 +821,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 24: Key Metrics & Success Criteria
+## Key Metrics & Success Criteria
 **Phase 1 Success Criteria (Months 1-3):**
 - 5,000 active users (realistic MVP)
 - 5-8% recommendation CTR
@@ -849,7 +846,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 25: Financial Projections
+## Financial Projections
 **3-Year Outlook**
 
 | Metric | Year 1 | Year 2 | Year 3 |
@@ -877,7 +874,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 26: Risk Analysis & Mitigation
+## Risk Analysis & Mitigation
 **Technical Risks**
 - **AI Hallucinations**: Human review gates, citation requirements, plagiarism checks
 - **Embedding Quality**: Continuous monitoring, model versioning, fallback strategies
@@ -895,7 +892,7 @@ Based on your interests in {{#each user.topics}}{{this}}{{#unless @last}}, {{/un
 
 ---
 
-## Slide 27: Team & Vision
+## Team & Vision
 **The Castalia Team**
 
 [Photos and bios of key team members]
@@ -921,7 +918,7 @@ By 2030, every educator has an AI co-pilot, every learner receives personalized 
 
 ---
 
-## Slide 28: Call to Action
+## Call to Action
 **Let's Build the Future**
 
 **For Investors:**
@@ -944,7 +941,7 @@ By 2030, every educator has an AI co-pilot, every learner receives personalized 
 
 ---
 
-## Slide 29: Thank You
+## Thank You
 **Castalia Institute**
 
 *Where Wisdom Meets Intelligence*
