@@ -44,6 +44,13 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats where AI Faculty interact with each other — Symposia (6+1 drinking party), Faculty Club (lunch chats), Salons (dozen+ faculty), Debates. Pupils may observe or participate. Every session is unique, shareable content |
 | Map of Inquiry | maps.castalia.institute | IN DEV | Retention engine. Hex-grid curriculum map — cities are activities, regions are disciplines, paths are prerequisites. Students unlock territory by completing work. Gamified progression that visualizes the entire learning journey |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
+| Book Club | bookclub.inquiry.institute | LIVE | Community engine. Faculty-hosted reading groups with Matrix rooms per book, Bibliotech reader integration. "Join Austen's book club reading Brontë" |
+| Homeschool | homeschool.inquiry.institute | LIVE | Primary segment engine. Day-to-day lesson plans in Montessori and Waldorf/Steiner. Verifiable credentials via W3C/Open Badges. Serves homeschool families directly |
+| Table | table.inquiry.institute | LIVE | Viral engine. Foundry VTT where AI Faculty are DMs and players. "Play D&D with Tolkien as DM, Aristotle and Nietzsche in your party." Inherently shareable |
+| Puppet | (in development) | IN DEV | Spectacle engine. LLM-driven marionette puppets with MuJoCo physics. Natural language controls real-time 3D puppets. Visual, novel, great demo content |
+| Monastory | monastory.inquiry.institute | LIVE | Depth engine. Digital contemplative sanctuary for sacred narrative, perennial philosophy, and deep inquiry. Appeals to "substance over badges" learners |
+| Atrium | atrium (web/iOS/Android) | IN DEV | Access engine. Matrix chat client with Spaces + voice (STT/TTS). One codebase for web and mobile. The door to every faculty conversation |
+| Grounds | grounds.inquiry.institute | LIVE | Immersion engine. WorkAdventure 2D virtual campus. Navigate buildings, meet in rooms, attend events. Visual and interactive |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
 
 ### Products That Generate Revenue (conversion targets)
@@ -142,6 +149,51 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Visual "I've explored 40% of the map" progress is inherently shareable (screenshot → social)
 - Connects everything: each city links to an Encyclopaedia entry, a Bibliotech text, a Singh lecture, or a Symposium
 - Retention mechanic: the map gives students a reason to come back and keep exploring
+
+**Book Club flywheel:**
+- Faculty host thematic reading groups ("Mechanical Men" by a.shelley) with Matrix chat rooms per book
+- Every book links to Bibliotech for reading → discussion happens in Matrix → highlights shared on Feed
+- "Join Austen's book club reading Brontë" is a pitch line that sells itself to homeschool moms and lifelong readers
+- Low-effort to generate: pick a faculty member, pick a book from Bibliotech's 76K library, spin up a room
+
+**Homeschool flywheel:**
+- Day-to-day lesson plans in Montessori and Waldorf/Steiner directly serve the primary target segment
+- Plans reference Encyclopaedia entries, Bibliotech texts, and Singh lectures as lesson materials
+- W3C Verifiable Credentials / Open Badges prove learning outcomes — parents want proof
+- Maieutic mentorship model (Socratic dialogue) ties directly to AI Faculty conversations
+- This is the product that converts homeschool Facebook group browsers into paying members
+
+**Table flywheel:**
+- AI Faculty run tabletop RPG sessions on Foundry VTT — Tolkien as DM, Aristotle and Nietzsche as players
+- Sessions produce transcripts → Commonplace, highlights → Feed, clips → social media
+- "Play D&D with Tolkien as the DM" is the most inherently viral pitch line in the entire product set
+- Human observers/players can join alongside AI agents — converts spectators into participants
+- Deeply novel: no competitor has anything remotely like this
+
+**Puppet flywheel:**
+- LLM-driven marionette puppets with real MuJoCo physics in the browser
+- Natural language → puppet motion: "wave," "bow," "dance" — visual, satisfying, demo-ready
+- Faculty could perform puppet shows — Shakespeare's faculty persona performing The Tempest
+- Short video clips are inherently social media content (TikTok, Instagram Reels)
+
+**Monastory:**
+- Digital contemplative sanctuary for sacred narrative, perennial philosophy (Campbell, Borges)
+- Hero's journey structure: Descent → Ordeal → Revelation → Return
+- Appeals specifically to the "substance over badges" lifelong learner who wants depth
+- Differentiator: no edtech competitor offers a contemplative space
+
+**Atrium:**
+- Matrix chat client with Spaces + voice (STT/TTS) — the front door to all faculty conversations
+- One React codebase → web, iOS, Android via Capacitor
+- Every product's chat component ultimately routes through Atrium
+- Mobile access means faculty conversations happen on the bus, at lunch, anywhere
+
+**Grounds (WorkAdventure campus):**
+- 2D virtual campus where students navigate buildings, meet in rooms, attend events
+- Persistent space — your avatar walks through the Institute
+- Video/audio via Jitsi for real-time conversation when avatars meet
+- Visual immersion sells the "this is a real institution" narrative
+- Convention demo material: project the campus on a screen and let people walk around
 
 ---
 
@@ -308,6 +360,10 @@ News article on AI regulation → matched to Turing's interests via RAG
 | Faculty marginalia | "Plato on Lewis Carroll", "Darwin reading notes" | Very low | Low but viral | Unique content — no competition |
 | Singh / interactive lectures | "Khan Academy with AI tutor", "MIT OCW interactive", "learn calculus from Euler" | Low | Medium | Unique — no direct competitor |
 | Faculty news takes | "what would Turing think about AI regulation", "Einstein on quantum computing news" | Very low | Low but shareable | Unique — topical + historical voice |
+| Book club / reading groups | "AI book club", "online reading group classical literature", "Jane Austen reading group" | Low | Medium | Unique format — faculty-hosted |
+| Homeschool lesson plans | "Montessori lesson plans free", "Waldorf daily rhythm schedule", "Steiner homeschool" | Medium | High | Direct segment match |
+| Tabletop RPG / AI DM | "AI dungeon master", "play D&D with AI", "Tolkien DM" | Low | Medium-high | No competitor — inherently viral |
+| Virtual campus | "virtual university tour", "online campus experience" | Medium | Medium | Visual differentiator |
 | Competitor alternatives | "Great Courses alternative", "Brilliant alternative" | Medium-high | Medium | Rankable Year 2 |
 
 **Expected SEO timeline:**

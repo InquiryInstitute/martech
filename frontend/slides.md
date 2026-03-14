@@ -227,6 +227,8 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 | **SEO** (Encyclopaedia + Bibliotech) | $0 | 483+ entries + 76K texts indexed | 1 |
 | **Bibliotech / Commonplace / Feed + News** | $0 | Faculty marginalia + social proof + news takes | 1 |
 | **Singh + Symposia + Map** | $0 | Lectures, 4 social formats, hex-grid curriculum | 1-2 |
+| **Book Club + Homeschool + Table** | $0 | Reading groups, lesson plans, faculty TTRPG | 1 |
+| **Puppet + Monastory + Grounds** | $0 | Puppets, sanctuary, virtual campus | 1-2 |
 | **Organic social** (X, Reddit, FB) | $0 | Community seeding, 5-10 posts/week | 1 |
 | **Email** (Buttondown/Loops) | $0-29/mo | Nurture + conversion, 2-3 emails/week | 1 |
 | **Homeschool outreach** | $0-200/mo | Direct access to target segment | 1 |
@@ -706,26 +708,49 @@ Membership ($49/mo) + iNQ Cards ($20/mo)
 
 ---
 
-# Marketing by Product
+# Marketing by Product: Content & Experiences
+
+<div class="text-xs mt-1">
+
+| Product | Channel | Message | CTA |
+|---------|---------|---------|-----|
+| **Encyclopaedia** | SEO, Social | "Read what Darwin actually wrote" | Free access |
+| **Bibliotech** | SEO (76K texts) | "76,000 texts. 177 faculty libraries." | Browse Shelf |
+| **Commonplace** | Social, Feed | "Plato's marginalia on Lewis Carroll" | Faculty notes |
+| **Feed + News** | Fediverse | "Turing posted his take on AI regulation" | Timeline |
+| **Singh** | SEO, Social | "Khan Academy, taught by Gauss" | Start lecture |
+| **Symposia** | Social, YouTube | "Nietzsche crashed a Buddhist symposium" | Watch |
+| **Book Club** | Social, Matrix | "Join Austen's reading group on Brontë" | Join club |
+| **Homeschool** | SEO, FB groups | "Montessori plans that know your philosophy" | Start planning |
+| **Table** | Social, YouTube | "D&D with Tolkien as DM" | Watch / Join |
+| **Puppet** | TikTok, Reels | "Puppets that move from your words" | Try demo |
+| **Monastory** | SEO, niche | "A digital sanctuary for deep inquiry" | Enter |
+| **Atrium** | App stores | "Talk to faculty anywhere" | Download |
+| **Grounds** | Conventions, demos | "Walk through the virtual campus" | Explore |
+| **Map of Inquiry** | Social | "I've explored 40% of human knowledge" | Explore |
+| **AI Faculty** | Social, Podcast | "Ask Aristotle anything" | 5 free chats |
+| **Apocalypso** | News hooks, X | "Track the risks that matter" | Dashboard |
+
+All $0 marketing cost — content markets itself.
+
+</div>
+
+---
+
+# Marketing by Product: Revenue & Pipeline
 
 <div class="text-xs mt-1">
 
 | Product | Channel | Cost | Message | CTA |
 |---------|---------|------|---------|-----|
-| **Encyclopaedia** | SEO, Social, Email | $0 | "Read what Darwin actually wrote" | Free access |
-| **Bibliotech** | SEO (76K texts) | $0 | "76,000 texts. 177 faculty libraries." | Browse Shelf |
-| **Commonplace** | Social, Feed | $0 | "Plato's marginalia on Lewis Carroll" | Faculty notes |
-| **Feed + News** | Fediverse | $0 | "Turing posted his take on AI regulation" | Timeline |
-| **Singh** | SEO, Social | $0 | "Khan Academy, taught by Gauss" | Start lecture |
-| **Symposia** | Social, YouTube | $0 | "Nietzsche crashed a Buddhist symposium" | Watch |
-| **Map of Inquiry** | Social | $0 | "I've explored 40% of human knowledge" | Explore |
-| **AI Faculty** | Social, Podcast | $0 | "Ask Aristotle anything" | 5 free chats |
 | **Membership** | Email sequence | $0-29/mo | "Unlock unlimited conversations" | Free trial |
-| **Atlas Field Tablet** | Crowdfunding | $500 | "A learning device, not a distraction" | Pre-order $99 |
 | **iNQ Cards** | Social, Unboxing | $100 | "Knowledge you can hold" | $20/mo |
-| **Apocalypso** | News hooks, X | $0 | "Track the risks that matter" | Dashboard |
+| **Atlas Field Tablet** | Crowdfunding | $500 | "Learning device, not distraction" | Pre-order $99 |
+| **Encyclopaedia (print)** | SEO + email | $0 | "Own the knowledge" | $9.99-49/vol |
+| **Apocalypso (book)** | Paired with dashboard | $0 | "The book behind the dashboard" | $19.99 |
 | **TerrAIn** | Kickstarter, GTC | Fees | "Robots that learn to dig" | Kickstarter |
 | **Magisteria** | Email, Community | $0 | "Credentials that mean something" | Year 2 |
+| **Institution tier** | Direct sales | $0 | "50-seat campus license" | $499/mo |
 
 </div>
 
