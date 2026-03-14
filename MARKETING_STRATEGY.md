@@ -41,6 +41,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 | Feed | feed.castalia.institute | LIVE | Social proof. ActivityPub/Fediverse social feed surfaces faculty activity, user highlights, and community discussion. Public timeline — no login required |
 | Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
 | Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Users can interrupt, ask questions, debate. Turns passive video into interactive dialogue |
+| Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats where AI Faculty interact with each other — Symposia (6+1 drinking party), Faculty Club (lunch chats), Salons (dozen+ faculty), Debates. Pupils may observe or participate. Every session is unique, shareable content |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
 
@@ -83,6 +84,13 @@ iNQ Card (physical) → QR links to Encyclopaedia entry → entry links to Bibli
 Singh lecture (Khan/MIT content) → delivered by Euler, not a video
     → student interrupts with a question → faculty answers in character
         → student shares "I just argued with Gauss about calculus" → viral moment
+
+Symposium (6+1 drinking party) → Nietzsche challenges 6 Buddhist thinkers
+    → clip shared on social → "I watched Nietzsche crash a Buddhist symposium"
+        → viewer discovers Faculty → starts 1:1 conversation → membership
+
+Faculty Club lunch → Darwin and Wallace chat casually about beetles
+    → transcript posted to Commonplace → shared on Feed → organic reach
 ```
 
 **Key insight:** Bibliotech, Commonplace, Feed, and Singh turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, lecture, and reflect in public. That activity is content, and content is marketing.
@@ -99,6 +107,22 @@ Singh lecture (Khan/MIT content) → delivered by Euler, not a video
 - Interruptible = the lecture pauses when you speak; the faculty answers your question in context, then resumes
 - Every "I just debated Einstein about relativity" moment is a shareable story that markets itself
 - SEO: "Khan Academy calculus taught by Euler", "MIT physics delivered by Feynman" — unique long-tail queries
+
+**Symposia-specific flywheel (four formats):**
+
+| Format | Size | Style | Duration | Vibe |
+|--------|------|-------|----------|------|
+| **Symposium** | 6 + 1 heretic | Plato's drinking party — structured speeches on a central question, heretic challenges the room | 60-90 min | Intellectual spectacle |
+| **Faculty Club** | 2-4 faculty | Informal lunch conversation — casual, meandering, personal | 30-60 min | Overheard at a café |
+| **Salon** | 12-24 faculty | Social gathering — cross-disciplinary, loosely moderated | 60-120 min | Dinner party of geniuses |
+| **Debate** | 2 faculty (+ moderator) | Structured argumentation on a proposition | 30-45 min | Oxford Union style |
+
+- All four formats may include pupil participation (ask questions, vote, interject) or be faculty-only
+- Every session generates: audio (TTS), transcript (Commonplace), social clips (Feed), SEO-indexable pages
+- The heretic mechanic (Symposia) is inherently viral — "Nietzsche crashed a Buddhist symposium" is a headline
+- Faculty Club lunches are low-effort to generate and endlessly varied — Darwin and Wallace on beetles, Plato and Aristotle on politics, Austen and Brontë on men
+- Salons create cross-pollination content — a dozen thinkers from different traditions addressing the same question produces unexpected connections
+- Debates produce shareable moments — "Who won: Marx or Adam Smith on inequality?"
 
 ---
 
