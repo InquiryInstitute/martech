@@ -154,43 +154,6 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
-# Secondary Segments
-
-<div class="grid grid-cols-3 gap-6 mt-4 text-sm">
-<div class="border rounded-lg p-4">
-
-### STEM Educators
-**Who:** Teachers 25–40, after-school program directors
-<br>**Where:** NVIDIA GTC, maker faires, ISTE, NSTA conferences, #STEMeducation on X, r/ScienceTeachers
-<br>**Pain:** Current robotics kits are expensive, toy-like, or require too much setup
-<br>**Entry:** TerrAIn demo video → Home Kit → Institutional inquiry
-<br>**Timeline:** Year 2 (after TerrAIn production)
-
-</div>
-<div class="border rounded-lg p-4">
-
-### Independent Learners (18–35)
-**Who:** College-age and early-career autodidacts, "gifted kids who got bored"
-<br>**Where:** X/Twitter, Discord servers, Reddit (r/slatestarcodex, r/SSC), TikTok #BookTok, Hacker News
-<br>**Pain:** Want proof of knowledge without a degree; want intellectual peers
-<br>**Entry:** Apocalypso news hook → Faculty conversations → Magisteria credentials
-<br>**Timeline:** Organic from Day 1
-
-</div>
-<div class="border rounded-lg p-4">
-
-### Institutional Buyers
-**Who:** Library directors, museum education leads, co-op coordinators, micro-school founders
-<br>**Where:** ALA Annual, state library conferences, homeschool co-op networks, LinkedIn
-<br>**Pain:** Need affordable, high-quality digital resources with offline capability
-<br>**Entry:** Encyclopaedia access → Inquiry Appliance pilot → 50-seat institutional tier ($499/mo)
-<br>**Timeline:** Pipeline Phase 2, revenue Phase 3
-
-</div>
-</div>
-
----
-
 # The Acquisition Funnel
 
 ```
@@ -288,172 +251,36 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
-# Social Media Playbook: Facebook & Pinterest
+# Social Media Playbook
 
-<div class="grid grid-cols-2 gap-6 mt-4 text-xs">
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
 <div>
 
-### Facebook — Homeschool Segment
-**5 hr/week · $0 · Goal: 500 referral visits/mo by M6**
+### Facebook — Homeschool (5 hr/wk, $0)
+Join groups (Well-Trained Mind 20K, Classical Conversations 100K+, state groups). **Answer first, link second.** Co-op demo offers. Saturday AM shares.
 
-**Join existing groups (do NOT create one):**
-- Well-Trained Mind (20K) · Classical Conversations (100K+)
-- Charlotte Mason Living Education (15K) · Secular Homeschool (30K)
-- State-specific: TX (45K), FL (25K), CA (20K)
+### Pinterest — Visual for Homeschool (3 hr/wk, $0)
+80% women 25-54. Pins last 3-6 months. Curriculum planning, entry highlights, iNQ Card art, infographics. 5-10 pins/week via Tailwind.
 
-**Tactics:**
-1. **Answer first, link second.** Genuine answer → mention Encyclopaedia entry at end
-2. **"Free resource" framing.** Never pitch the membership
-3. **Co-op demo offers.** Free AI Faculty demos for co-op Zoom calls
-4. **Weekly share (Sat AM):** One entry with a personal note
-5. **Avoid:** Direct product links, anything that looks like an ad
-
-**KPIs:** FB → site referrals, email signups (UTM), co-op demos booked
+### Reddit — High Trust (3 hr/wk, $0)
+Build karma 4-6 weeks first. r/homeschool, r/philosophy, r/AskHistorians. Then AMA: "I built a 13-vol AI encyclopaedia."
 
 </div>
 <div>
 
-### Pinterest — Highest-ROI Visual for Homeschool
-**3 hr/week · $0 · Goal: 300 monthly clicks by M6**
+### X/Twitter — Lifelong Learners (5 hr/wk, $0)
+10-12 posts/week: Faculty quotes, Apocalypso hooks, build-in-public, threads, engagement polls. First-person founder voice. Engage @waitbutwhy, @AstralCodex, #buildinpublic.
 
-**Why:** 80% of users are women 25-54. "Homeschool" = 2M+ monthly searches. Pins last 3-6 months.
+### Instagram — Visual Showcase (2 hr/wk, $0)
+iNQ Cards, Atlas, Encyclopaedia art. Feed (3×/wk), Stories (daily), Reels (1-2×/wk). Focus on saves.
 
-**Pin types (Canva):**
-1. **Curriculum planning:** "13 Volumes — Free Reading Plan" → index
-2. **Entry highlights:** Quote card + author portrait → entry
-3. **iNQ Card art:** Blake/Mucha illustrations (high save rate)
-4. **Infographics:** "What Darwin Actually Wrote" → entry
-5. **Seasonal:** Summer reading, curriculum prep, holiday gift guide
-
-**Boards:** Classical Education · Homeschool Science · Great Books · AI in Education · Philosophy for Kids
-
-**Cadence:** 5-10 pins/week (batch monthly). Tailwind Communities for reach.
-
-**KPIs:** Impressions, outbound clicks, saves, top pin topics
+### Phase 2 (M7+): YouTube, TikTok, Podcasts
+YouTube: "Ask the Faculty" clips, Atlas unboxing, build-in-public. TikTok: #BookTok #LearnOnTikTok. Podcasts: 1-2 guest appearances/month.
 
 </div>
 </div>
 
----
-
-# Social Media Playbook: X/Twitter, Reddit, Instagram
-
-<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
-<div>
-
-### X/Twitter — Lifelong Learners
-**5 hr/week · $0 · Goal: 5K followers by M12**
-
-**Content (10-12 posts/week):**
-- 3× Faculty quotes + link
-- 2× Apocalypso hooks + screenshot
-- 2× Build-in-public (hardware, code, revenue)
-- 1× Thread (Encyclopaedia deep dive)
-- 1× Engagement poll
-- 1× Retweet/engage intellectual accounts
-
-**Engage:** @waitbutwhy, @AstralCodex, @DKBHistory, longtermism/philosophy communities, #buildinpublic
-
-**Tone:** First-person founder voice. Never corporate.
-
-</div>
-<div>
-
-### Reddit — High Trust, High Risk
-**3 hr/week · $0 · Build karma 4-6 weeks first**
-
-**Subreddits:**
-
-*Homeschool:* r/homeschool (82K), r/HomeEducation (15K)
-
-*Learners:* r/philosophy (18M), r/AskHistorians (2M), r/autodidact (25K), r/slatestarcodex (105K)
-
-*Adjacent:* r/edtech, r/artificialintelligence, r/robotics
-
-**Tactics:**
-1. Answer 5+ Qs/week with depth — no links
-2. After 1 month: reference Encyclopaedia naturally
-3. AMA: "I built a 13-volume AI-authored encyclopaedia"
-4. Apocalypso in r/collapse, r/existentialrisk
-
-</div>
-<div>
-
-### Instagram — Visual Showcase
-**2 hr/week · $0 · Goal: 2K followers by M12**
-
-**Why:** iNQ Cards, Atlas, Encyclopaedia art are photogenic. Reaches homeschool moms not on X.
-
-**Content (4-5/week):**
-- **Feed (3×):** Product photos, quote cards, author portraits
-- **Stories (daily):** Build-in-public, polls, BTS
-- **Reels (1-2×):** AI Faculty demo, Atlas hands-on, card reveal
-
-**Hashtags (rotate 15-20):** #homeschool #classicaleducation #charlottemason #lifelonglearning #philosophy #greatbooks #edtech #aieducation
-
-**Focus on saves** — content people bookmark for later.
-
-</div>
-</div>
-
----
-
-# Video & Audio Strategy: YouTube, TikTok, Podcasts
-
-<div class="grid grid-cols-3 gap-4 mt-4 text-xs">
-<div>
-
-### YouTube — Long-Form Authority
-**4 hr/week (Phase 2, M7+) · $0-50/video**
-
-**Content pillars:**
-1. **"Ask the Faculty"** (3-5 min) — AI conversations recorded
-2. **Encyclopaedia Readings** (8-15 min) — Dramatic, ASMR-adjacent
-3. **Atlas Unboxing** (5-10 min) — Hardware reveal + kids using it
-4. **Build-in-Public** (10-20 min) — Monthly metrics update
-5. **iNQ Card Reveals** (2-3 min) — Pack opening
-
-**SEO:** "[Author] on [Topic] — The Encyclopaedia." Link entries in descriptions.
-
-**Target:** 500 subs by M12. Views > subs.
-
-</div>
-<div>
-
-### TikTok — Viral Discovery
-**2 hr/week (Phase 2) · $0**
-
-**Why:** #BookTok (200B+ views), #LearnOnTikTok (800B+). Education content over-performs.
-
-**Content (3-5/week):**
-1. "What [Author] actually said about [Topic]" — 30-60s
-2. "One fact from the Encyclopaedia" — 15s
-3. Apocalypso risk alerts — 30s
-4. iNQ Card reveals — ASMR pack openings
-5. Atlas hardware — satisfying tech demos
-
-**Tone:** "POV: Darwin just explained natural selection better than your biology teacher."
-
-**Target:** 1K followers by M12. One breakout = 10K visits.
-
-</div>
-<div>
-
-### Podcasts — Guest Appearances
-**2 hr/week · $0 · 1-2/month from M3**
-
-| Tier | Shows | Pitch |
-|------|-------|-------|
-| **Homeschool** | Read-Aloud Revival, Brave Writer | "13-vol encyclopaedia for classical ed" |
-| **Philosophy** | Philosophize This!, Hi-Phi Nation | "What if you could talk to Aristotle?" |
-| **AI/Tech** | Practical AI, Latent Space | "10K AI personas — beyond chatbots" |
-| **Indie** | Indie Hackers, MFM | "Bootstrapping atoms + bits" |
-| **Niche** | Great Books Podcast | "Rebuilding the great conversation" |
-
-**Attribution:** UTM link per show. castalia.institute/[podcastname]
-
-</div>
-</div>
+**Total: 18 hr/week Phase 1 → 26 hr/week Phase 2. All $0.**
 
 ---
 
@@ -607,40 +434,20 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 **Total: $150 + $500 + $700 + $200 + $290 + $1,000 = $2,940**
 
----
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div class="border rounded-lg p-2">
 
-# Budget: Year 2 Ramp
-
-**Total Year 2 marketing budget: $18-24K** (funded by Year 1 revenue)
-
-<div class="text-xs mt-2">
-
-| Category | Monthly | Annual | Notes |
-|----------|---------|--------|-------|
-| Email (Loops) | $79 | $948 | 5K+ list, automation |
-| Conventions (4-6 events) | — | $3,000 | Homeschool circuit |
-| Google Ads (long-tail) | $1,000 | $12,000 | Start M15, CPA < $50 |
-| Meta ads (parents) | $500 | $3,000 | Start M18, test creative |
-| Affiliates | Variable | ~$2,000 | 15% × 3mo |
-| Content tools | $30 | $360 | Canva Pro, video |
-| Misc | — | $1,000 | Samples, swag |
-| **Total** | | **$22,308** | |
+### Year 2 Ramp: $18-24K
+Google Ads $12K (M15+) · Conventions $3K · Meta Ads $3K (M18+) · Affiliates ~$2K · Tools $1.3K
+<br>**LTV:CAC target: 12-24× · CPA: $30-60**
 
 </div>
+<div class="border rounded-lg p-2">
 
-<div class="grid grid-cols-2 gap-6 mt-2 text-xs">
-<div>
-
-### Google Ads Unit Economics
-CPC: $1.50-3.00 · Landing page: 5-8% · Email → paid: 2-3%
-<br>**CPA: $30-60** · LTV: $49 × 15mo = $735 · **LTV:CAC: 12-24×**
-
-</div>
-<div>
-
-### Meta Ads Unit Economics
-CPM: $8-15 · CTR: 1-2% · **CPA target: < $80**
-<br>Creative: Atlas photos, Encyclopaedia excerpts, iNQ Card art
+### Paid Ads Decision Triggers
+- Begin Google Ads when MRR > $5K AND organic CPA established
+- Begin Meta Ads when Google CPA < $60 for 3 months
+- Kill any channel where CPA > LTV/3 for 2 months
 
 </div>
 </div>
@@ -704,83 +511,6 @@ Membership ($49/mo) + iNQ Cards ($20/mo)
 | **Q3** (M7-9) EXPANSION | iNQ Cards live ($20/mo) · Atlas shipping · Vols IX-X · YouTube launch | 3.5K email · 120 members · 50 card subs |
 | **Q4** (M10-12) SCALE PREP | Vols XI-XII (all 13 done) · Holiday campaign · Affiliate launch (5-10) · Library pilots (3-5) | 200 members · 100 card subs · **$114K rev** |
 
-</div>
-
----
-
-# Marketing by Product: Content & Experiences
-
-<div class="text-xs mt-1">
-
-| Product | Channel | Message | CTA |
-|---------|---------|---------|-----|
-| **Encyclopaedia** | SEO, Social | "Read what Darwin actually wrote" | Free access |
-| **Bibliotech** | SEO (76K texts) | "76,000 texts. 177 faculty libraries." | Browse Shelf |
-| **Commonplace** | Social, Feed | "Plato's marginalia on Lewis Carroll" | Faculty notes |
-| **Feed + News** | Fediverse | "Turing posted his take on AI regulation" | Timeline |
-| **Singh** | SEO, Social | "Khan Academy, taught by Gauss" | Start lecture |
-| **Symposia** | Social, YouTube | "Nietzsche crashed a Buddhist symposium" | Watch |
-| **Book Club** | Social, Matrix | "Join Austen's reading group on Brontë" | Join club |
-| **Homeschool** | SEO, FB groups | "Montessori plans that know your philosophy" | Start planning |
-| **Table** | Social, YouTube | "D&D with Tolkien as DM" | Watch / Join |
-| **Puppet** | TikTok, Reels | "Puppets that move from your words" | Try demo |
-| **Monastory** | SEO, niche | "A digital sanctuary for deep inquiry" | Enter |
-| **Atrium** | App stores | "Talk to faculty anywhere" | Download |
-| **Grounds** | Conventions, demos | "Walk through the virtual campus" | Explore |
-| **Map of Inquiry** | Social | "I've explored 40% of human knowledge" | Explore |
-| **AI Faculty** | Social, Podcast | "Ask Aristotle anything" | 5 free chats |
-| **Apocalypso** | News hooks, X | "Track the risks that matter" | Dashboard |
-
-All $0 marketing cost — content markets itself.
-
-</div>
-
----
-
-# Marketing by Product: Revenue & Pipeline
-
-<div class="text-xs mt-1">
-
-| Product | Channel | Cost | Message | CTA |
-|---------|---------|------|---------|-----|
-| **Membership** | Email sequence | $0-29/mo | "Unlock unlimited conversations" | Free trial |
-| **iNQ Cards** | Social, Unboxing | $100 | "Knowledge you can hold" | $20/mo |
-| **Atlas Field Tablet** | Crowdfunding | $500 | "Learning device, not distraction" | Pre-order $99 |
-| **Encyclopaedia (print)** | SEO + email | $0 | "Own the knowledge" | $9.99-49/vol |
-| **Apocalypso (book)** | Paired with dashboard | $0 | "The book behind the dashboard" | $19.99 |
-| **TerrAIn** | Kickstarter, GTC | Fees | "Robots that learn to dig" | Kickstarter |
-| **Magisteria** | Email, Community | $0 | "Credentials that mean something" | Year 2 |
-| **Institution tier** | Direct sales | $0 | "50-seat campus license" | $499/mo |
-
-</div>
-
----
-
-# Channel Priority Stack
-
-<div class="grid grid-cols-2 gap-8 mt-6 text-sm">
-<div>
-
-### Investment Order
-
-1. **SEO** — Highest ROI, compounds over time, $0
-2. **Email** — Highest conversion rate, $0-29/mo
-3. **Community** — Homeschool groups + Reddit, $0
-4. **Crowdfunding** — Validates demand + generates revenue
-5. **Content/Social** — Brand building, audience growth, $0
-6. **Events** — Direct feedback, credibility, $300-800/event
-7. **Paid Ads** — Only after organic funnel is proven (Year 2+)
-
-</div>
-<div>
-
-### Decision Triggers for Paid Marketing
-
-- **Begin Google Ads when:** MRR > $5K/mo AND organic CPA established AND LTV:CAC > 5:1
-- **Begin Meta Ads when:** Google Ads CPA < $60 for 3 consecutive months
-- **Kill any channel where:** CPA > LTV/3 for 2 consecutive months
-
-</div>
 </div>
 
 ---

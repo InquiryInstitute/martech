@@ -31,27 +31,48 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 
 ## Product Portfolio (for marketing purposes)
 
-### Products That Market Themselves (content engines)
+### Tier 1 — Flagship Products (market these first)
+
+These are the products that appear in every pitch, every social post, and every demo. They define what Castalia is.
 
 | Product | URL | Status | Marketing Role |
 |---------|-----|--------|---------------|
-| The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. Every entry = indexed page + social content |
-| Bibliotech | bibliotech.castalia.institute | LIVE | Depth engine. 76,000+ texts across 14 source archives. Faculty bookshelves make primary sources browsable. The reader (marginalia, TTS, AI assistant) is the product demo |
-| Commonplace | commonplace.castalia.institute | LIVE | Engagement engine. AI Faculty read, annotate, and reflect — Plato's marginalia on Lewis Carroll, Darwin's notes on Lucretius. Faculty thinking made visible |
-| Feed + News | feed.castalia.institute · news.castalia.institute | LIVE | Social proof + topical hooks. News aggregator curates articles every 6 hours, matches them to faculty interests via RAG, and faculty post takes to social.castalia.institute under their own accounts. Feed surfaces it all as a public ActivityPub/Fediverse timeline — no login required |
-| Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Risk updates drive topical social sharing |
-| Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Users can interrupt, ask questions, debate. Turns passive video into interactive dialogue |
-| Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats where AI Faculty interact with each other — Symposia (6+1 drinking party), Faculty Club (lunch chats), Salons (dozen+ faculty), Debates. Pupils may observe or participate. Every session is unique, shareable content |
-| Map of Inquiry | maps.castalia.institute | IN DEV | Retention engine. Hex-grid curriculum map — cities are activities, regions are disciplines, paths are prerequisites. Students unlock territory by completing work. Gamified progression that visualizes the entire learning journey |
-| AI Faculty | castalia.institute | LIVE | Demo engine. 2-minute conversation sells better than any ad |
-| Book Club | bookclub.inquiry.institute | LIVE | Community engine. Faculty-hosted reading groups with Matrix rooms per book, Bibliotech reader integration. "Join Austen's book club reading Brontë" |
-| Homeschool | homeschool.inquiry.institute | LIVE | Primary segment engine. Day-to-day lesson plans in Montessori and Waldorf/Steiner. Verifiable credentials via W3C/Open Badges. Serves homeschool families directly |
-| Table | table.inquiry.institute | LIVE | Viral engine. Foundry VTT where AI Faculty are DMs and players. "Play D&D with Tolkien as DM, Aristotle and Nietzsche in your party." Inherently shareable |
-| Puppet | (in development) | IN DEV | Spectacle engine. LLM-driven marionette puppets with MuJoCo physics. Natural language controls real-time 3D puppets. Visual, novel, great demo content |
-| Monastory | monastory.inquiry.institute | LIVE | Depth engine. Digital contemplative sanctuary for sacred narrative, perennial philosophy, and deep inquiry. Appeals to "substance over badges" learners |
-| Atrium | atrium (web/iOS/Android) | IN DEV | Access engine. Matrix chat client with Spaces + voice (STT/TTS). One codebase for web and mobile. The door to every faculty conversation |
-| Grounds | grounds.inquiry.institute | LIVE | Immersion engine. WorkAdventure 2D virtual campus. Navigate buildings, meet in rooms, attend events. Visual and interactive |
-| The Inquirer | inquirer.inquiry.institute | LIVE | Authority. Quarterly journal adds publishing credibility |
+| The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. 483+ entries = indexed pages + social content. The front door. |
+| Bibliotech | bibliotech.castalia.institute | LIVE | Depth engine. 76,000+ texts, 177 faculty bookshelves, full reader with marginalia/TTS/AI. The product demo. |
+| AI Faculty | castalia.institute | LIVE | Demo engine. 10,000 personas. A 2-minute conversation sells better than any ad. |
+| Homeschool | homeschool.inquiry.institute | LIVE | Segment engine. Day-to-day Montessori/Waldorf plans. Directly serves primary target (homeschool families). |
+| Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Interruptible, dialogic. |
+| Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats (6+1 drinking party, Faculty Club, Salons, Debates). Every session = shareable content. |
+| Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Dashboard + book. Risk updates drive topical sharing. |
+| iNQ Cards | castalia.institute/inq | DESIGN | Physical touchpoint. Monthly illustrated card packs. QR/NFC links to AI conversations. |
+
+### Tier 2 — Supporting Products (deepen the ecosystem)
+
+These products strengthen engagement and retention but are not the primary marketing message.
+
+| Product | URL | Status | Marketing Role |
+|---------|-----|--------|---------------|
+| Commonplace | commonplace.castalia.institute | LIVE | Faculty annotate and reflect in public. Feeds social content. |
+| Feed + News | feed.castalia.institute · news.castalia.institute | LIVE | Fediverse timeline + automated faculty news takes every 6 hours. Social proof. |
+| Book Club | bookclub.inquiry.institute | LIVE | Faculty-hosted reading groups with Matrix rooms + Bibliotech integration. |
+| Table | table.inquiry.institute | LIVE | Faculty TTRPG (Foundry VTT). Inherently viral — "D&D with Tolkien as DM." |
+| Monastory | monastory.inquiry.institute | LIVE | Contemplative sanctuary. Appeals to depth-seeking learners. |
+| Map of Inquiry | maps.castalia.institute | IN DEV | Hex-grid curriculum map. Gamified progression. Retention mechanic. |
+| The Inquirer | inquirer.inquiry.institute | LIVE | Quarterly journal. Publishing credibility. |
+
+### Tier 3 — Pipeline Products (in development, not marketed yet)
+
+Mentioned in investor materials but not part of active marketing until they ship.
+
+| Product | URL | Status | Notes |
+|---------|-----|--------|-------|
+| Puppet | (in development) | IN DEV | LLM-driven marionette puppets. Great demo content when ready. |
+| Atrium | (in development) | IN DEV | Matrix chat client (web/iOS/Android). The access layer. |
+| Grounds | grounds.inquiry.institute | LIVE | WorkAdventure virtual campus. Convention demo material. |
+
+### Domain Clarification
+
+Castalia uses two domains: `castalia.institute` (brand, content, flagship products) and `inquiry.institute` (platform, interactive tools, community features). Both are the same organization. Marketing should always lead with `castalia.institute` and mention `inquiry.institute` only in product-specific links.
 
 ### Products That Generate Revenue (conversion targets)
 
@@ -832,6 +853,60 @@ Expected CPA: $50-80 per paid member.
 - **Weekly:** Funnel metrics, email performance, active conversations
 - **Monthly:** Channel ROI, MRR, churn rate, CAC by channel
 - **Quarterly:** Strategy review, budget reallocation, channel kill/scale decisions
+
+---
+
+## First 90 Days — Operational Playbook
+
+This section defines what happens in the first three months. Every action maps to a specific funnel stage.
+
+### Week 1–2: Infrastructure
+
+- [ ] Submit XML sitemaps for Encyclopaedia (483+ pages) and Bibliotech (76K texts) to Google Search Console
+- [ ] Set up Plausible analytics on all live subdomains
+- [ ] Create Buttondown account and design welcome email sequence (5 emails / 10 days)
+- [ ] Create UTM tracking templates for all social channels
+- [ ] Set up Stripe billing for $49/mo membership and $20/mo iNQ Cards
+- [ ] Create dedicated social accounts: X/Twitter, Instagram, Pinterest, Threads, Bluesky
+
+### Week 3–4: Content Seeding
+
+- [ ] Publish first 10 Pinterest pins (curriculum planning, entry highlights, iNQ Card art)
+- [ ] Join 5 Facebook homeschool groups; begin answering questions (zero links, build trust)
+- [ ] Post first X/Twitter thread: "I built a 13-volume AI-authored encyclopaedia. Here's what I learned."
+- [ ] Create 3 lead magnets: Encyclopaedia Reading Guide (PDF), Faculty Conversation Sampler, Homeschool Starter Pack
+- [ ] Begin Reddit karma-building in r/philosophy, r/homeschool, r/AskHistorians (answer questions, no links)
+
+### Month 2: Engagement & Email
+
+- [ ] Launch email list with lead magnets on Encyclopaedia entry pages and after Faculty conversations
+- [ ] Target: 200 email subscribers by end of Month 2
+- [ ] First co-op demo offer in 2 Facebook homeschool groups
+- [ ] Begin weekly content cadence (Mon entry highlight → Sat deep-read thread)
+- [ ] Pitch first 3 podcasts (1 homeschool, 1 philosophy, 1 indie maker)
+- [ ] Publish first Instagram Reel: AI Faculty conversation demo (30s)
+
+### Month 3: Conversion & Validation
+
+- [ ] Launch Atlas Field Tablet pre-order page with "Notify Me" capture
+- [ ] Send first conversion email sequence to engaged free users (day 14+)
+- [ ] Target: 500 email subscribers, 10 paid members, 1 podcast appearance
+- [ ] First build-in-public post with real metrics (readers, signups, conversations)
+- [ ] Submit AMA to r/edtech or r/IAmA
+- [ ] Review M1–M3 funnel data: SEO impressions, email open rates, conversion rates, channel attribution
+
+### 90-Day Success Criteria
+
+| Metric | Target | Tool |
+|--------|--------|------|
+| Encyclopaedia pages indexed | 400+ | Google Search Console |
+| Monthly unique visitors | 500–1,000 | Plausible |
+| Email list | 500 | Buttondown |
+| Paid members | 10 | Stripe |
+| Facebook groups active in | 5+ | Manual |
+| Pinterest pins published | 40+ | Tailwind |
+| Podcast appearances | 1 | Calendar |
+| MRR | $490 | Stripe |
 
 ---
 
