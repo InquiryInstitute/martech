@@ -74,7 +74,7 @@ Mentioned in investor materials but not part of active marketing until they ship
 
 Castalia uses two domains: `castalia.institute` (brand, content, flagship products) and `inquiry.institute` (platform, interactive tools, community features). Both are the same organization. Marketing should always lead with `castalia.institute` and mention `inquiry.institute` only in product-specific links.
 
-### Products That Generate Revenue (conversion targets)
+### Revenue Products (conversion targets)
 
 | Product | Price | Status | Primary Channel |
 |---------|-------|--------|----------------|
@@ -84,7 +84,7 @@ Castalia uses two domains: `castalia.institute` (brand, content, flagship produc
 | Encyclopaedia (print) | $9.99-49/vol | IN PRODUCTION | SEO + email |
 | Apocalypso book | $19.99 | LIVE | Paired with dashboard traffic |
 
-### Products That Build the Future (longer-term pipeline)
+### Hardware & Credential Revenue (longer-term)
 
 | Product | Price | Status | Marketing Role |
 |---------|-------|--------|---------------|
@@ -191,30 +191,11 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Human observers/players can join alongside AI agents — converts spectators into participants
 - Deeply novel: no competitor has anything remotely like this
 
-**Puppet flywheel:**
-- LLM-driven marionette puppets with real MuJoCo physics in the browser
-- Natural language → puppet motion: "wave," "bow," "dance" — visual, satisfying, demo-ready
-- Faculty could perform puppet shows — Shakespeare's faculty persona performing The Tempest
-- Short video clips are inherently social media content (TikTok, Instagram Reels)
-
-**Monastory:**
-- Digital contemplative sanctuary for sacred narrative, perennial philosophy (Campbell, Borges)
-- Hero's journey structure: Descent → Ordeal → Revelation → Return
-- Appeals specifically to the "substance over badges" lifelong learner who wants depth
-- Differentiator: no edtech competitor offers a contemplative space
-
-**Atrium:**
-- Matrix chat client with Spaces + voice (STT/TTS) — the front door to all faculty conversations
-- One React codebase → web, iOS, Android via Capacitor
-- Every product's chat component ultimately routes through Atrium
-- Mobile access means faculty conversations happen on the bus, at lunch, anywhere
-
-**Grounds (WorkAdventure campus):**
-- 2D virtual campus where students navigate buildings, meet in rooms, attend events
-- Persistent space — your avatar walks through the Institute
-- Video/audio via Jitsi for real-time conversation when avatars meet
-- Visual immersion sells the "this is a real institution" narrative
-- Convention demo material: project the campus on a screen and let people walk around
+**Tier 3 products (not actively marketed — marketing value accrues when they ship):**
+- **Puppet:** LLM-driven marionette puppets. Great demo/video content when ready (TikTok, Reels).
+- **Monastory:** Contemplative sanctuary. Niche appeal but strong differentiator (no edtech competitor has one).
+- **Atrium:** Matrix chat client. Becomes the access layer for all faculty conversations when it ships.
+- **Grounds:** WorkAdventure campus. Convention demo material; visual "this is a real institution" narrative.
 
 ---
 
@@ -683,19 +664,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 
 **Year 2: 4-6 conventions + NVIDIA GTC + maker faires ($3,000-4,000)**
 
-### Channel 6: Podcast Guest Appearances ($0)
-
-Target: 1-2 appearances per month starting Month 3
-
-| Podcast Category | Examples | Pitch Angle |
-|-----------------|----------|------------|
-| Homeschool | Read-Aloud Revival, Brave Writer | "A 13-volume encyclopaedia for homeschool curriculum" |
-| Philosophy/Intellectual | Philosophize This!, Partially Examined Life | "What if you could have a conversation with Aristotle?" |
-| EdTech | EdSurge, EdTech Insiders | "Building an education ecosystem as a solo founder" |
-| AI/Technology | Practically AI, Machine Learning Street Talk | "10,000 AI personas: beyond the generic chatbot" |
-| Indie maker | Indie Hackers, My First Million | "Bootstrapping physical + digital products with AI" |
-
-### Channel 7: Paid Acquisition (Year 2+)
+### Channel 6: Paid Acquisition (Year 2+)
 
 **Google Ads — Start Month 15, $1,000/mo**
 
@@ -719,7 +688,7 @@ Expected CPA: $50-80 per paid member.
 - Start Meta Ads when Google Ads CPA < $60 for 3 months
 - Kill any channel where CPA > LTV/3 for 2 consecutive months
 
-### Channel 8: Affiliate Program (Year 2)
+### Channel 7: Affiliate Program (Year 2)
 
 **Structure:** 15% commission on first 3 months of membership ($22 total per referral)
 
@@ -1008,7 +977,7 @@ PhD Computational Biosciences (CU Anschutz) · 25+ years aerospace (NASA: Orion,
 
 Programs: NVIDIA Inception · AWS Activate ($1K) · Google Cloud for Startups ($2K)
 
-Built the entire ecosystem — 7 products, 10,000 faculty, 13-volume encyclopaedia, hardware prototypes — solo using AI-augmented development on $3K in cloud credits.
+Built the entire ecosystem — 20+ live products, 10,000 faculty, 13-volume encyclopaedia, hardware prototypes — solo using AI-augmented development in 4 months on $3K in cloud credits.
 
 ---
 

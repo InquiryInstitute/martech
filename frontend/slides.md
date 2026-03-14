@@ -191,7 +191,6 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 | **Bibliotech / Commonplace / Feed + News** | $0 | Faculty marginalia + social proof + news takes | 1 |
 | **Singh + Symposia + Map** | $0 | Lectures, 4 social formats, hex-grid curriculum | 1-2 |
 | **Book Club + Homeschool + Table** | $0 | Reading groups, lesson plans, faculty TTRPG | 1 |
-| **Puppet + Monastory + Grounds** | $0 | Puppets, sanctuary, virtual campus | 1-2 |
 | **Organic social** (X, Reddit, FB) | $0 | Community seeding, 5-10 posts/week | 1 |
 | **Email** (Buttondown/Loops) | $0-29/mo | Nurture + conversion, 2-3 emails/week | 1 |
 | **Homeschool outreach** | $0-200/mo | Direct access to target segment | 1 |
