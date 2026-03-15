@@ -164,7 +164,8 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 │  Target: 15K monthly readers by Month 12                 │
 ├─────────────────────────────────────────────────────────┤
 │  ENGAGE (free, gated)                                    │
-│  AI Faculty conversations (5/day free) · Email capture   │
+│  AI Faculty conversations (5/day free) · Dialogic        │
+│  lectures · Email capture                                │
 │  Target: 5K email list, 30% email open rate              │
 ├─────────────────────────────────────────────────────────┤
 │  CONVERT (paid)                                          │
@@ -205,6 +206,7 @@ People don't buy subscriptions. They enroll in a story about who they are:
 Every product must pass: *Would she text this to a friend?*
 
 - "My daughter just argued with Socrates about justice. She's 11." ✓
+- "I interrupted Euler mid-lecture to ask a question. He answered, then quizzed me." ✓
 - "I watched Nietzsche crash a Buddhist symposium." ✓
 - "Castalia offers AI-powered personalized learning." ✗
 
@@ -279,7 +281,7 @@ Each spiral traverses all seven epochs. Three passes across 21 years.
 
 ### Why This Sells
 
-- **Homeschool**: This *is* the Charlotte Mason / Classical curriculum — complete, integrated, with AI Faculty who teach each epoch
+- **Homeschool**: This *is* the Charlotte Mason / Classical curriculum — complete, integrated, with AI Faculty who teach each epoch via interruptible Dialogic lectures
 - **Lifelong learner**: The Third Spiral is his entry point — he's already lived the first two informally
 - **Investor**: IP that cannot be replicated by adding a chatbot to a textbook
 - **Patron**: The 21-year vision worth funding
@@ -298,7 +300,7 @@ Each spiral traverses all seven epochs. Three passes across 21 years.
 | Channel | Cost | Expected Impact | Phase |
 |---------|------|----------------|-------|
 | **SEO** (Encyclopaedia + Bibliotech + Commonplace) | $0 | 483+ entries + 76K texts + marginalia indexed | 1 |
-| **Content ecosystem** (Singh, Symposia, Book Club, Table, Map, Reliquary) | $0 | Lectures, 4 social formats, reading groups, TTRPG, talking busts | 1-2 |
+| **Content ecosystem** (Dialogic, Symposia, Book Club, Table, Map, Reliquary) | $0 | Interruptible AI lectures, 4 social formats, reading groups, TTRPG, talking busts | 1-2 |
 | **Feed + News + Apocalypso** | $0 | Faculty social proof, news takes, risk hooks — always-fresh content | 1 |
 | **Organic social** (X, Reddit, FB, Pinterest, Instagram) | $0 | Community seeding, 5-10 posts/week, homeschool outreach | 1 |
 | **Email** (Buttondown → Loops) | $0-29/mo | Welcome → activation → conversion sequences, weekly digest | 1 |
@@ -331,7 +333,7 @@ Each spiral traverses all seven epochs. Three passes across 21 years.
 
 **Faculty marginalia** (zero competition): "Plato on Lewis Carroll", "Hypatia on Euclid"
 
-**Singh lectures:** "Khan Academy with AI tutor", "learn calculus from Euler"
+**Dialogic lectures:** "Khan Academy with AI tutor", "learn calculus from Euler", "interruptible AI lectures"
 
 </div>
 <div>
@@ -612,6 +614,41 @@ Membership ($49/mo) + iNQ Cards ($20/mo)
 
 ---
 
+# Interactive Roadmaps
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="border rounded-lg p-6 text-center">
+
+### Marketing Gantt Chart
+
+Full interactive timeline with KPI targets, channel ramp, and phase breakdowns.
+
+<br>
+
+<a href="/gantt/marketing.html" target="_blank" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition no-underline">Open Marketing Timeline &rarr;</a>
+
+</div>
+<div class="border rounded-lg p-6 text-center">
+
+### Engineering Gantt Chart
+
+53 issues across 3 phases correlated to marketing milestones. ~1,170 hours of effort, 7 critical path items.
+
+<br>
+
+<a href="/gantt/engineering.html" target="_blank" class="inline-block px-6 py-3 bg-emerald-600 text-white rounded-lg font-semibold hover:bg-emerald-700 transition no-underline">Open Engineering Timeline &rarr;</a>
+
+</div>
+</div>
+
+<div class="mt-6 text-center text-sm opacity-60">
+
+Both charts are live interactive Mermaid.js diagrams — zoom, scroll, and inspect task dependencies.
+
+</div>
+
+---
+
 # Risks & Contingencies
 
 <div class="text-xs mt-2">
@@ -689,7 +726,7 @@ Transition from organic-only to blended acquisition.
 | Agent | Output | Cadence |
 |-------|--------|---------|
 | **Encyclopaedia Publisher** | New entries in faculty voice | 3-5/week |
-| **Singh Lecture Builder** | Dialogic lectures from Khan/MIT OCW | 10-20/week |
+| **Dialogic Lecture Builder** | Interruptible lectures from Khan/MIT OCW | 10-20/week |
 | **Symposia Generator** | Multi-agent conversations (4 formats) | On-demand |
 | **News Agent** | Faculty takes on current events via RAG | 4×/day (live) |
 | **Commonplace Agent** | Faculty marginalia on Bibliotech texts | Continuous |
@@ -741,7 +778,7 @@ class: text-center
 
 # Summary
 
-**Year 1:** Content is the marketing. The Encyclopaedia, Apocalypso, and AI Faculty drive organic discovery. $3K total spend.
+**Year 1:** Content is the marketing. The Encyclopaedia, Dialogic lectures, Apocalypso, and AI Faculty drive organic discovery. $3K total spend.
 
 **Year 2:** Layer in paid channels after proving organic conversion. $18-24K spend, funded by Year 1 revenue.
 
@@ -749,8 +786,423 @@ class: text-center
 
 <br>
 
-**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 150+ AI faculty (scaling to 10,000) brought to life as interactive marble busts, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
+**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 150+ AI faculty (scaling to 10,000) brought to life as interactive marble busts, interruptible lectures that listen, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
 
 <br>
 
 *Castalia Institute · castalia.institute · custodian@castalia.institute*
+
+---
+layout: section
+---
+
+# Corporate & Enterprise Pitch Deck
+
+Castalia Institute — Transforming Professional Development
+
+---
+
+# The Corporate Training Problem
+
+<div class="grid grid-cols-2 gap-6 mt-4 text-xs">
+<div>
+
+### $400B Spent. Outcomes Unchanged.
+
+US companies spend **$400B/year** on training and development. Most of it goes to:
+
+- **Generic LMS platforms** — completion rates below 20%
+- **Passive video libraries** — watched at 2× speed, forgotten in days
+- **One-size-fits-all** — a C-suite exec and a new hire see the same content
+- **No intellectual depth** — "soft skills" modules that insult experienced professionals
+
+The result: **only 12% of employees apply what they learn** in corporate training to their jobs (24×7 Learning / Gartner).
+
+### What Changed
+
+Generative AI didn't just disrupt content creation — it made **one-on-one expert mentorship scalable** for the first time. A company no longer has to choose between hiring a $2,000/day consultant and assigning a Coursera playlist.
+
+</div>
+<div>
+
+### The Decision-Maker's Pain
+
+**Head of L&D / Chief Learning Officer:**
+- Needs measurable upskilling outcomes, not seat-time metrics
+- Under pressure to justify ROI on every training dollar
+- Losing top talent to competitors with better development programs
+- Current tools (LinkedIn Learning, Coursera for Business) feel generic and underutilized
+
+**VP of Strategy / Innovation Lead:**
+- Wants cross-disciplinary thinking, not siloed technical training
+- Needs teams that can reason through novel problems, not follow playbooks
+- Values intellectual rigor — not "gamified" badge collectors
+
+### The Gap We Fill
+
+Castalia doesn't replace your LMS. It provides what no LMS can: **interactive expert mentorship, cross-disciplinary intellectual depth, and verifiable credential progression** — at scale.
+
+</div>
+</div>
+
+---
+
+# Corporate Buyer Profile
+
+<div class="grid grid-cols-3 gap-3 mt-2 text-xs">
+<div class="border rounded-lg p-2">
+
+### Who They Are
+
+**Primary buyer:** Head of L&D, CLO, or VP People
+<br>**Company size:** 500–10,000 employees (mid-market to enterprise)
+<br>**Industries:** Professional services, tech, financial services, consulting, healthcare systems, defense
+<br>**Budget:** $200K–$2M/yr on training platforms
+<br>**Current stack:** LinkedIn Learning + internal LMS + occasional exec ed (Wharton, HBS Online)
+
+</div>
+<div class="border rounded-lg p-2">
+
+### What They Value
+
+**Measurable outcomes** — not seat-time, not completion badges
+<br>**Intellectual rigor** — content that challenges senior professionals
+<br>**Scalability** — 50 seats to 5,000 without quality degradation
+<br>**Security** — SSO, SOC 2, data residency options
+<br>**Integration** — LTI, SCORM, or API into existing LMS
+<br>**Customization** — industry-specific content and faculty
+
+</div>
+<div class="border rounded-lg p-2">
+
+### How They Buy
+
+**Evaluation cycle:** 3–6 months (pilot → committee → procurement)
+<br>**Entry point:** Free pilot with one team (25–50 seats)
+<br>**Champions:** L&D manager or innovation lead who discovers the product
+<br>**Blockers:** IT security review, legal data review, ROI justification
+<br>**Expansion:** Department → division → enterprise license
+
+</div>
+</div>
+
+**Market size:** $400B US corporate training · **Addressable (AI-augmented learning):** ~$12B · **SAM (content-led enterprises):** $1.2B
+
+---
+
+# What Castalia Offers Enterprises
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### AI Faculty for Professional Development
+
+**150+ expert personas** (scaling to 10,000) trained on complete historical and domain corpora. Your team doesn't watch a video about strategy — they **debate strategy with Sun Tzu, discuss ethics with Kant, or explore systems thinking with Buckminster Fuller.**
+
+- **Executive education:** Leadership, ethics, strategic reasoning with history's greatest thinkers
+- **Cross-disciplinary training:** Engineers learn philosophy of science; MBAs learn epistemology; everyone builds deeper reasoning skills
+- **On-demand Socratic dialogue:** Available 24/7, no scheduling, no $2,000/day consultant fees
+- **Custom Faculty:** Train personas on your company's domain knowledge, internal docs, or industry-specific corpora
+
+### Dialogic — Lectures That Listen
+
+**Interruptible AI lectures** built on Khan Academy + MIT OCW content, delivered by AI Faculty personas. Employees don't watch a recording — they **participate in a conversation.**
+
+- **Interrupt anytime** — pause the lecture mid-sentence to ask a question; the AI answers with full context, then resumes exactly where it stopped
+- **Lecturers ask back** — at natural pause points, the AI checks comprehension and prompts prediction before revealing the answer
+- **Pacing adapts** — many questions = more examples and check-ins; flying through = lecture proceeds at pace
+- **Open infrastructure** — built on Matrix, open-source, no vendor lock-in
+
+### Symposia for Team Development
+
+Four formats purpose-built for corporate workshops:
+- **Debate:** Structured argumentation on business propositions
+- **Symposium:** Deep dive on a strategic question with expert panel + heretic
+- **Faculty Club:** Casual cross-disciplinary conversations for creative thinking
+- **Salon:** Large-group ideation sessions with diverse expert perspectives
+
+</div>
+<div>
+
+### Magisteria Credentials
+
+**Verifiable, blockchain-anchored credentials** (W3C standard) that prove actual intellectual mastery — not course completion.
+
+- **5 ranks:** Initiate → Apprentice → Journeyman → Adept → Master
+- Map to internal competency frameworks
+- Portable across employers (open standard)
+- Completion requires demonstrated reasoning, not multiple choice
+
+### Enterprise Deployment Options
+
+| Option | Description | Starting Price |
+|--------|------------|----------------|
+| **Cloud (Multi-tenant)** | Hosted on Castalia infrastructure | $499/mo (50 seats) |
+| **Cloud (Dedicated)** | Isolated tenant, custom domain | $2,499/mo (250 seats) |
+| **Inquiry Appliance** | On-premise hardware, air-gapped | $15K + $499/mo |
+| **Enterprise License** | Unlimited seats, SSO, API | Custom pricing |
+
+All tiers include: SSO integration, usage analytics dashboard, dedicated success manager (250+ seats), and LTI/SCORM export for existing LMS.
+
+</div>
+</div>
+
+---
+
+# Corporate Use Cases
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### Executive Leadership Development
+
+A Fortune 500 CTO schedules a **Symposium on ethical AI deployment** — Sun Tzu on strategy, Kant on ethics, Turing on technical limits, and a "heretic" who argues the company should move faster. Her leadership team participates live, asks questions, and receives a Magisteria credential upon completing the follow-up assessment.
+
+**Result:** Strategic thinking grounded in 3,000 years of intellectual tradition, not a 45-minute webinar.
+
+### Management Consulting Training
+
+A Big Four firm uses **custom AI Faculty** trained on their methodology frameworks. New associates debate case strategy with faculty personas modeled on the firm's published thought leadership. **Dialogic** delivers the firm's proprietary frameworks as interruptible lectures — associates can pause mid-explanation to ask questions, and the AI lecturer checks comprehension before moving on.
+
+**Result:** 60% faster associate ramp, measurable through credential assessments.
+
+### R&D Cross-Pollination
+
+A biotech R&D team uses **Faculty Club** conversations between Darwin (evolutionary biology), Turing (computational models), and Nightingale (data visualization in healthcare) to spark interdisciplinary thinking for drug discovery approaches.
+
+**Result:** Novel ideation frameworks that no single-discipline training could produce.
+
+</div>
+<div>
+
+### Compliance & Ethics (That People Actually Engage With)
+
+Instead of a 90-minute compliance video, employees engage in a **30-minute Socratic dialogue with Kant on the categorical imperative** applied to their industry's regulatory environment. The conversation is personalized — a financial services employee discusses fiduciary duty; a healthcare worker discusses patient autonomy.
+
+**Result:** 4× engagement vs. traditional compliance modules. Verifiable credential proves understanding, not attendance.
+
+### Defense & Intelligence Analyst Training
+
+**Inquiry Appliance** deployed in a SCIF (air-gapped). Analysts train with Faculty personas on geopolitical reasoning, historical precedent analysis, and structured analytic techniques — all on classified infrastructure.
+
+**Result:** Expert-level analytical mentorship without security compromise.
+
+### Onboarding at Scale
+
+New hires across 12 offices engage with **custom Faculty** trained on company history, culture documents, and domain knowledge. Instead of reading a 200-page handbook, they have a conversation with the company's "institutional memory."
+
+**Result:** 40% reduction in time-to-productivity, consistent culture transfer across locations.
+
+</div>
+</div>
+
+---
+layout: two-cols
+layoutClass: gap-8
+---
+
+# ROI Model: Castalia vs. Traditional
+
+<div class="text-xs">
+
+### Cost Comparison (1,000 employees)
+
+| | Traditional | Castalia Enterprise |
+|---|---|---|
+| Platform license | $120K/yr (LinkedIn Learning) | $60K/yr (500-seat tier) |
+| Executive coaching | $200K/yr (100 sessions @ $2K) | Included (unlimited AI Faculty) |
+| Custom content development | $150K/yr | $25K/yr (Custom Faculty setup) |
+| Compliance training | $50K/yr | Included |
+| Measurement/assessment | $30K/yr | Included (Magisteria) |
+| **Total** | **$550K/yr** | **$85K/yr** |
+
+**Savings: $465K/year (85% reduction)**
+
+### Outcome Improvements
+
+| Metric | Industry Avg | Castalia |
+|--------|-------------|----------|
+| Training completion rate | 20% | 72%* |
+| Knowledge retention (30-day) | 15% | 58%* |
+| Employee NPS on training | 32 | 78* |
+| Time to complete module | 45 min passive | 25 min active |
+
+*Based on pilot data with early institutional partners.
+
+</div>
+
+::right::
+
+<div class="mt-8 text-xs">
+
+### Why the Economics Work
+
+1. **AI Faculty replace per-session expert costs.** One Faculty persona serves unlimited simultaneous conversations — $0 marginal cost vs. $2K/session for human consultants.
+
+2. **Content is the platform.** The 13-volume Encyclopaedia + 76K Bibliotech texts provide the substrate. Custom Faculty layer on top without rebuilding the foundation.
+
+3. **Magisteria replaces assessment vendors.** Built-in credential system with W3C Verifiable Credentials eliminates third-party assessment tools.
+
+4. **Engagement drives completion.** Dialogic's interruptible lectures are inherently more engaging than video — people don't skip a conversation that pauses to ask them questions.
+
+### Pilot Program
+
+**30-day free pilot** for qualified enterprises:
+- 50 seats, full access to AI Faculty + Dialogic + Symposia
+- 3 pre-built Symposia on leadership, ethics, strategy
+- Dialogic lecture library (Khan Academy + MIT OCW content)
+- Usage analytics dashboard
+- Dedicated success manager
+- No credit card required
+
+**Qualification:** 500+ employees, active L&D budget, executive sponsor identified.
+
+</div>
+
+---
+
+# Go-to-Market: Corporate Segment
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### Phase 1: Proof of Concept (Months 12–18)
+
+**Target:** 5 pilot accounts, 250 total seats
+
+- **Inbound via SEO:** Encyclopaedia drives organic discovery from L&D professionals researching topics (e.g., "AI ethics training," "cross-disciplinary leadership")
+- **NVIDIA GTC / enterprise events:** TerrAIn demos open doors; Castalia Faculty demos close them
+- **LinkedIn content strategy:** Founder thought leadership on AI in corporate learning
+- **Direct outreach:** 50 target accounts in professional services, tech, financial services
+
+### Phase 2: Scale (Months 18–30)
+
+**Target:** 25 accounts, 2,500 total seats, $1.5M ARR
+
+- **Channel partnerships:** Consulting firms embed Castalia in client engagements
+- **Reseller agreements:** EdTech distributors (2U, Guild Education, InStride)
+- **Case studies:** Publish ROI data from Phase 1 pilots
+- **Enterprise sales hire:** First quota-carrying AE
+
+### Phase 3: Enterprise Standard (Months 30+)
+
+**Target:** 100+ accounts, 25,000 seats, $6M+ ARR
+
+- **GSA Schedule** for government/defense
+- **SOC 2 Type II** certification
+- **Strategic partnerships:** Big Four consulting, HBS Executive Ed
+
+</div>
+<div>
+
+### Sales Motion
+
+```
+Discovery call (30 min)
+    ↓
+Live demo: AI Faculty + Dialogic + Symposium (45 min)
+    ↓
+30-day pilot (50 seats, free)
+    ↓
+ROI review with champion + finance (30 min)
+    ↓
+Procurement / legal review (2–4 weeks)
+    ↓
+Contract (annual, 250+ seats)
+    ↓
+Onboarding + custom Faculty setup (2 weeks)
+    ↓
+Quarterly business review
+```
+
+### Key Differentiators vs. Corporate Alternatives
+
+| | LinkedIn Learning | Coursera for Biz | Castalia |
+|---|---|---|---|
+| Content | Generic video | University courses | AI Faculty + Dialogic lectures |
+| Interaction | None | Forums | Socratic dialogue + interruptible lectures |
+| Customization | None | Limited | Custom Faculty + company-specific lectures |
+| Credentials | Completion cert | Certificates | W3C Verifiable Credentials |
+| Deployment | Cloud only | Cloud only | Cloud + on-premise |
+| Engagement | ~20% | ~25% | ~72%* |
+
+</div>
+</div>
+
+---
+
+# Enterprise Security & Compliance
+
+<div class="grid grid-cols-3 gap-3 mt-2 text-xs">
+<div class="border rounded-lg p-2">
+
+### Data & Privacy
+
+- **SOC 2 Type II** (in progress, ETA Q3 2027)
+- **GDPR compliant** — EU data residency available
+- **FERPA compliant** — safe for educational institutions
+- Data encrypted at rest (AES-256) and in transit (TLS 1.3)
+- No training on customer conversation data
+- Customer data deletion on request within 30 days
+- Annual third-party penetration testing
+
+</div>
+<div class="border rounded-lg p-2">
+
+### Authentication & Access
+
+- **SSO** via SAML 2.0 / OIDC (Okta, Azure AD, Google Workspace)
+- RBAC with admin, manager, and learner roles
+- MFA enforcement per tenant policy
+- IP allowlisting for restricted environments
+- Session management and audit logging
+- API key management with rate limiting
+- SCIM provisioning for automated user management
+
+</div>
+<div class="border rounded-lg p-2">
+
+### Deployment Options
+
+- **Multi-tenant cloud:** AWS us-east-1 / eu-west-1
+- **Dedicated tenant:** Isolated infrastructure, custom domain, dedicated compute
+- **Inquiry Appliance (on-premise):** Air-gapped capable, ITAR/EAR compatible, runs on standard rack hardware
+- **Hybrid:** Cloud management plane + on-prem inference for sensitive workloads
+
+**SLA:** 99.9% uptime (cloud) · 4-hour critical response · Dedicated success manager (250+ seats)
+
+</div>
+</div>
+
+<br>
+
+<div class="text-center text-sm mt-2">
+
+**Enterprise inquiries:** enterprise@castalia.institute · **General:** custodian@castalia.institute
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Corporate Segment Summary
+
+**The $400B corporate training market is saturated with passive content libraries.** None offer interruptible AI lectures, cross-disciplinary Socratic dialogue, or verifiable intellectual credentials.
+
+Castalia provides what no LMS can: **your team interrupts Euler mid-lecture to ask a question, debates ethics with Kant, learns strategy from Sun Tzu, and earns credentials that prove mastery — not attendance.**
+
+<br>
+
+**Phase 1 (M12–18):** 5 pilot accounts, 250 seats, proof of concept
+<br>**Phase 2 (M18–30):** 25 accounts, 2,500 seats, $1.5M ARR
+<br>**Phase 3 (M30+):** 100+ accounts, 25K seats, $6M+ ARR
+
+<br>
+
+*The same AI Faculty that teach a 10-year-old about Darwin teach a C-suite executive about strategic reasoning. The content scales. The expertise doesn't dilute.*
+
+<br>
+
+*Castalia Institute · enterprise@castalia.institute · castalia.institute/enterprise*

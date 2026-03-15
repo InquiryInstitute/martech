@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'frontend/**'
+      - 'gantt/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
@@ -42,6 +43,11 @@ jobs:
           echo "VITE_SUPABASE_URL=${{ vars.SUPABASE_URL }}" >> .env
           echo "VITE_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }}" >> .env
           npm run build
+
+      - name: Copy Gantt charts to dist
+        run: |
+          mkdir -p frontend/dist/gantt
+          cp gantt/*.html frontend/dist/gantt/
 
       - name: Copy CNAME to dist
         run: cp CNAME frontend/dist/CNAME
