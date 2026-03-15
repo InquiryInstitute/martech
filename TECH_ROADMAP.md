@@ -23,15 +23,17 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 | The Inquirer | Ghost CMS | Ghost, faculty-authored articles | [LIVE] |
 | Commonplace | commonplace.castalia.institute | Ghost + Supabase | [LIVE] |
 | Talking Busts | castalia.institute (reliquary) | Supabase Edge `talking-bust` + `audio2face` + `tts` | [LIVE] |
+| Project F451 (landing) | f451.castalia.institute | Static landing page — concept, distinction, capabilities, Book Symposia demo, Living Library stats | [LIVE] |
 | Supabase Backend | — | PostgreSQL, Auth (Google OAuth + Magic Link), Storage, 51 Edge Functions | [LIVE] |
 
 ### What's Partially Built
 
 | Product | What Exists | What's Missing |
 |---------|------------|----------------|
-| Singh (lectures) | `app/singh/page.tsx` (Coming Soon), `lecturer` Edge Function | Transcript library, dialogic delivery UI, interruptible playback |
+| Dialogic (lectures) | `app/singh/page.tsx` (Coming Soon), `lecturer` Edge Function, dialogic.castalia.institute landing page | Transcript library, interruptible delivery UI, Matrix-based chat, adaptive pacing |
 | Magisteria (credentials) | `app/credentials/`, `issue-microcredential` Edge Function, W3C VC | Full ladder UI, Beatrice grader, course catalog, progression tracking |
 | Bibliotech | `app/library/` (partial), corpus infrastructure | Full reader (marginalia, TTS, AI assistant), 76K text ingest, faculty bookshelves |
+| Project F451 (Book Agents) | f451.castalia.institute landing page, Bibliotech corpus + embeddings infrastructure | Book Agent runtime (text internalization, passage-level self-retrieval, voice profile generation), Book Symposia orchestrator (multi-book debate with citation-grounded exchanges), self-recitation and self-interpretation modes, misreading defense system, integration with Symposia and Commonplace |
 | Feed | — | Fediverse/ActivityPub implementation |
 | News | — | RAG-driven 6h cycle, RSS ingest, faculty interest matching |
 
@@ -84,11 +86,11 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 
 | Tech Task | Supports Marketing | Priority | Effort |
 |-----------|-------------------|----------|--------|
-| **Build Singh lecture player MVP** — dialogic delivery, interruptible, resume-capable | Product: "Khan Academy delivered by Euler" — core differentiator for homeschool and lifelong learner segments | P0 | 40h |
-| Ingest first 50 Khan/MIT OCW transcripts into Singh | Content: lectures need a library to demo | P0 | 12h |
+| **Build Dialogic lecture player MVP** — interruptible delivery, comprehension checks, adaptive pacing, resume-capable | Product: "Lectures That Listen" — core differentiator for homeschool and lifelong learner segments | P0 | 40h |
+| Ingest first 50 Khan/MIT OCW transcripts into Dialogic | Content: lectures need a library to demo | P0 | 12h |
 | Build Atlas Field Tablet pre-order page with "Notify Me" capture | Crowdfunding: warm the list before Q2 launch | P1 | 4h |
 | **Deploy Pinterest Agent** (Canva API → pin images from Encyclopaedia art + iNQ Card illustrations) | Social: Pinterest is highest-ROI visual channel for homeschool segment | P1 | 12h |
-| **Deploy Singh Lecture Builder Agent** (rewrites transcripts as dialogic lectures in faculty voice) | Content: 10-20 lectures/week at scale | P1 | 16h |
+| **Deploy Dialogic Lecture Builder Agent** (rewrites transcripts as interruptible lectures in faculty voice with comprehension checks) | Content: 10-20 lectures/week at scale | P1 | 16h |
 | **Deploy Book Club Agent** (selects books, creates reading schedules, facilitates Matrix discussions) | Community: faculty-hosted reading groups as engagement + retention tool | P2 | 12h |
 | Build conversion email sequence for engaged free users (day 14+) | Revenue: turn free users into paying members | P0 | 6h |
 | Review M1–M3 funnel data; tune agent voice fidelity and throttling | Quality: prevent "AI slop" from reaching audience | P0 | 8h |
@@ -107,7 +109,8 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 |-----------|-------------------|----------|--------|
 | **Deploy Encyclopaedia Publisher Agent** (drafts entries in faculty voice, formats AsciiDoc → LaTeX → PDF/ePub) | Content: 3-5 new entries/week compounds SEO and demonstrates velocity | P0 | 20h |
 | **Deploy Symposia Generator Agent** (multi-agent conversations, turn-taking, heretic mechanics) | Content: every Symposium = shareable transcript + spectacle | P1 | 20h |
-| **Deploy Homeschool Plan Agent** (daily Montessori/Waldorf lesson plans from Encyclopaedia + Bibliotech + Singh) | Product: daily lesson plans are the retention engine for homeschool segment | P0 | 16h |
+| **Deploy Homeschool Plan Agent** (daily Charlotte Mason, Montessori, and Waldorf lesson plans from Encyclopaedia + Bibliotech + Dialogic) | Product: daily lesson plans are the retention engine for homeschool segment | P0 | 16h |
+| **Register Pedagogy Faculty** (a.CharlotteMason, a.Montessori, a.Steiner) with system prompts + RAG from their key works | Product: parents can ask the founders how to apply their methods. Pedagogy pages at inquiry.institute/pedagogy/ link directly to Faculty conversations | P0 | 8h |
 | Bibliotech: add marginalia display, TTS playback, AI assistant sidebar | Depth: "full reader with marginalia, TTS, and AI assistant" — marketing claims this | P1 | 30h |
 | Ingest remaining Bibliotech texts to 50K+ | Content: approaching claimed "76,000 texts" | P1 | 12h |
 | Build Faculty conversation recording + shareable link | Social: "I asked Aristotle about consciousness" — shareable proof-of-concept | P1 | 8h |
@@ -139,7 +142,7 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 
 ## Phase 3: Scale (Months 7–12)
 
-**Marketing goal:** 5,000 email subscribers, 500 paid members, $12K MRR, YouTube + TikTok launch.
+**Marketing goal:** 5,000 email subscribers, 150 paid members (200 stretch), $8K MRR, YouTube + TikTok launch.
 
 ### Months 7–8 — Video & Hardware
 
@@ -147,7 +150,7 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 |-----------|-------------------|----------|--------|
 | Build "Ask the Faculty" video export (screen-recorded bust conversation → MP4) | YouTube: "I asked Aristotle about consciousness" — compelling 3-5 min content | P1 | 16h |
 | Build Encyclopaedia dramatic reading pipeline (entry text → TTS → portrait video) | YouTube: ASMR-adjacent intellectual content | P2 | 12h |
-| **Atlas Field Tablet: prototype firmware, kiosk mode, offline Faculty cache** | Hardware: prototypes ship to founding cohort Month 9 | P0 | 60h |
+| **Atlas Field Tablet: prototype firmware, kiosk mode, offline Faculty cache** | Hardware: working prototype by M9; production begins M10 | P0 | 60h |
 | iNQ Cards: NFC edition prototype (Phase 2 of card ladder) | Product: premium physical tier for collectors | P2 | 20h |
 | Build Talking Bust salon mode (multiple busts on screen in conversation) | Social: Symposia as visual spectacles — "I watched 6 philosophers argue about consciousness" | P1 | 24h |
 
@@ -159,7 +162,7 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 | Build institutional admin dashboard (50-seat management, usage analytics) | Sales: institutional buyers need admin tools to justify purchase | P0 | 30h |
 | Magisteria: expand to full Apprentice → Adept progression, 6+ micro-credentials | Product: credential completers are highest-LTV users | P1 | 40h |
 | Build Beatrice grader MVP (AI evaluator for credential capstones) | Product: credentials need automated, credible assessment | P1 | 30h |
-| **Atlas Field Tablet: first 300 units ship to founding cohort** | Marketing: unboxing content, social proof, reviews | P0 | 40h |
+| **Atlas Field Tablet: production run + FCC/UL testing, prepare fulfillment** | Hardware: production validated; first units ship Q1 Y2. Crowdfunding backers notified of ship date | P0 | 40h |
 
 ### Months 11–12 — Year 2 Prep
 
@@ -182,10 +185,10 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
 
 | Quarter | Tech Milestones | Marketing Milestones |
 |---------|----------------|---------------------|
-| **Q1** | TerrAIn Kickstarter prototype ready. Inquiry Appliance pilot with 3-5 institutions. Magisteria full 5-rank ladder. Google Ads landing pages live. | Google Ads launch ($1K/mo). First 3 institutional deals ($499/mo). TerrAIn Kickstarter launch. 4-6 conventions. |
-| **Q2** | Atlas DS crowdfunding. iNQ Cards bamboo edition. Feed (ActivityPub) mature. Professional credential track. | Meta Ads launch ($500/mo). Affiliate program live. NVIDIA GTC booth. Professional segment marketing. |
-| **Q3** | 10,000 Faculty: bulk corpus ingest + profile generation pipeline. Inquiry Appliance v2. | 25K-50K organic sessions/mo. 1,000+ paid members. First Content Lead hire. |
-| **Q4** | Atlas TriCorder prototype. TerrAIn Research Kit. Full Beatrice grading pipeline. | Community Lead hire. $910K annual revenue target. Year 3 planning. |
+| **Q1** | **Atlas first 300 units ship to founding cohort.** TerrAIn Kickstarter prototype ready. Inquiry Appliance pilot with 3-5 institutions. Magisteria full 5-rank ladder. Google Ads landing pages live. | Google Ads launch ($1K/mo). Atlas unboxing content + social proof. First 3 institutional deals ($499/mo). TerrAIn Kickstarter launch. 4-6 conventions. |
+| **Q2** | Atlas DS crowdfunding. iNQ Cards bamboo edition. Feed (ActivityPub) mature. Professional credential track. Enterprise SSO + RBAC MVP. | Meta Ads launch ($500/mo). Affiliate program live. NVIDIA GTC booth. Professional segment marketing. |
+| **Q3** | 10,000 Faculty: bulk corpus ingest + profile generation pipeline. Inquiry Appliance v2. SOC 2 Type II audit prep. | 25K-50K organic sessions/mo. 1,000+ paid members. First Content Lead hire. |
+| **Q4** | Atlas TriCorder prototype. TerrAIn Research Kit. Full Beatrice grading pipeline. Enterprise API management. | Community Lead hire. $1.06M annual revenue target. Year 3 planning. |
 
 ---
 
@@ -200,7 +203,7 @@ Correlated to MARKETING_STRATEGY.md. Each tech milestone exists because a market
               ┌────────────┼────────────┐
               │            │            │
         ┌─────▼────┐ ┌────▼─────┐ ┌───▼──────┐
-        │Bibliotech │ │ Singh    │ │Commonplace│
+        │Bibliotech │ │ Dialogic │ │Commonplace│
         │(76K texts)│ │(lectures)│ │(marginalia│
         │ [BUILD]   │ │ [WIP]    │ │ [LIVE]    │
         └─────┬─────┘ └────┬─────┘ └───┬──────┘
@@ -246,10 +249,26 @@ The tech items that, if delayed, delay revenue:
 1. **Stripe billing + entitlement gates** (Month 1) — no checkout = no revenue
 2. **Email capture + welcome sequence** (Month 1) — no email = no conversion funnel
 3. **Bibliotech reader MVP** (Month 2) — marketing claims "76K texts" everywhere; must deliver
-4. **Singh lecture player** (Month 3) — core differentiator for both primary segments
-5. **Atlas BOM + manufacturer** (Month 5) — 4-month lead time means miss = no Month 9 ship
+4. **Dialogic lecture player** (Month 3) — "Lectures That Listen" — core differentiator for both primary segments
+5. **Atlas BOM + manufacturer** (Month 5) — 6-month lead time for first production run; crowdfund M6, ship Q1 Y2
 6. **iNQ Cards print vendor** (Month 5) — physical product with fulfillment logistics
 7. **Inquiry Appliance local inference** (Month 9) — institutional revenue depends on this
+
+### Timeline Buffer & Descope Options
+
+Every critical path item above has **zero slack** in the base plan. Reality: at least 2-3 items will slip.
+
+| Item | Buffer Built In | If Delayed | Descope Option |
+|------|----------------|-----------|----------------|
+| Stripe + email (M1) | None | Entire funnel stalls | Ship Stripe checkout alone M1; email sequences M2 |
+| Bibliotech MVP (M2) | None | Marketing claims hollow | Launch with 5K texts, not 76K; honest "growing daily" messaging |
+| Dialogic player (M3) | 2 weeks | Delay crowdfunding warm-up | Ship non-interruptible player first; add interruptibility M4-5 |
+| Atlas BOM (M5) | 1 month | Crowdfund delays to M7 | Use off-the-shelf tablet + custom case; reduce HW margin |
+| Atlas ship | 3 months (Q1 Y2) | Backers wait longer | Transparent communication; ship beta to 50 backers first |
+| iNQ Cards (M5) | None | Revenue gap Q3-Q4 | Partner with existing print-on-demand; lower margin but faster |
+| Inquiry Appliance (M9) | None | No institutional revenue Y1 | Pre-sell with hosted version; appliance becomes Y2 delivery |
+
+**Rule of thumb:** Add 25% to every estimate. The 1,170h plan is realistically ~1,460h. At 20h/week productive engineering time, that's 73 weeks — not 52. Either descope 25% of features or accept that "Year 1" is really 15 months.
 
 ---
 
@@ -257,13 +276,25 @@ The tech items that, if delayed, delay revenue:
 
 | Activity | Hours/Week | Notes |
 |----------|-----------|-------|
-| Product engineering | 15-20h | Core build: Bibliotech, Singh, Magisteria, hardware |
+| Product engineering | 15-20h | Core build: Bibliotech, Dialogic, Magisteria, hardware |
 | Agent development + maintenance | 5-8h | 12-agent stack build-out over 6 months |
 | Marketing execution (with agents) | 7.5h | Curate agent output, community, strategy |
 | Operations (infra, billing, support) | 3-5h | Stripe, Supabase, DNS, deploys |
-| **Total** | **30-40h** | Sustainable solo-founder pace |
+| Customer support & community | 3-5h | Email, Discord/Matrix, bug reports, onboarding |
+| Hardware logistics & vendor mgmt | 2-4h | BOM sourcing, manufacturer comms, QA, shipping (M5+) |
+| Convention travel & prep | 1-2h | Averaged across year; spikes to 20h+ in convention weeks |
+| Enterprise sales & demos | 2-3h | Pitch prep, demo calls, follow-up (M8+) |
+| Legal, accounting, admin | 1-2h | Contracts, taxes, compliance, insurance |
+| Bug fixes & unplanned work | 3-5h | Production incidents, regressions, dependency updates |
+| **Total (realistic)** | **43-62h** | **Not sustainable long-term** |
 
-First hire (Month 8-10): **Content Lead** — takes over Encyclopaedia editorial, agent quality review, social content curation. Frees ~10h/week for founder to focus on hardware and institutional sales.
+**The honest assessment:** The 30-40h "sustainable pace" excluded ~15-20h/week of real overhead. The true load is 45-55h/week, which is manageable in sprints but not for 52 weeks.
+
+**Mitigation:**
+- First hire (Month 6-8): **Content Lead** — takes over Encyclopaedia editorial, agent quality review, social content curation. Frees ~10h/week.
+- Second hire (Month 10-12): **Part-time Ops/Support** — customer support, shipping logistics, convention logistics. Frees ~8h/week.
+- Agent stack reliability is the force multiplier: if agents handle 80%+ of content at editorial quality, the 7.5h marketing execution holds. If agents need heavy review, add 5-10h/week.
+- Hardware logistics spike M5-M12 and again Q1 Y2 during Atlas fulfillment. Budget 10-15h/week during those periods.
 
 ---
 

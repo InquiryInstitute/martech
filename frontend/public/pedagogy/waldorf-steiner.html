@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waldorf / Steiner — Pedagogy — Inquiry Institute</title>
+<meta name="description" content="Rudolf Steiner's Waldorf education — head, heart, and hands; Main Lesson blocks; artistic integration; developmental rhythm — brought to life through Castalia's seven-year spiral and AI Faculty.">
+<link rel="canonical" href="https://inquiry.institute/pedagogy/waldorf-steiner">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --surface-raised: #1c2230;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --text-dim: #8890a0;
+  --heading: #e8ecf2;
+  --accent: #a47de8;
+  --accent-dim: rgba(164, 125, 232, 0.12);
+  --accent-glow: rgba(164, 125, 232, 0.06);
+  --amber: #d4a853;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+nav {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+nav a:hover { color: var(--heading); }
+nav .sep { color: var(--border); }
+nav .current { color: var(--accent); }
+
+.hero {
+  padding: 5rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 0%, var(--accent-glow) 0%, transparent 60%);
+}
+.hero-era {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.hero .full-name {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.hero .epigraph {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--accent);
+  max-width: 620px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.5;
+}
+.hero .epigraph-source {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+}
+
+.content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.content h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: var(--accent-dim);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--heading);
+  line-height: 1.7;
+}
+
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+.principle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.principle h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.principle p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.sevenfold {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0 2rem;
+}
+.sevenfold-stage {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
+.sevenfold-stage:last-child { border-bottom: none; }
+.stage-age {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+.stage-name {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  color: var(--heading);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.stage-desc {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.castalia-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0;
+}
+.castalia-section h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  color: var(--amber);
+}
+
+.mapping {
+  margin: 1.5rem 0;
+}
+.mapping-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.mapping-row:last-child { border-bottom: none; }
+.mapping-from {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-align: right;
+}
+.mapping-arrow {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+}
+.mapping-to {
+  font-size: 1rem;
+  color: var(--heading);
+}
+
+.faculty-callout {
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--border);
+}
+.faculty-callout p {
+  font-size: 1.15rem;
+  color: var(--text);
+  max-width: 550px;
+  margin: 0 auto 1.5rem;
+}
+.faculty-callout .agent-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.faculty-callout .btn {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+.faculty-callout .btn:hover { opacity: 0.85; }
+
+.back-link {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.back-link:hover { color: var(--heading); }
+
+@media (max-width: 600px) {
+  .hero { padding: 3rem 1.5rem 2.5rem; }
+  .content { padding: 0 1.5rem 3rem; }
+  .mapping-row { grid-template-columns: 1fr; gap: 0.25rem; text-align: left; }
+  .mapping-from { text-align: left; }
+  .mapping-arrow { display: none; }
+  .sevenfold-stage { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="https://inquiry.institute">Inquiry Institute</a>
+  <span class="sep">/</span>
+  <a href="./">Pedagogy</a>
+  <span class="sep">/</span>
+  <span class="current">Waldorf / Steiner</span>
+</nav>
+
+<section class="hero">
+  <div class="hero-era">Austria · 1861–1925</div>
+  <h1>Rudolf Steiner</h1>
+  <div class="full-name">Rudolf Joseph Lorenz Steiner — Philosopher, Scientist, Founder of Waldorf Education and Anthroposophy</div>
+  <p class="epigraph">"Receive the children in reverence, educate them in love, send them forth in freedom."</p>
+  <p class="epigraph-source">— <cite>The Education of the Child</cite>, 1907</p>
+</section>
+
+<div class="content">
+
+  <h2>The Vision</h2>
+
+  <p>In 1919, Emil Molt — owner of the Waldorf-Astoria cigarette factory in Stuttgart — asked Rudolf Steiner to create a school for his workers' children. Steiner agreed, on one condition: there would be no external exams, no grades, no separation by class or ability. The curriculum would follow the child, not the state.</p>
+
+  <p>What emerged was the most distinctive educational philosophy of the twentieth century. Steiner saw the human being as threefold — <strong>thinking, feeling, and willing</strong> — and insisted that education must address all three. Head, heart, and hands. Intellectual understanding alone produces clever people who cannot act. Will without understanding produces doers who cannot reflect. Feeling without both produces sentimentalists. Education must develop the whole.</p>
+
+  <div class="principles">
+    <div class="principle">
+      <h3>Head, Heart, and Hands</h3>
+      <p>Every subject engages thinking (cognitive), feeling (artistic/emotional), and willing (practical/physical). A math lesson includes movement. A history lesson includes painting. Nothing is purely intellectual.</p>
+    </div>
+    <div class="principle">
+      <h3>Main Lesson Blocks</h3>
+      <p>Two hours every morning, the same subject for 3–4 weeks. Deep immersion, not fragmented switching. The subject has time to "sleep" in the child's consciousness before the next block awakens it.</p>
+    </div>
+    <div class="principle">
+      <h3>Artistic Integration</h3>
+      <p>Drawing, painting, music, eurythmy (movement art), drama, and handwork are not extras — they are the medium through which academic subjects are taught. Art is not decoration; it is cognition.</p>
+    </div>
+    <div class="principle">
+      <h3>Rhythm and Repetition</h3>
+      <p>Daily rhythm (breathing in/out), weekly rhythm, seasonal rhythm, yearly rhythm. The curriculum breathes. Festivals mark the turning year. Rhythm creates security, and security enables risk.</p>
+    </div>
+    <div class="principle">
+      <h3>Imagination Before Intellect</h3>
+      <p>Young children learn through stories, pictures, and fairy tales — not definitions and abstractions. The image comes first; the concept crystallizes later, when the child is developmentally ready.</p>
+    </div>
+    <div class="principle">
+      <h3>No Early Academics</h3>
+      <p>Formal reading instruction begins at age 7, not 4. Before that: play, nature, handwork, stories, movement. Steiner insisted that premature intellectualization hardens the child's forces before they've fully developed.</p>
+    </div>
+  </div>
+
+  <h2>The Threefold Development</h2>
+
+  <p>Like Montessori, Steiner saw development in seven-year cycles — but with a radically different emphasis. Each cycle corresponds to the maturation of a different aspect of the human being.</p>
+
+  <div class="sevenfold">
+    <div class="sevenfold-stage">
+      <div class="stage-age">0–7</div>
+      <div>
+        <div class="stage-name">Willing — The World is Good</div>
+        <div class="stage-desc">The young child lives in imitation and movement. Learning happens through doing, not instruction. The world must be presented as <em>good</em> — warm, beautiful, trustworthy. Play is the child's work.</div>
+      </div>
+    </div>
+    <div class="sevenfold-stage">
+      <div class="stage-age">7–14</div>
+      <div>
+        <div class="stage-name">Feeling — The World is Beautiful</div>
+        <div class="stage-desc">The school-age child lives in feeling and imagination. Art is the teaching medium. The class teacher stays with the same children for eight years, becoming a moral authority through relationship. The world must be presented as <em>beautiful</em>.</div>
+      </div>
+    </div>
+    <div class="sevenfold-stage">
+      <div class="stage-age">14–21</div>
+      <div>
+        <div class="stage-name">Thinking — The World is True</div>
+        <div class="stage-desc">The adolescent awakens to independent judgment. Now the teacher must earn respect through expertise, not authority. Intellectual rigor, debate, primary sources, scientific method. The world must be presented as <em>true</em>.</div>
+      </div>
+    </div>
+  </div>
+
+  <blockquote>
+    "Our highest endeavor must be to develop free human beings who are able of themselves to impart purpose and direction to their lives."
+  </blockquote>
+
+  <h2>Why It Endures</h2>
+
+  <p>There are over 1,200 Waldorf schools and 1,900 Waldorf kindergartens in 75 countries. The Waldorf homeschool movement is one of the fastest-growing segments in alternative education, driven by parents who see their children thriving with rhythm, art, and developmental pacing that mainstream schools have abandoned.</p>
+
+  <p>Silicon Valley executives — who know better than anyone what screens do to developing minds — send their children to Waldorf schools at disproportionate rates. The Waldorf School of the Peninsula (serving Apple, Google, and HP families) is famously screen-free through eighth grade. These parents are not Luddites. They understand that the technology of education is not the technology <em>in</em> education.</p>
+
+  <p>For homeschool families, Steiner offers what no standardized curriculum can: a philosophy that trusts the developmental process, refuses to rush it, and treats every subject as an occasion for the growth of the whole human being.</p>
+
+  <div class="castalia-section">
+    <h2>How Castalia Brings Steiner to Life</h2>
+
+    <p>Steiner would be the first to warn against replacing the living teacher with a machine. Castalia doesn't attempt this. Instead, it provides the intellectual architecture — the library, the thinkers, the primary sources — that the Waldorf teacher and homeschool parent draw upon. Castalia is the prepared <em>cultural</em> environment.</p>
+
+    <div class="mapping">
+      <div class="mapping-row">
+        <div class="mapping-from">Seven-Year Cycles</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Ontogenic Spiral</strong> — Castalia's three spirals (5–12, 12–19, 19–26) mirror Steiner's developmental stages. Content is sequenced to meet the child where they are — story before analysis, image before concept.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Main Lesson Blocks</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Dialogic Lectures</strong> — Deep, sustained engagement with a single subject, taught by the original thinker. "Lectures That Listen" — adaptive, interruptible, paced to the learner's rhythm.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Imagination Before Intellect</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>The Encyclopaedia</strong> — Narrative-first entries that tell the <em>story</em> of each idea before analyzing it. Young learners encounter the wonder; older learners encounter the argument.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Primary Sources (Upper School)</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Bibliotech + F451 Book Agents</strong> — When the adolescent is ready for independent judgment, the original texts are there — 76,000 of them — and each one can speak for itself.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">The World is Beautiful / True</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>AI Faculty</strong> — 150+ thinkers who present their ideas with the beauty and conviction of the original. Not textbook summaries, but living voices from the tradition.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Lesson Plans</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Homeschool Plans</strong> — Daily Waldorf/Steiner rhythms generated with Main Lesson block structure, artistic integration, and seasonal awareness built in.</div>
+      </div>
+    </div>
+
+    <p>Steiner wrote: <em>"The need for imagination, a sense of truth, and a feeling of responsibility — these three forces are the very nerve of education."</em> Castalia does not replace the Waldorf teacher or homeschool parent. It gives them a library, a faculty, and a curriculum architecture worthy of the tradition — one that serves imagination, truth, and responsibility in turn.</p>
+  </div>
+
+  <div class="faculty-callout">
+    <p>Rudolf Steiner is a member of the Castalia AI Faculty. Ask him about the threefold human being, Main Lesson blocks, developmental stages, or how to bring Waldorf principles into your homeschool.</p>
+    <div class="agent-id">a.Steiner</div>
+    <br><br>
+    <a href="https://castalia.institute/faculty" class="btn">Speak with Rudolf Steiner →</a>
+  </div>
+
+  <a href="./" class="back-link">← All Traditions</a>
+</div>
+
+</body>
+</html>

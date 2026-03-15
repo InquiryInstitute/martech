@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charlotte Mason — Pedagogy — Inquiry Institute</title>
+<meta name="description" content="Charlotte Mason's philosophy of living education — living books, narration, nature study, and the habit of attention — brought to life through Castalia's AI Faculty, Bibliotech, and Encyclopaedia.">
+<link rel="canonical" href="https://inquiry.institute/pedagogy/charlotte-mason">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --surface-raised: #1c2230;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --text-dim: #8890a0;
+  --heading: #e8ecf2;
+  --accent: #4eca8b;
+  --accent-dim: rgba(78, 202, 139, 0.12);
+  --accent-glow: rgba(78, 202, 139, 0.06);
+  --amber: #d4a853;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+nav {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+nav a:hover { color: var(--heading); }
+nav .sep { color: var(--border); }
+nav .current { color: var(--accent); }
+
+.hero {
+  padding: 5rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 0%, var(--accent-glow) 0%, transparent 60%);
+}
+.hero-era {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.hero .full-name {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.hero .epigraph {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--accent);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.5;
+}
+.hero .epigraph-source {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+}
+
+.content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.content h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: var(--accent-dim);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--heading);
+  line-height: 1.7;
+}
+
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+.principle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.principle h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.principle p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.castalia-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0;
+}
+.castalia-section h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  color: var(--amber);
+}
+
+.mapping {
+  margin: 1.5rem 0;
+}
+.mapping-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.mapping-row:last-child { border-bottom: none; }
+.mapping-from {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-align: right;
+}
+.mapping-arrow {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+}
+.mapping-to {
+  font-size: 1rem;
+  color: var(--heading);
+}
+
+.faculty-callout {
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--border);
+}
+.faculty-callout p {
+  font-size: 1.15rem;
+  color: var(--text);
+  max-width: 550px;
+  margin: 0 auto 1.5rem;
+}
+.faculty-callout .agent-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.faculty-callout .btn {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+.faculty-callout .btn:hover { opacity: 0.85; }
+
+.back-link {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.back-link:hover { color: var(--heading); }
+
+@media (max-width: 600px) {
+  .hero { padding: 3rem 1.5rem 2.5rem; }
+  .content { padding: 0 1.5rem 3rem; }
+  .mapping-row { grid-template-columns: 1fr; gap: 0.25rem; text-align: left; }
+  .mapping-from { text-align: left; }
+  .mapping-arrow { display: none; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="https://inquiry.institute">Inquiry Institute</a>
+  <span class="sep">/</span>
+  <a href="./">Pedagogy</a>
+  <span class="sep">/</span>
+  <span class="current">Charlotte Mason</span>
+</nav>
+
+<section class="hero">
+  <div class="hero-era">England · 1842–1923</div>
+  <h1>Charlotte Mason</h1>
+  <div class="full-name">Charlotte Maria Shaw Mason — Educator, Reformer, Founder of the Parents' National Educational Union</div>
+  <p class="epigraph">"Children are born persons — they are not blank pages, nor buckets, nor anything else to be filled."</p>
+  <p class="epigraph-source">— <cite>Towards a Philosophy of Education</cite>, 1925</p>
+</section>
+
+<div class="content">
+
+  <h2>The Philosophy</h2>
+
+  <p>Charlotte Mason spent forty years building something radical: a complete philosophy of education grounded in a single premise — that children are already whole persons, deserving of the same intellectual diet as adults. Not simplified. Not dumbed down. Real ideas from real minds, encountered directly.</p>
+
+  <p>She rejected what she called the "dry-as-dust" textbook approach — predigested facts stripped of narrative, personality, and beauty. In its place she proposed <strong>living books</strong>: works written by a single mind, passionate about its subject, capable of making the reader care. Darwin's own prose, not a summary of Darwin. Plutarch's <em>Lives</em>, not a worksheet about ancient Greece.</p>
+
+  <p>Her method was deceptively simple and devastatingly effective:</p>
+
+  <div class="principles">
+    <div class="principle">
+      <h3>Living Books</h3>
+      <p>Replace textbooks with books written by authors who know and love their subject. A child who reads Fabre's <em>Insect Adventures</em> learns more entomology than one who fills in blanks.</p>
+    </div>
+    <div class="principle">
+      <h3>Narration</h3>
+      <p>After a single attentive reading, the child tells back what they've learned — in their own words. This is the act of knowing. No multiple choice, no highlighting. Retelling is comprehension.</p>
+    </div>
+    <div class="principle">
+      <h3>Short Lessons</h3>
+      <p>Fifteen to twenty minutes per subject for young children. Demanding full attention for short periods trains the habit of concentration far better than long, drowsy hours.</p>
+    </div>
+    <div class="principle">
+      <h3>Nature Study</h3>
+      <p>Hours outdoors every week — not just recess, but careful observation. The Nature Notebook becomes a record of first-hand encounter with the living world.</p>
+    </div>
+    <div class="principle">
+      <h3>The Habit of Attention</h3>
+      <p>Mason believed attention is not a gift but a discipline. Education's first work is forming the habit of giving full, undivided attention to the thing before you.</p>
+    </div>
+    <div class="principle">
+      <h3>A Generous Curriculum</h3>
+      <p>History, science, literature, art, music, handicraft, foreign languages, mathematics — all presented as a "feast." No child should be starved of any subject on the grounds of ability.</p>
+    </div>
+  </div>
+
+  <blockquote>
+    "Education is an atmosphere, a discipline, a life."
+  </blockquote>
+
+  <p>These three instruments — the atmosphere of the home, the discipline of good habits, and the life of living ideas — form the architecture of Mason's method. She didn't teach <em>about</em> things; she put children in the presence of great minds and let the encounter do the work.</p>
+
+  <h2>Why It Endures</h2>
+
+  <p>Charlotte Mason is the fastest-growing homeschool philosophy in the English-speaking world. Ambleside Online (a free CM curriculum) has hundreds of thousands of users. Facebook groups devoted to her method number in the tens of thousands. The reasons are practical: her approach produces children who love reading, write beautifully, and retain knowledge for life — and it costs almost nothing, because the primary materials are great books.</p>
+
+  <p>But the deeper reason is philosophical. In an age of screen addiction and standardized testing, Mason's insistence that children deserve real ideas — not gamified dopamine loops — resonates with parents who sense that something has gone badly wrong with modern education.</p>
+
+  <div class="castalia-section">
+    <h2>How Castalia Brings Mason to Life</h2>
+
+    <p>Charlotte Mason dreamed of giving every child access to the best minds. She did it with books, because books were the technology available. Castalia does it with something she would have recognized instantly: the authors themselves, present and conversant.</p>
+
+    <div class="mapping">
+      <div class="mapping-row">
+        <div class="mapping-from">Living Books</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Bibliotech</strong> — 76,000+ full texts. Not excerpts. The actual living books, with marginalia, TTS, and AI assistance.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Narration</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>AI Faculty</strong> — The child reads, then narrates to the author. Darwin listens, asks a follow-up, corrects gently. Narration becomes dialogue.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Short Lessons</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Dialogic Lectures</strong> — "Lectures That Listen." Interruptible, adaptive, paced to attention span. Exactly Mason's short-lesson principle, delivered by the original thinker.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">The Generous Curriculum</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>The Encyclopaedia</strong> — 483+ entries spanning every epoch and discipline. History, science, philosophy, art, music — the feast Mason demanded, organized chronologically.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Primary Sources</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>F451 Book Agents</strong> — Every Bibliotech text becomes an agent that speaks as the text itself. The child can interrogate <em>The Origin of Species</em> and hear it answer from its own pages.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Lesson Plans</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Homeschool Plans</strong> — Daily Charlotte Mason schedules generated from Encyclopaedia entries, Bibliotech texts, and Dialogic lectures. The curriculum assembled for you.</div>
+      </div>
+    </div>
+
+    <p>Mason wrote: <em>"The question is not, — how much does the youth know? when he has finished his education — but how much does he care?"</em> Castalia doesn't test knowledge. It kindles care — by letting your child sit with the minds who shaped the world and hear them speak.</p>
+  </div>
+
+  <div class="faculty-callout">
+    <p>Charlotte Mason is a member of the Castalia AI Faculty. Ask her about narration, living books, the habit of attention, or how she'd structure your child's term.</p>
+    <div class="agent-id">a.CharlotteMason</div>
+    <br><br>
+    <a href="https://castalia.institute/faculty" class="btn">Speak with Charlotte Mason →</a>
+  </div>
+
+  <a href="./" class="back-link">← All Traditions</a>
+</div>
+
+</body>
+</html>

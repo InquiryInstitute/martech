@@ -6,7 +6,7 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 
 **Core thesis:** The Encyclopaedia is the SEO engine. Bibliotech is the depth engine. The Commonplace is the engagement engine. Together: 483+ encyclopaedia entries generate free organic traffic, 76,000+ library texts keep users reading, and faculty marginalia (Plato annotating Lewis Carroll, Darwin reflecting on Lucretius) create shareable content that no competitor can replicate. AI Faculty conversations demonstrate value. Physical products (Atlas, iNQ Cards) create word-of-mouth. The Feed (ActivityPub/Fediverse) surfaces all this activity as social proof. The entire ecosystem converts and retains users without requiring paid marketing in Year 1.
 
-**Year 1 marketing budget: ~$3,000.** Year 2: $18-24K. Year 3: $50-80K.
+**Year 1 marketing budget: ~$3,000.** Year 2: $18-24K. Year 3: $50-70K.
 
 ---
 
@@ -96,6 +96,8 @@ Castalia uniquely serves both:
 | iNQ Cards collection | Dominance | "I have the complete Volume III set — do you?" |
 | Encyclopaedia (hardbound) | Dominance | "These are on my shelf. I own them." |
 | Map of Inquiry progress | Dominance | "I've explored 60% of the map" |
+| F451 Book Agent | Dominance | "I debated with The Origin of Species and it corrected my misreading" |
+| F451 Book Symposium | Affiliation | "I witnessed the great books argue with each other in real time" |
 | Table (TTRPG) | Affiliation | "I played D&D with Tolkien as the DM" |
 
 **Key insight:** The homeschool mother buys for affiliation ("this is what our family does") but stays for dominance ("my child earned the Apprentice rank"). The lifelong learner discovers through dominance ("I need to be intellectually challenged") but stays for affiliation ("I found my people").
@@ -164,10 +166,12 @@ Godin's test: **Would someone who just experienced your product remark about it 
 | Encyclopaedia entry | "I just read what Darwin *himself* would say about adaptation. Not a summary — his actual argument." |
 | AI Faculty conversation | "My daughter just argued with Socrates about justice for 20 minutes. She's 11." |
 | Symposium | "I watched Nietzsche crash a Buddhist symposium. You have to see this." |
-| Singh lecture | "I interrupted Euler in the middle of a calculus lecture to ask a question. He answered." |
+| Dialogic lecture | "I interrupted Euler in the middle of a calculus lecture to ask a question. He answered. Then he quizzed me." |
 | iNQ Cards | "These cards are beautiful — my son scans the QR code and talks to the person on the card." |
 | Talking Bust | "The marble bust actually *spoke* to me. Mouth moving, voice, everything. It's like a museum that talks back." |
 | Table | "I just played D&D with Tolkien as the DM." |
+| Book Agent (F451) | "I argued with The Republic itself — not Plato, the *book*. It cited its own Book IV to prove me wrong." |
+| Book Symposium (F451) | "I watched Origin of Species and Genesis debate creation. Origin cited its own Chapter 4 on natural selection." |
 | Faculty Club | "I overheard Darwin and Wallace arguing about beetles over lunch." |
 
 Every single one of these is a sentence someone would say to a friend. **That's the marketing.** Not "Castalia Institute offers AI-powered personalized learning experiences." That sentence has never been repeated by anyone in the history of language.
@@ -188,8 +192,11 @@ When a lifelong learner subscribes, he is not buying "unlimited AI conversations
 - Wrong: "Our Encyclopaedia contains 483 entries across 13 volumes."
 - Right: "We asked the world's greatest minds to write the definitive entry on their life's work. Then we let you talk to them about it."
 
-- Wrong: "Singh delivers Khan Academy content through AI-powered interactive lectures."
-- Right: "Euler teaches calculus. You can interrupt him. He doesn't mind."
+- Wrong: "Dialogic delivers Khan Academy content through AI-powered interactive lectures."
+- Right: "Euler teaches calculus. You can interrupt him mid-sentence. He answers your question, then quizzes you before moving on."
+
+- Wrong: "Our AI can answer questions about any book in our library."
+- Right: "Misquote The Republic and it will correct you. It knows what it says — and what it doesn't."
 
 ### Applying This to Channel Strategy
 
@@ -274,8 +281,9 @@ These are the products that appear in every pitch, every social post, and every 
 | The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. 483+ entries = indexed pages + social content. The front door. |
 | Bibliotech | bibliotech.castalia.institute | LIVE | Depth engine. 76,000+ texts, 177 faculty bookshelves, full reader with marginalia/TTS/AI. The product demo. |
 | AI Faculty | castalia.institute | LIVE | Demo engine. 150+ personas (scaling to 10,000). A 2-minute conversation sells better than any ad. |
-| Homeschool | homeschool.inquiry.institute | LIVE | Segment engine. Day-to-day Montessori/Waldorf plans. Directly serves primary target (homeschool families). |
-| Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Interruptible, dialogic. |
+| Homeschool | homeschool.inquiry.institute | LIVE | Segment engine. Day-to-day Charlotte Mason, Montessori, and Waldorf plans. Directly serves primary target (homeschool families). |
+| Pedagogy | inquiry.institute/pedagogy | LIVE | SEO + trust engine. Dedicated pages for Charlotte Mason, Montessori, and Waldorf/Steiner showing how Castalia embodies each tradition. a.CharlotteMason, a.Montessori, and a.Steiner are Faculty. |
+| Dialogic | dialogic.castalia.institute | LIVE | Lecture engine. "Lectures That Listen." Khan Academy + MIT OCW delivered by AI Faculty — interruptible, with comprehension checks and adaptive pacing. Open-source, built on Matrix. |
 | Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats (6+1 drinking party, Faculty Club, Salons, Debates). Every session = shareable content. |
 | Apocalypso | apocalypso.castalia.institute | LIVE | News hook. Dashboard + book. Risk updates drive topical sharing. |
 | iNQ Cards | castalia.institute/inq | DESIGN | Physical touchpoint. Monthly illustrated card packs. QR/NFC links to AI conversations. |
@@ -286,6 +294,7 @@ These products strengthen engagement and retention but are not the primary marke
 
 | Product | URL | Status | Marketing Role |
 |---------|-----|--------|---------------|
+| Project F451 (Book Agents) | f451.castalia.institute | IN DEV (landing page live) | Living Library engine. Every Bibliotech text becomes a Book Agent that speaks as the text itself — reciting, self-interpreting, debating other books, correcting misreadings. The Faculty Agent is a person; the Book Agent is a text. 76K potential agents when fully built. Concept defined; runtime in development. |
 | Commonplace | commonplace.castalia.institute | LIVE | Faculty annotate and reflect in public. Feeds social content. |
 | Feed + News | feed.castalia.institute · news.castalia.institute | LIVE | Fediverse timeline + automated faculty news takes every 6 hours. Social proof. |
 | Book Club | bookclub.inquiry.institute | LIVE | Faculty-hosted reading groups with Matrix rooms + Bibliotech integration. |
@@ -329,6 +338,8 @@ Castalia uses two domains: `castalia.institute` (brand, content, flagship produc
 | TerrAIn Home/Research | $599-4,000 | DESIGN | Kickstarter + NVIDIA GTC |
 | Magisteria | ~$1,200 program | DESIGN | Retention & progression |
 | Institution tier | $499/mo (50 seats) | PLANNED | Direct sales pipeline |
+| Enterprise tier | $2,499/mo (250 seats) | PLANNED | Corporate L&D pipeline |
+| Enterprise License | Custom (1,000+ seats) | PLANNED | Enterprise sales, custom Faculty |
 
 ### The Content Flywheel: How These Products Feed Each Other
 
@@ -346,9 +357,9 @@ Faculty conversation (demo) → mentions a book → user opens it in Bibliotech
 iNQ Card (physical) → QR links to Encyclopaedia entry → entry links to Bibliotech shelf
     → reader becomes member → Commonplace notes become personal study tool
 
-Singh lecture (Khan/MIT content) → delivered by Euler, not a video
-    → student interrupts with a question → faculty answers in character
-        → student shares "I just argued with Gauss about calculus" → viral moment
+Dialogic lecture (Khan/MIT content) → delivered by Euler, not a video
+    → student interrupts mid-sentence → Euler pauses, answers, quizzes back
+        → student shares "I interrupted Gauss and he tested me on eigenvalues" → viral moment
 
 Symposium (6+1 drinking party) → Nietzsche challenges 6 Buddhist thinkers
     → clip shared on social → "I watched Nietzsche crash a Buddhist symposium"
@@ -360,9 +371,17 @@ Faculty Club lunch → Darwin and Wallace chat casually about beetles
 News article on AI regulation → matched to Turing's interests via RAG
     → Turing posts his take on social.castalia.institute → appears on Feed
         → follower engages → discovers Turing's Encyclopaedia entry → cycle repeats
+
+Book Agent (F451) → student asks Origin of Species about natural selection
+    → the book cites its own Chapter 4, mentions passages student hasn't read
+        → student opens full text in Bibliotech → reads the passage → returns to argue further
+
+Book Symposium → Republic and Leviathan debate justice in real time
+    → transcript posted to Commonplace → clips shared on Feed → organic reach
+        → viewer discovers Faculty + Book Agents → starts own conversations → membership
 ```
 
-**Key insight:** Bibliotech, Commonplace, Feed + News, Singh, and Symposia turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, lecture, comment on current events, and reflect in public. News keeps faculty topically relevant (every 6 hours, new articles matched to their interests). That activity is content, and content is marketing.
+**Key insight:** Bibliotech, Commonplace, Feed + News, Dialogic, Symposia, and F451 Book Agents turn the Encyclopaedia from a static reference into a living intellectual community. Faculty don't just teach — they read, annotate, argue, lecture, comment on current events, and reflect in public. Books don't just sit on shelves — they speak, argue with each other, correct misreadings, and trace their own internal logic. News keeps faculty topically relevant (every 6 hours, new articles matched to their interests). That activity is content, and content is marketing.
 
 **Bibliotech-specific flywheel:**
 - 76,000+ texts across 14 source archives = long-tail SEO on every title/author
@@ -370,12 +389,15 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Faculty marginalia = unique content no one else has (Plato's notes on Carroll, Hypatia's notes on Euclid)
 - Reader features (TTS, translation, AI assistant) = product demo built into every reading session
 
-**Singh-specific flywheel:**
+**Dialogic-specific flywheel** (dialogic.castalia.institute — "Lectures That Listen"):
 - Khan Academy + MIT OCW = thousands of lectures covering math, science, CS, humanities, engineering
 - AI Faculty delivery = Gauss teaches algebra, Darwin teaches biology, Turing teaches CS
-- Interruptible = the lecture pauses when you speak; the faculty answers your question in context, then resumes
-- Every "I just debated Einstein about relativity" moment is a shareable story that markets itself
-- SEO: "Khan Academy calculus taught by Euler", "MIT physics delivered by Feynman" — unique long-tail queries
+- Interruptible = the lecture pauses when you speak; the faculty answers your question in full context, then resumes exactly where it stopped
+- Lecturers ask back = at natural pause points, the AI checks comprehension and prompts prediction before revealing answers (Bloom's two-sigma advantage at scale)
+- Pacing adapts = many questions triggers more examples and check-ins; fast progress keeps the lecture moving
+- Open infrastructure = built on Matrix for chat, open-source (github.com/InquiryInstitute/dialogic), no vendor lock-in
+- Every "I interrupted Gauss and he quizzed me on eigenvalues" moment is a shareable story that markets itself
+- SEO: "interruptible AI lectures", "Khan Academy with AI tutor", "MIT physics delivered by Feynman" — unique long-tail queries
 
 **Symposia-specific flywheel (four formats):**
 
@@ -404,7 +426,7 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Hex-grid curriculum map where cities = activities, regions = disciplines, paths = prerequisites
 - Progressive reveal: completing an activity unlocks dependent cities — gamified learning journey
 - Visual "I've explored 40% of the map" progress is inherently shareable (screenshot → social)
-- Connects everything: each city links to an Encyclopaedia entry, a Bibliotech text, a Singh lecture, or a Symposium
+- Connects everything: each city links to an Encyclopaedia entry, a Bibliotech text, a Dialogic lecture, or a Symposium
 - Retention mechanic: the map gives students a reason to come back and keep exploring
 
 **Book Club flywheel:**
@@ -414,8 +436,10 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Low-effort to generate: pick a faculty member, pick a book from Bibliotech's 76K library, spin up a room
 
 **Homeschool flywheel:**
-- Day-to-day lesson plans in Montessori and Waldorf/Steiner directly serve the primary target segment
-- Plans reference Encyclopaedia entries, Bibliotech texts, and Singh lectures as lesson materials
+- Day-to-day lesson plans in Charlotte Mason, Montessori, and Waldorf/Steiner directly serve the primary target segment
+- Plans reference Encyclopaedia entries, Bibliotech texts, and Dialogic lectures as lesson materials
+- Pedagogy pages (inquiry.institute/pedagogy/) explain each tradition and how Castalia embodies it — SEO magnets for "what is Charlotte Mason method" and "Waldorf vs Montessori" queries
+- a.CharlotteMason, a.Montessori, and a.Steiner are AI Faculty — parents can ask the founders themselves how to apply their methods
 - W3C Verifiable Credentials / Open Badges prove learning outcomes — parents want proof
 - Maieutic mentorship model (Socratic dialogue) ties directly to AI Faculty conversations
 - This is the product that converts homeschool Facebook group browsers into paying members
@@ -434,6 +458,18 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Screenshots and screen recordings of talking busts are inherently shareable — uncanny, beautiful, and novel
 - Scales to all 150+ faculty personas (10,000 roadmap)
 - Salon mode (planned): multiple busts on screen in conversation — Symposia and Faculty Club become visual spectacles
+
+**F451-specific flywheel (f451.castalia.institute — "The Books Remember"):**
+- Inspired by Bradbury's Fahrenheit 451: each Book Agent memorizes and *becomes* an entire work — not a chatbot that searches a database, but an agent that has internalized the full text and speaks as the book
+- **The key distinction:** Faculty Agent = a person ("I am Marcus Aurelius"). Book Agent = a text ("I am the Meditations. My Book IV argues the obstacle is the way.")
+- A Book Agent can: **Recite** any passage on demand in context; **Self-interpret** ("Here is what I mean by this, given what I argued three chapters earlier"); **Debate** other Book Agents (The Republic vs. Leviathan on justice); **Defend** against misreadings; **Trace** internal threads across chapters; **Confess** its own historical limits
+- Multi-agent Book Symposia are the killer feature: two or more books arguing directly with each other, drawing on their own passages in real time — not summaries debating summaries
+- Every Book Symposium produces: transcript (Commonplace), audio (TTS), social clips (Feed), SEO-indexable debate pages
+- "I watched Wealth of Nations and Das Kapital argue about labor — and Das Kapital cited its own Chapter 7 to rebut Smith's invisible hand" is a headline
+- Bibliotech's 76K texts = 76K *potential* Book Agents (building from the canon outward). Existing embeddings infrastructure means each book can be indexed at the passage level for deep self-retrieval
+- SEO: "Republic vs Leviathan debate", "what does Origin of Species say about X", "AI that reads entire books" — unique long-tail queries with zero competition
+- F451 Book Agents complement Faculty Agents: a student can talk to Darwin (Faculty) about evolution, then talk to The Origin of Species (Book Agent) about its specific argument structure, internal contradictions, and rhetorical choices
+- Faculty-Book dialogue: Darwin discusses what he wrote; The Origin of Species discusses what it *is* — the person and the text offer different perspectives on the same ideas
 
 **Tier 3 products (not actively marketed — marketing value accrues when they ship):**
 - **Puppet:** LLM-driven marionette puppets. Great demo/video content when ready (TikTok, Reels).
@@ -489,15 +525,16 @@ News article on AI regulation → matched to Turing's interests via RAG
 #### Discovery Journey (Maria Chen, 38, Suburban TX)
 
 1. Searches "Charlotte Mason science curriculum upper elementary" on Google
-2. Finds Encyclopaedia entry "Darwin on Adaptation" — impressed by depth and writing quality (SEO)
+2. Finds the Pedagogy page (inquiry.institute/pedagogy/charlotte-mason) — impressed by the depth: it explains Mason's philosophy and shows exactly how Castalia embodies it. Clicks through to the Encyclopaedia entry "Darwin on Adaptation."
 3. Browses the volume index. Sees adult AND children's editions. Clicks into Bibliotech to read Darwin's original *Origin of Species* — the full text is right there. Bookmarks.
 4. Returns next day. Prompted to try AI Faculty — Darwin's marble bust appears and speaks. She talks to him for 5 minutes. Her 10-year-old leans in. (Hook)
 5. Email capture: "Get the weekly Encyclopaedia reading list — free"
-6. Welcome sequence over 10 days: introduces Homeschool lesson plans, Faculty conversations, Singh lectures, how families use it
+6. Welcome sequence over 10 days: introduces Homeschool lesson plans, Faculty conversations, Dialogic lectures, how families use it
 7. Day 14 conversion email: "Unlock unlimited Faculty conversations for your whole family — $49/mo"
-8. Month 2: kids discover Singh lectures — Euler teaches math, they can interrupt and ask questions. Adds iNQ Cards ($20/mo) — kids collect the illustrated cards with QR codes
-9. Month 3: listens to a Symposium where Nietzsche crashes a Buddhist discussion. Pre-orders Atlas Field Tablet ($99) as a dedicated learning device
-10. Month 6: shares Castalia in her Facebook group: "This replaced three of our curriculum resources. My kids argue with Socrates for fun now."
+8. Month 2: kids discover Dialogic lectures — Euler teaches math; her 10-year-old interrupts mid-sentence to ask "but why?" and Euler pauses, answers, then quizzes him before continuing. Adds iNQ Cards ($20/mo) — kids collect the illustrated cards with QR codes
+9. Month 3: listens to a Symposium where Nietzsche crashes a Buddhist discussion. Pre-orders Atlas Field Tablet ($99) as a dedicated learning device.
+10. Month 5 *(when F451 launches)*: daughter discovers Book Agents — instead of talking to Darwin the person, she talks to *The Origin of Species* the text. The book traces its own argument across chapters and confesses what it doesn't address. Her son watches *Origin of Species* and *Genesis* debate creation.
+11. Month 6: shares Castalia in her Facebook group: "This replaced three of our curriculum resources. My kids argue with Socrates for fun and now they debate with actual books."
 
 ### Segment 2: Lifelong Learners
 
@@ -547,10 +584,11 @@ News article on AI regulation → matched to Turing's interests via RAG
 4. Tries AI Faculty: Bergson's marble bust appears and speaks. 10-minute conversation about creative evolution. This is better than any MOOC.
 5. Subscribes to "The Encyclopaedia Weekly" email — curated highlights
 6. Discovers a Faculty Club lunch: Bergson and William James debating pragmatism over coffee. Watches the full transcript. Day 21 conversion email: "Unlimited conversations with 150+ minds (and growing) — $49/mo"
-7. Signs up. First month: attends a Symposium on consciousness (6 philosophers + a heretic neuroscientist). Takes Singh lectures on philosophy of mind from Husserl.
+7. Signs up. First month: attends a Symposium on consciousness (6 philosophers + a heretic neuroscientist). Takes Dialogic lectures on philosophy of mind from Husserl — interrupts to challenge a point about intentionality, and Husserl pushes back with a passage from his own *Logical Investigations*.
 8. Month 2: orders iNQ Cards ($20/mo) — the physical collection appeals to the "Folio Society" collector in him. Joins Austen's Book Club reading Brontë.
 9. Month 4: pursues Magisteria Apprentice rank — first tangible credential he's earned since his MBA in 1998. His Map of Inquiry shows 30% explored.
-10. Month 6: posts about Castalia on r/philosophy — "I just argued with Bergson about consciousness and he cited passages from his own book. This is not like anything else." Generates 50+ signups.
+10. Month 5 *(when F451 launches)*: discovers Book Agents. Instead of asking Bergson about creative evolution, he talks to *Creative Evolution* itself. The Book Agent traces its own argument across chapters, explains how its opening thesis develops into the conclusion, and confesses: "I was written in 1907. I do not address quantum mechanics. But here is my closest analogy." He's hooked — this is how primary sources should be studied. Watches a Book Symposium: *Critique of Pure Reason* and *An Enquiry Concerning Human Understanding* debating epistemology, each citing their own passages. This is the Oxford Union for dead texts. He screenshots it and posts to r/philosophy.
+11. Month 6: posts about Castalia on r/philosophy — "I misquoted *Creative Evolution* and the book itself corrected me, citing its own Chapter 1. Then it confessed what it can't address. This is not like anything else." Generates 50+ signups.
 
 ### Segment 3: STEM Educators (Secondary, Phase 2)
 
@@ -575,6 +613,133 @@ News article on AI regulation → matched to Turing's interests via RAG
 **Pain:** Need affordable, high-quality digital resources with offline capability; budgets are tight
 **Entry product:** Free Encyclopaedia access → Inquiry Appliance pilot → 50-seat institutional tier ($499/mo)
 **Timeline:** Pipeline building Phase 2, revenue Phase 3
+
+### Segment 6: Corporate & Enterprise (Phase 2–3)
+
+**Market size:** $400B US corporate training market
+**Addressable (AI-augmented learning):** ~$12B
+**SAM (content-led enterprises, mid-market + enterprise):** $1.2B
+
+#### Demographic Profile
+
+| Attribute | Detail |
+|-----------|--------|
+| Primary decision-maker | Head of L&D, Chief Learning Officer, VP People, or VP Strategy |
+| Company size | 500–10,000 employees (mid-market to large enterprise) |
+| Industries | Professional services, technology, financial services, management consulting, healthcare systems, defense/intelligence |
+| L&D budget | $200K–$2M/yr on platforms, content, and coaching |
+| Current stack | LinkedIn Learning + internal LMS + occasional exec ed programs (HBS Online, Wharton) + $2K/session external consultants |
+| Geographic focus | US (initial), UK/EU/ANZ (Phase 3+) |
+
+#### Psychographic Profile
+
+- **Primary pain:** Training platforms are passive — completion rates under 20%, knowledge retention under 15% at 30 days, and employee NPS on training programs averages 32. Leadership knows the tools aren't working but alternatives are expensive (executive coaching) or generic (more video libraries).
+- **Secondary pain:** Cross-disciplinary thinking is impossible to teach with siloed courses. A strategy leader needs philosophy, history, ethics, and domain expertise woven together — no existing platform does this.
+- **Buying behavior:** Committee-driven, 3–6 month evaluation cycle. Requires a champion (usually L&D manager or innovation lead) who discovers the product and builds an internal case. Procurement and IT security review are mandatory gatekeepers.
+- **What they value:** Measurable outcomes (not seat-time), intellectual rigor that challenges senior professionals, scalability (50 to 5,000 seats), security (SSO, SOC 2, data residency), and integration into existing LMS (LTI/SCORM).
+- **Skepticism factors:** Enterprise buyers are burned by AI hype. "AI-powered" is table stakes, not a differentiator. They need to see genuine depth, not another chatbot wrapped in corporate branding. Live demos with AI Faculty — where the buyer has an actual Socratic dialogue — are the conversion event.
+- **Brand affinities:** Harvard Business Review, McKinsey Quarterly, Aspen Institute, World Economic Forum, Chatham House
+
+#### Where They Spend Time
+
+| Platform | Specifics | Usage | Relevance |
+|----------|-----------|-------|-----------|
+| **LinkedIn** | L&D groups, CLO community, talent development network, SHRM | Daily | **Primary** — professional discovery + thought leadership |
+| **Conferences** | ATD (Association for Talent Development), SHRM Annual, NVIDIA GTC, Gartner ReimagineHR, CLO Symposium | 2-4/year | **Very high** — demo opportunities, relationship building |
+| **Publications** | HBR, MIT Sloan Management Review, CLO Magazine, Training Industry | Weekly | **High** — earned media and contributed articles |
+| **Podcasts** | HBR IdeaCast, WorkLife with Adam Grant, The Learning Leader Show, Coaching for Leaders | Weekly | **Medium** — guest appearances for credibility |
+| **Email/Newsletter** | Morning Brew, The Hustle, EdSurge, Training Industry newsletter | Daily | **Medium** — targeted ad placement in Phase 3 |
+
+#### Discovery Journey (Sarah Kim, VP Learning & Development, 2,000-person consulting firm)
+
+1. Reads an HBR article about cross-disciplinary thinking in leadership development. Googles "cross-disciplinary executive training AI." Finds a Castalia Encyclopaedia entry on systems thinking — struck by the depth.
+2. Explores the AI Faculty. Has a 10-minute conversation with Buckminster Fuller about systems thinking applied to organizational design. This is nothing like a chatbot — it cites actual works, pushes back on her assumptions, and suggests further reading in Bibliotech.
+3. Watches a Symposium transcript: Sun Tzu, Machiavelli, and Arendt debate "ethical leadership in competitive markets" with a heretic (a behavioral economist). She screenshots it and sends it to her CLO: "We need to pilot this."
+4. Requests a demo. Castalia runs a live Dialogic lecture on systems thinking — one of her directors interrupts mid-lecture to challenge a point, and Buckminster Fuller pauses, addresses the challenge with a citation from *Operating Manual for Spaceship Earth*, then quizzes the director before continuing. Then a live Symposium on "the ethics of AI in professional services." Her team is engaged for the full 45 minutes — unprecedented for a vendor demo.
+5. 30-day pilot: 50 seats across two practice groups. Dialogic lectures show 72% completion rate (vs. 18% on their LinkedIn Learning courses). Employees voluntarily extend conversations beyond required modules — one associate completes 14 lectures in the first week.
+6. ROI presentation to CFO: $85K/yr for 500 seats vs. $550K/yr for current stack (LinkedIn Learning + executive coaching + custom content development). Magisteria credentials replace the firm's ad-hoc assessment process.
+7. Annual contract signed. Custom Faculty personas trained on the firm's proprietary methodologies deployed within 2 weeks. Quarterly business reviews track credential attainment and engagement metrics.
+8. Month 9: CLO presents Castalia results at ATD conference. Three enterprise referrals follow.
+
+#### Corporate Value Proposition
+
+The corporate pitch is fundamentally different from B2C. The enrollment story changes:
+
+- **B2C (Homeschool):** "What if your daughter could ask Darwin a question — and he answered?"
+- **B2C (Lifelong Learner):** "Euler teaches calculus. You can interrupt him mid-sentence. He answers, then quizzes you."
+- **B2B (Corporate):** "Your team doesn't watch a video about strategy — they interrupt Sun Tzu mid-lecture to challenge his premise, debate ethics with Kant, and earn credentials that prove mastery, not attendance."
+
+Key messages for corporate:
+
+| Message | Why It Works |
+|---------|-------------|
+| "Interactive expert mentorship at scale" | Replaces $2K/session consultants with unlimited AI Faculty |
+| "Cross-disciplinary thinking, not siloed courses" | Addresses the #1 gap in existing corporate L&D |
+| "Credentials that prove mastery, not seat-time" | W3C Verifiable Credentials replace compliance checkboxes |
+| "Your regulatory docs and methodology playbooks become interactive agents" *(roadmap)* | F451 Book Agents turn internal documents into agents that self-interpret and debate — same tech that powers literary Book Agents, applied to corporate corpora |
+| "On-premise deployment for sensitive environments" | Inquiry Appliance addresses defense, financial services, healthcare |
+| "72% completion vs. 20% industry average" | The only metric that matters to CFOs |
+
+#### Corporate Product Mapping
+
+| Castalia Product | Corporate Application | Buyer Value |
+|------------------|----------------------|-------------|
+| AI Faculty | On-demand expert mentorship | Replaces $2K/session consultants |
+| Symposia (Debate format) | Executive team workshops | Structured strategic reasoning |
+| Symposia (Faculty Club) | Cross-functional ideation | Novel idea generation |
+| Dialogic Lectures | Scalable employee training | Interruptible, adaptive — lectures that listen and quiz back |
+| Magisteria | Professional development tracking | Verifiable, portable credentials |
+| Encyclopaedia | Corporate knowledge reference | Authoritative research substrate |
+| Bibliotech | Primary source library | 76K texts for deep research |
+| F451 Book Agents | Living document agents | *(Roadmap extension)* Internal playbooks, methodology docs, and regulatory texts become interactive agents that self-interpret, answer questions, and debate each other — same technology that powers literary Book Agents applied to corporate corpora |
+| Custom Faculty | Company-specific personas | Trained on internal IP, methodology, culture docs |
+| Inquiry Appliance | On-premise / air-gapped deployment | ITAR, SCIF, regulated environments |
+
+#### Enterprise Pricing
+
+| Tier | Seats | Price | Includes |
+|------|-------|-------|----------|
+| **Team** | 50 | $499/mo | Cloud multi-tenant, usage analytics, email support |
+| **Department** | 250 | $2,499/mo | Dedicated tenant, SSO, custom domain, success manager |
+| **Enterprise** | 1,000+ | Custom | Unlimited seats, SLA, API, SCIM, custom Faculty, QBR |
+| **Inquiry Appliance** | Unlimited (on-prem) | $15K + $499/mo | Air-gapped, rack-mountable, ITAR/EAR compatible |
+
+**Pilot program:** 30-day free, 50 seats, no credit card. Qualification: 500+ employees, active L&D budget, executive sponsor.
+
+#### Corporate Go-to-Market
+
+**Phase 1 — Proof of Concept (Months 12–18):**
+- Target: 5 pilot accounts, 250 total seats
+- Channels: Inbound via Encyclopaedia SEO (L&D professionals research topics), NVIDIA GTC and enterprise events, LinkedIn thought leadership, direct outreach to 50 target accounts
+- Revenue target: $150K ARR
+
+**Phase 2 — Scale (Months 18–30):**
+- Target: 25 accounts, 2,500 total seats
+- Channels: Channel partnerships with consulting firms, reseller agreements (2U, Guild Education, InStride), published case studies from Phase 1 pilots, first enterprise AE hire
+- Revenue target: $1.5M ARR
+
+**Phase 3 — Enterprise Standard (Months 30+):**
+- Target: 100+ accounts, 25,000 seats
+- Channels: GSA Schedule for government/defense, SOC 2 Type II certification, strategic partnerships (Big Four, HBS Executive Ed)
+- Revenue target: $6M+ ARR
+
+#### Corporate Competitive Landscape
+
+| Factor | LinkedIn Learning | Coursera for Business | Udemy Business | **Castalia Enterprise** |
+|--------|------------------|----------------------|---------------|------------------------|
+| Content model | Generic video library | University courses | Marketplace courses | AI Faculty + Dialogic lectures + 76K source texts |
+| Interaction | None | Discussion forums | Q&A | Socratic dialogue + interruptible lectures that quiz back |
+| Customization | None | Limited pathways | None | Custom Faculty trained on company IP |
+| Credentials | Completion certificates | University certificates | Completion badges | W3C Verifiable Credentials (5-rank Magisteria) |
+| Deployment | Cloud only | Cloud only | Cloud only | Cloud + dedicated + on-premise (air-gapped) |
+| Engagement rate | ~20% | ~25% | ~18% | ~72%* |
+| Price (1K seats) | $120K/yr | $150K/yr | $100K/yr | $60K/yr (Team tier scaled) |
+
+*Based on pilot data.
+
+**Where competitors are stronger:** LinkedIn's integration with HR workflows and 1B+ professional profiles. Coursera's university brand partnerships (Yale, Google, IBM certificates). Udemy's marketplace breadth (200K+ courses).
+
+**What no competitor has:** AI personas that sustain genuine Socratic dialogue grounded in real corpora. Dialogic interruptible lectures where the AI pauses for questions and quizzes students back — Bloom's two-sigma advantage at scale. F451 Book Agents that turn any document — regulatory texts, methodology playbooks, internal manuals — into interactive agents that self-interpret, debate each other, and correct misreadings. On-premise deployment for classified environments. Cross-disciplinary intellectual training that treats senior professionals like adults, not passive content consumers. Physical-digital integration (iNQ Cards for corporate gifting, Inquiry Appliance for air-gapped sites). Open-source lecture infrastructure (Matrix-based, no vendor lock-in).
 
 ---
 
@@ -604,18 +769,21 @@ News article on AI regulation → matched to Turing's interests via RAG
 | Apocalypso-specific | "existential risk dashboard", "civilization risk tracker" | Very low | Low | Rankable now |
 | Bibliotech / primary source | "Tao Te Ching full text", "Plato Republic online", "Rumi poems" | Medium | Very high | Rankable Month 3+ |
 | Faculty marginalia | "Plato on Lewis Carroll", "Darwin reading notes" | Very low | Low but viral | Unique content — no competition |
-| Singh / interactive lectures | "Khan Academy with AI tutor", "MIT OCW interactive", "learn calculus from Euler" | Low | Medium | Unique — no direct competitor |
+| Dialogic / interactive lectures | "interruptible AI lectures", "Khan Academy with AI tutor", "MIT OCW interactive", "learn calculus from Euler", "lectures that listen" | Low | Medium | Unique — no direct competitor |
 | Faculty news takes | "what would Turing think about AI regulation", "Einstein on quantum computing news" | Very low | Low but shareable | Unique — topical + historical voice |
 | Book club / reading groups | "AI book club", "online reading group classical literature", "Jane Austen reading group" | Low | Medium | Unique format — faculty-hosted |
-| Homeschool lesson plans | "Montessori lesson plans free", "Waldorf daily rhythm schedule", "Steiner homeschool" | Medium | High | Direct segment match |
+| Homeschool lesson plans | "Charlotte Mason lesson plans", "Montessori lesson plans free", "Waldorf daily rhythm schedule", "Steiner homeschool", "living books curriculum" | Medium | High | Direct segment match |
+| Pedagogy explainers | "Charlotte Mason method explained", "what is Montessori education", "Waldorf vs Montessori", "Steiner education philosophy", "Charlotte Mason vs Montessori" | Medium-high | High | Pedagogy pages rank for comparison/explainer queries — trust builders |
 | Tabletop RPG / AI DM | "AI dungeon master", "play D&D with AI", "Tolkien DM" | Low | Medium-high | No competitor — inherently viral |
 | Virtual campus | "virtual university tour", "online campus experience" | Medium | Medium | Visual differentiator |
+| F451 Book Agents | "AI that reads entire books", "talk to a book AI", "Republic vs Leviathan debate", "books that argue" | Very low | Low but viral | Unique — no competition at all |
+| Book self-interpretation | "what does Origin of Species actually say about X", "Meditations self-analysis", "Republic argument structure" | Very low | Medium (primary source queries) | Unique content — Book Agent answers as the text itself |
 | Competitor alternatives | "Great Courses alternative", "Brilliant alternative" | Medium-high | Medium | Rankable Year 2 |
 
 **Expected SEO timeline:**
 - Months 1-3: Google indexes 483+ pages. Minimal traffic (~500/mo).
-- Months 4-6: Long-tail queries start ranking (positions 5-20). ~2,000/mo.
-- Months 6-12: Compound growth as domain authority builds. ~10,000-15,000/mo.
+- Months 4-6: Long-tail queries start ranking (positions 5-20). ~1,500-2,000/mo.
+- Months 6-12: Compound growth as domain authority builds. **Base case: 8-10K/mo. Stretch: 15K/mo.** New domains typically take 6-12 months to build meaningful authority; compound SEO growth is real but slower than content marketing blogs suggest.
 - Year 2: 25,000-50,000/mo as more entries publish and backlinks accumulate.
 
 **Backlink strategy ($0):**
@@ -641,7 +809,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 | Well-Trained Mind Forums | 20K+ | Very high | Answer curriculum Qs, share Encyclopaedia entries |
 | Classical Conversations groups | 100K+ | Very high | Focus on Cycle 1-3 content alignment |
 | Secular Homeschool | 30K | High | Secular-friendly positioning |
-| Charlotte Mason Living Education | 15K | Medium | "Living books" angle for Encyclopaedia |
+| Charlotte Mason Living Education | 15K | Medium | "Living books" angle for Encyclopaedia + pedagogy page (inquiry.institute/pedagogy/charlotte-mason) |
 | State groups (TX, FL, CA, NC, VA) | 10-45K each | High | Localized content, co-op outreach |
 | Curriculum swap/review groups | 2-10K each | Medium | Reviews and comparisons |
 
@@ -816,7 +984,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 | Tier | Target Shows | Pitch Angle | Audience Overlap |
 |------|-------------|------------|-----------------|
 | Homeschool | Read-Aloud Revival, Brave Writer, Pam Barnhill, Schole Sisters | "What if your daughter could ask Darwin a question — and he answered?" | Direct to Segment 1 |
-| Philosophy/Intellectual | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "Euler teaches calculus. You can interrupt him. He doesn't mind." | Direct to Segment 2 |
+| Philosophy/Intellectual | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "Euler teaches calculus. You can interrupt him mid-sentence. He answers, quizzes you, then picks up exactly where he left off." | Direct to Segment 2 |
 | AI/Technology | Practical AI, AI Breakdown, Latent Space | "We built 150+ historically accurate minds you can actually talk to — here's what we learned" | Segment 2 + 4 |
 | Indie maker | Indie Hackers, My First Million, Tropical MBA | "Solo founder, $3K, 4 months — 20 live products, from marble busts that talk to robots that dig" | Segment 4 + general |
 | Niche | The Great Books Podcast, Intellectual Explorers, The History of Philosophy | "The great conversation never ended. We're just making it easier to join." | Deep Segment 2 |
@@ -944,6 +1112,59 @@ Expected CPA: $50-80 per paid member.
 
 **Onboarding:** Custom referral link, free Atlas demo device, iNQ Cards sample, 1-pager about Castalia
 
+### Channel 8: Corporate & Enterprise Sales (Year 2+)
+
+**Total time investment:** 10-15 hr/week (founder-led in Phase 1, first AE hire in Phase 2)
+
+#### LinkedIn — Primary Corporate Discovery Channel
+
+**Time:** 5 hr/week · **Cost:** $0 (organic) / $500/mo (Sales Navigator, Phase 2) · **Target:** 50 qualified leads by M18
+
+**Strategy: Founder thought leadership on AI in corporate learning, not product posts.**
+
+Content mix:
+- Weekly long-form posts on cross-disciplinary thinking, corporate learning ROI, and the failure of passive training
+- Case study excerpts from pilot accounts (anonymized until permission granted)
+- Commentary on L&D industry trends (ATD reports, Gartner research, CLO Magazine)
+- Engage with CLO/CHRO/VP People content — genuine commentary, not "great post!"
+
+Target accounts: Professional services (Deloitte, Accenture, McKinsey, EY), financial services (JPMorgan, Goldman, Fidelity), tech (Microsoft, Salesforce, NVIDIA), healthcare systems (Kaiser, Mayo, Cleveland Clinic), defense (Booz Allen, SAIC, Leidos).
+
+#### Enterprise Events & Conferences
+
+| Event | Timing | Audience | Approach |
+|-------|--------|----------|----------|
+| ATD Conference | Spring | 10K+ L&D professionals | Booth demo + session proposal |
+| NVIDIA GTC | Spring | 20K+ (AI/enterprise) | TerrAIn demo opens door → Castalia Faculty closes |
+| Gartner ReimagineHR | Fall | 3K+ HR leaders | Sponsored demo station |
+| CLO Symposium | Fall | 500 CLOs | Intimate — 1:1 meetings, dinner demos |
+| SHRM Annual | Summer | 25K+ HR professionals | Booth + iNQ Card giveaway |
+
+**Per-event goal:** 10 qualified leads, 3 pilot commitments, 1 signed contract.
+
+#### Direct Outreach
+
+**Phase 1 (M12-18):** Founder-led, 50 target accounts
+- Identify champion (L&D manager, innovation lead) via LinkedIn
+- Personalized outreach: "I built something your team should try — 30-day free pilot, 50 seats, no commitment"
+- Follow up with live 45-min Symposium demo tailored to their industry
+- Pilot → ROI review → contract
+
+**Phase 2 (M18-30):** First enterprise AE hire
+- Scale to 200 target accounts
+- Formalized sales process with CRM (HubSpot free → Salesforce at $1M ARR)
+- Channel partnerships with consulting firms who embed Castalia in client engagements
+
+#### Corporate Content Marketing
+
+| Content Type | Frequency | Channel | Purpose |
+|-------------|-----------|---------|---------|
+| "State of Corporate Learning" report | Annual | LinkedIn, email, conferences | Thought leadership, lead magnet |
+| ROI case studies | Quarterly | Website, LinkedIn, sales collateral | Proof points for procurement |
+| Industry-specific white papers | Quarterly | LinkedIn, targeted email | Vertical messaging (financial services, consulting, defense) |
+| Webinars: live Symposia demos | Monthly | LinkedIn Live, email list | Lead generation, product demo |
+| CLO Magazine / Training Industry contributed articles | Monthly | Earned media | Credibility |
+
 ---
 
 ## Content Calendar
@@ -995,7 +1216,7 @@ Expected CPA: $50-80 per paid member.
 | **Total (excl. reserve)** | | **$2,940** | |
 | Reserve | — | $1,000 | Unexpected costs |
 
-**Marketing spend as % of Year 1 revenue ($114K): 2.9%**
+**Marketing spend as % of Year 1 revenue ($76.5K): 3.8%**
 
 ### Year 2: $18,000-24,000
 
@@ -1010,9 +1231,9 @@ Expected CPA: $50-80 per paid member.
 | Misc + reserve | — | $1,500 | Buffer |
 | **Total** | | **$22,808** | |
 
-**Marketing spend as % of Year 2 revenue ($910K): 2.5%**
+**Marketing spend as % of Year 2 revenue ($1.06M): 2.2%**
 
-### Year 3: $50,000-80,000
+### Year 3: $50,000-70,000
 
 | Category | Annual Est. | Notes |
 |----------|-------------|-------|
@@ -1026,7 +1247,7 @@ Expected CPA: $50-80 per paid member.
 | Misc + reserve | $3,000 | |
 | **Total** | **$70,000** | |
 
-**Marketing spend as % of Year 3 revenue ($3.4M): 2.1%**
+**Marketing spend as % of Year 3 revenue ($4.9M): 1.4%**
 
 ---
 
@@ -1108,7 +1329,7 @@ This section defines what happens in the first three months. Every action maps t
 - [ ] Target: 500 email subscribers, 10 paid members, 1 podcast appearance
 - [ ] First build-in-public post with real metrics (readers, signups, conversations)
 - [ ] Submit AMA to r/edtech or r/IAmA
-- [ ] Deploy Pinterest Agent, Singh Lecture Builder, and Book Club Agent
+- [ ] Deploy Pinterest Agent, Dialogic Lecture Builder, and Book Club Agent
 - [ ] Review M1–M3 funnel data: SEO impressions, email open rates, conversion rates, channel attribution
 - [ ] Review agent output quality; tune voice fidelity and throttling based on first 8 weeks of data
 
@@ -1133,31 +1354,38 @@ This section defines what happens in the first three months. Every action maps t
 
 | Engine | Products | Margin | Year 1 | Year 2 | Year 3 |
 |--------|----------|--------|--------|--------|--------|
-| Memberships | $49/mo | ~90% | $50K | $440K | $1.8M |
-| iNQ Cards | $20/mo | ~80% | $12K | $130K | $500K |
-| Hardware | Atlas, TerrAIn | 50-70% | $37K | $280K | $900K |
+| Memberships | $49/mo | ~90% | $38.5K | $440K | $1.8M |
+| iNQ Cards | $20/mo | ~80% | $8K | $130K | $500K |
+| Hardware | Atlas, TerrAIn | 50-70% | $15K* | $280K | $900K |
 | Publications | Digital + print + book | ~90% | $15K | $60K | $150K |
 | Credentials | Magisteria | ~90% | $0 | — | $50K |
 | Institutional | $499/mo (50 seats) | ~60% | $0 | — | TBD |
-| **Total** | | **~80%** | **$114K** | **$910K** | **$3.4M** |
+| Corporate/Enterprise | $499–Custom/mo | ~75% | $0 | $150K | $1.5M |
+| **Total** | | **~80%** | **$76.5K** | **$1.06M** | **$4.9M** |
+
+*\*Atlas Year 1 = pre-order deposits only. Units ship Q1 Year 2; full hardware revenue recognized on delivery.*
 
 ### Key Assumptions
 
 | Assumption | Value | Sensitivity |
 |-----------|-------|------------|
+| Assumption | Value | Sensitivity |
+|-----------|-------|------------|
 | Membership monthly churn | 5% | If 10%: Year 3 drops from $1.8M to ~$1.2M |
 | Free → paid conversion | 2% | If 1%: need 2× traffic for same revenue |
-| SEO monthly reader growth | +15% MoM | If +8%: Year 1 hits 8K not 15K readers |
-| Atlas crowdfunding sell-through | 100% of 300 | If 60%: $18K not $30K |
+| SEO monthly reader growth | +10-15% MoM | Base case: 8-10K readers M12; stretch: 15K |
+| Atlas crowdfunding sell-through | 80% of 300 | If 50%: $12K not $24K pre-orders |
 | iNQ Card retention | 8 months avg | If 4 months: revenue halves |
+| Atlas ship date | Q1 Year 2 | Manufacturing lead times, FCC/UL certification add 3-6 months to any prototype-to-ship estimate |
 
-### Year 2 Growth Drivers ($114K → $910K)
+### Year 2 Growth Drivers ($76.5K → $1.06M)
 
 1. **SEO compounding** — 483+ entries indexed, long-tail queries ranking, domain authority building
-2. **Atlas word-of-mouth** — 300 founding families as evangelists, Atlas DS crowdfunding
+2. **Atlas shipping** — Fulfilling 240+ pre-orders + new direct sales; founding families as evangelists
 3. **iNQ Cards community** — Physical sharing (unboxing, collections) drives organic referral
 4. **First institutional deals** — 3-5 contracts at $499/mo with libraries/co-ops
 5. **Paid acquisition (small)** — Google Ads at proven CPA, layered onto organic base
+6. **Enterprise pilot conversions** — 2-3 corporate pilots converting to annual contracts
 
 ---
 
@@ -1167,9 +1395,10 @@ This section defines what happens in the first three months. Every action maps t
 
 | Audience | Enrollment Story | Why She Believes It |
 |----------|-----------------|-------------------|
-| Homeschool parents | "What if your daughter could ask Darwin a question — and he answered?" | She tries it. Her kid leans in. It's real. |
-| Lifelong learners | "Euler teaches calculus. You can interrupt him. He doesn't mind." | He has the conversation. It's better than any MOOC he's tried. |
+| Homeschool parents | "What if your daughter could ask Darwin a question — and he answered?" | She tries it. Her kid leans in. It's real. When F451 launches: the book itself corrects her misquote. |
+| Lifelong learners | "Euler teaches calculus. Critique of Pure Reason debates An Enquiry on knowledge itself. You interrupt either one." | He watches two books argue, citing their own passages. This is how primary sources should be studied. |
 | STEM educators | "Your students build robots that dig. Darwin explains why that matters." | TerrAIn demo at NVIDIA GTC. Hands-on proof. |
+| Corporate | "Your compliance manual answers questions about itself. Two regulatory frameworks debate their own clauses." | The VP of compliance watches the policy manual self-interpret and flag its own gaps. |
 | Institutions | "76,000 texts, 150+ faculty (scaling to 10,000), offline-capable — for your entire campus." | Inquiry Appliance pilot. 50 seats. Real usage data. |
 
 ### Competitive Matrix
@@ -1179,13 +1408,15 @@ This section defines what happens in the first three months. Every action maps t
 | **Price** | Free | $24/mo | $20/mo | $24/mo | **Free–$49/mo** |
 | **Content** | Video lessons | Interactive problems | Filmed lectures | STEM kits | **13-vol Encyclopaedia** |
 | **AI** | Khanmigo ($4/mo) | None | None | None | **150+ faculty personas (10K roadmap)** |
+| **Lectures** | Passive video | Guided exercises | Passive video | None | **Dialogic — interruptible, adaptive, lectures that listen** |
 | **Hardware** | None | None | None | Activity kits | **Atlas devices + TerrAIn** |
 | **Physical** | None | None | None | Monthly kit | **iNQ Cards + medals** |
 | **Credentials** | Mastery points | None | None | None | **5-rank Magisteria** |
+| **Book Agents** | None | None | None | None | **F451: 76K potential texts as living agents** |
 
 **Where competitors are stronger:** Khan's 20K+ video library and brand trust. Brilliant's interactive STEM exercises. Great Courses' production quality. Kiwi Crate's proven physical-kit logistics.
 
-**What no one else has:** A published 13-volume encyclopaedia, 150+ historically accurate AI personas (scaling to 10,000) brought to life as interactive marble busts, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
+**What no one else has:** A published 13-volume encyclopaedia, 150+ historically accurate AI personas (scaling to 10,000) brought to life as interactive marble busts, interruptible lectures that listen and quiz back (Dialogic), Book Agents that embody and speak as individual texts with 76K potential voices (F451), purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
 
 ---
 
@@ -1200,11 +1431,90 @@ This section defines what happens in the first three months. Every action maps t
 | Solo founder bandwidth | High | High | Agentic AI stack reduces 34 hr/wk → 7.5 hr/wk (see Agent section) | First hire: Content Lead (Month 8-10) |
 | Homeschool community skepticism | Med | Med | Lead with free value, never sell in groups | Partner with trusted voices |
 | Convention ROI unclear | Low | Low | Track UTM per event | Drop events, shift to ads |
+| Enterprise sales cycle too long | Med | Med | 30-day free pilot reduces friction; target champion-led orgs | Focus on mid-market (500-2K employees) with shorter procurement |
+| SOC 2 / security requirements delay | Med | High | Begin SOC 2 Type II process by Month 12 | Offer Inquiry Appliance (on-prem) for security-sensitive buyers |
+| Corporate buyers dismiss as "AI novelty" | Med | Med | Live demo is the conversion event — 45-min Symposium, not a slide deck | Lead with ROI data from pilots; never pitch "AI" — pitch outcomes |
 
 **Decision triggers for paid marketing:**
 - Begin Google Ads when: MRR > $5K/mo AND organic CPA known AND LTV:CAC > 5:1
 - Begin Meta Ads when: Google Ads CPA < $60 for 3 consecutive months
 - Kill any channel where CPA > LTV/3 for 2 consecutive months
+
+---
+
+## Pricing Flexibility & Churn Mitigation
+
+### Pricing Architecture
+
+The current $49/mo flat rate is simple but leaves money on the table and creates a binary decision. Introduce flexibility:
+
+| Tier | Price | What's Included | Target |
+|------|-------|----------------|--------|
+| **Free** | $0 | Encyclopaedia (full), Faculty (5 chats/day), Bibliotech (browse) | Discovery — prove value |
+| **Student** | $29/mo | Unlimited Faculty, Dialogic lectures, Bibliotech reader, basic Magisteria | Price-sensitive learners, teens |
+| **Standard** | $49/mo | Everything in Student + iNQ Card integration, Symposia participation, full Magisteria | Core audience |
+| **Annual** | $399/yr ($33/mo) | Standard tier, billed annually | Commitment discount — reduces churn |
+| **Family** | $79/mo | Standard for up to 5 family members | Homeschool families (2-4 kids + parent) |
+| **Family Annual** | $699/yr ($58/mo) | Family tier, billed annually | Highest LTV segment |
+
+**Launch with Standard + Annual only.** Add Student and Family tiers by Month 4-6 based on signup data.
+
+### Churn Mitigation Strategy
+
+**Current plan weakness:** The only churn defense is a 3-email winback sequence. At 5% monthly churn, you lose 46% of members annually. Even at 3% churn, you lose 31%.
+
+| Churn Signal | When | Intervention |
+|-------------|------|-------------|
+| No Faculty chat in 7 days | Day 7 | Automated email: "Darwin has a new thought on [topic she discussed]" |
+| No login in 14 days | Day 14 | Personalized: "Your Magisteria progress is at 72% — here's what's next" |
+| Cancellation initiated | Checkout | Pause option (1 month free), downgrade to Student, annual discount offer |
+| Cancelled | Day 1 post-cancel | Winback sequence starts; access continues through billing period |
+| Cancelled 30+ days | Day 30 | Final offer: "We added [feature]. Come back and try it free for 7 days" |
+
+**Structural retention levers:**
+- **Magisteria progression** — cancellation means losing rank progress (sunk cost)
+- **iNQ Card collection** — physical artifacts create attachment; cancellation breaks the set
+- **Community** — Symposia participation, Book Club membership, relationships
+- **Annual pricing** — reduces churn by ~40% vs. monthly (industry data)
+- **Family accounts** — multi-person households churn 50% less than individual
+- **Pause instead of cancel** — capture 20-30% of would-be churners
+
+**Churn targets:**
+- Month 1-6: Accept 5-7% monthly (early product, small N)
+- Month 6-12: Target 4-5% as product matures and annual plans kick in
+- Year 2: Target 3-4% with full retention stack
+- Year 3: Target 2-3% (annual + family + established community)
+
+---
+
+## Competitive Response Scenarios
+
+What happens when the big players notice this space? Plan for it now.
+
+### Scenario 1: Khan Academy adds AI tutoring depth (likely — Khanmigo exists)
+**Their move:** Expand Khanmigo from math/science into humanities, add historical personas.
+**Our response:** They'll do it as a feature on top of video. We do it as the entire architecture. Counter-position: "Khan has 20K videos with an AI bolted on. Castalia has 150+ minds with a library built in." The depth of our faculty corpora, the Ontogenic Pedagogy framework, and F451 Book Agents are architecturally different — not just more AI on top of content.
+**Defensive moat:** 13-volume Encyclopaedia, 76K Bibliotech texts, faculty voice fidelity from complete corpora. They can't replicate this without years of editorial work.
+
+### Scenario 2: Coursera/LinkedIn adds enterprise AI training
+**Their move:** Add "AI mentors" or "interactive content" to their enterprise offerings.
+**Our response:** Their content is university-produced, their interaction is LMS-native. We lead with the demo: "Watch your compliance manual debate its own requirements. Watch Sun Tzu coach your strategy team." If they add chatbots, they'll be generic. Our faculty have read their own complete works.
+**Defensive moat:** Custom Faculty trained on customer corpora, Inquiry Appliance for air-gapped environments, F451 Book Agents for proprietary documents. None of these are features you can bolt on.
+
+### Scenario 3: Open-source competitors fork Dialogic
+**Their move:** Since Dialogic is open-source (Matrix-based), someone forks the interruptible lecture player and builds their own content on top.
+**Our response:** Dialogic is the delivery mechanism, not the value. The value is: the faculty, the Encyclopaedia, the Bibliotech corpus, the Magisteria credentials, and the community. A fork without the content ecosystem is a player without content. Let them fork it — it validates the approach and drives attention to the original.
+**Defensive moat:** Content + community + credentials. The open-source strategy is intentional: commoditize the delivery layer, own the content layer.
+
+### Scenario 4: AI-native startup targets same niche
+**Their move:** A well-funded startup builds "AI professors" or "AI textbook tutors."
+**Our response:** Speed matters less than depth. We have a published 13-volume encyclopaedia, a live product ecosystem, and a pedagogical framework that took years to develop. A funded competitor can build fast but can't instantly produce the content corpus or the philosophical coherence. If they do emerge, the correct move is: (a) accelerate F451 Book Agent deployment as the primary differentiator, (b) lock in annual contracts with enterprises, (c) deepen community ties.
+**Defensive moat:** First-mover advantage in the niche intersection of classical education + AI + physical products. The combination is the moat, not any single component.
+
+### Scenario 5: Market doesn't materialize (worst case)
+**Their move:** Corporate training AI remains a novelty; homeschool families prefer traditional resources.
+**Our response:** The free Encyclopaedia continues to generate organic traffic regardless. The AI Faculty demonstrations continue to convert curious visitors. Reduce burn, focus on the 500 SVA members, and build slowly. The content has permanent value even if the market timing is wrong.
+**Decision trigger:** If by Month 9, free → paid conversion is consistently below 1% AND email list growth is below 100/month, reduce scope to Encyclopaedia + Faculty only and shelve hardware/corporate.
 
 ---
 
@@ -1219,7 +1529,7 @@ The solo-founder model works because Castalia doesn't just *talk* about AI — i
 | Agent | What It Does | Cadence | Human Role |
 |-------|-------------|---------|------------|
 | **Encyclopaedia Publisher** | Drafts new entries in faculty voice from source corpora, formats AsciiDoc, generates LaTeX PDFs and ePubs | Continuous (3-5 entries/week) | Editorial review, approve/reject |
-| **Singh Lecture Builder** | Ingests Khan Academy / MIT OCW transcripts, rewrites as dialogic lectures in faculty voice, generates interruptible segments | Batch (10-20 lectures/week) | Spot-check voice accuracy |
+| **Dialogic Lecture Builder** | Ingests Khan Academy / MIT OCW transcripts, creates interruptible lectures with comprehension checks in faculty voice, generates segment-by-segment delivery via Matrix | Batch (10-20 lectures/week) | Spot-check voice accuracy |
 | **Symposia Generator** | Orchestrates multi-agent conversations (6+1 Symposium, Faculty Club, Salon, Debate), manages turn-taking and heretic mechanics | On-demand | Set topic and cast, review transcript |
 | **News Agent** | Every 6 hours: ingest RSS (HN, arXiv, Reddit, Google AI, OpenAI), RAG-match to faculty interests, generate faculty takes, post to Feed | Automated (4×/day) | Monitor quality weekly |
 | **Commonplace Agent** | Scans Bibliotech texts assigned to faculty bookshelves, generates marginalia and reading notes in faculty voice | Continuous | Curate highlights for social |
@@ -1229,7 +1539,9 @@ The solo-founder model works because Castalia doesn't just *talk* about AI — i
 | **SEO Agent** | Auto-generates meta descriptions, title tags, and schema markup for new pages; monitors Search Console for crawl errors and ranking changes; suggests internal link opportunities | Continuous | Review monthly SEO report |
 | **Analytics Agent** | Pulls Plausible + Stripe + Supabase data; generates weekly funnel dashboard; flags anomalies (traffic drops, churn spikes, conversion changes) | Weekly + alerts | Review dashboard, act on alerts |
 | **Book Club Agent** | Selects books from Bibliotech 76K library, creates reading schedules, facilitates Matrix chat discussions as the host faculty | On-demand | Pick themes, review discussions |
-| **Homeschool Plan Agent** | Generates daily Montessori and Waldorf lesson plans from Encyclopaedia entries + Bibliotech texts + Singh lectures | Daily | Parent feedback loop |
+| **F451 Book Agent Builder** | Creates Book Agents from Bibliotech texts: ingests full text, builds passage-level embeddings, generates the book's voice profile (rhetorical style, argument structure, key themes), enables self-recitation, self-interpretation, and inter-book debate | Batch (canon first, then expanding) | Set priority list, review voice accuracy |
+| **Book Symposia Generator** | Orchestrates multi-book debates: selects texts with opposing or complementary arguments, manages citation-grounded exchanges, generates transcripts and social clips | On-demand | Set topic and book cast, review transcript |
+| **Homeschool Plan Agent** | Generates daily Charlotte Mason, Montessori, and Waldorf lesson plans from Encyclopaedia entries + Bibliotech texts + Dialogic lectures | Daily | Parent feedback loop |
 
 ### Architecture
 
@@ -1242,9 +1554,11 @@ The solo-founder model works because Castalia doesn't just *talk* about AI — i
 │  Agents      │  Agents      │  Agents      │  Agents      │
 │              │              │              │              │
 │  Encyclopaedia│  Social      │  SEO Monitor │  Book Club   │
-│  Singh       │  Pinterest   │  Funnel Dash │  Homeschool  │
+│  Dialogic    │  Pinterest   │  Funnel Dash │  Homeschool  │
 │  Symposia    │  Email       │  Alert System│  Commonplace │
 │  News        │              │              │              │
+│  F451 Builder│              │              │              │
+│  Book Sympos.│              │              │              │
 └──────┬───────┴──────┬───────┴──────┬───────┴──────┬──────┘
        │              │              │              │
        ▼              ▼              ▼              ▼
@@ -1292,9 +1606,10 @@ Automation without quality control produces "AI slop" — the exact thing our ta
 
 - **Month 1:** News Agent (already live), SEO Agent, Analytics Agent
 - **Month 2:** Social Content Agent, Email Agent, Commonplace Agent
-- **Month 3:** Pinterest Agent, Singh Lecture Builder, Book Club Agent
+- **Month 3:** Pinterest Agent, Dialogic Lecture Builder, Book Club Agent
 - **Month 4-6:** Symposia Generator, Homeschool Plan Agent, Encyclopaedia Publisher
-- **Month 7+:** Agent refinement based on performance data; reduce human review as quality stabilizes
+- **Month 5-7:** F451 Book Agent Builder (canon texts first), Book Symposia Generator
+- **Month 7+:** Agent refinement based on performance data; reduce human review as quality stabilizes; F451 expansion beyond canon
 
 ### Why This Is a Competitive Moat
 
@@ -1306,7 +1621,7 @@ No edtech competitor has this agent infrastructure because no competitor has the
 - The Fediverse feed provides a native distribution layer
 - Supabase provides the event system that connects everything
 
-A competitor would need to build the content library, the faculty system, AND the agent stack. We built the library first — the agents are the leverage layer on top.
+A competitor would need to build the content library, the faculty system, the Book Agent infrastructure (F451), AND the marketing agent stack. We built the library first — F451 turns 76K texts into living agents, and the marketing agents are the leverage layer on top.
 
 ---
 

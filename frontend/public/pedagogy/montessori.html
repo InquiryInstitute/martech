@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Montessori — Pedagogy — Inquiry Institute</title>
+<meta name="description" content="Maria Montessori's science of the prepared environment — self-directed learning, concrete materials, sensitive periods, and the three-hour work cycle — brought to life through Castalia's adaptive curriculum and AI Faculty.">
+<link rel="canonical" href="https://inquiry.institute/pedagogy/montessori">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --surface-raised: #1c2230;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --text-dim: #8890a0;
+  --heading: #e8ecf2;
+  --accent: #5b9cf5;
+  --accent-dim: rgba(91, 156, 245, 0.12);
+  --accent-glow: rgba(91, 156, 245, 0.06);
+  --amber: #d4a853;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+nav {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+nav a:hover { color: var(--heading); }
+nav .sep { color: var(--border); }
+nav .current { color: var(--accent); }
+
+.hero {
+  padding: 5rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 0%, var(--accent-glow) 0%, transparent 60%);
+}
+.hero-era {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.hero .full-name {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.hero .epigraph {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--accent);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.5;
+}
+.hero .epigraph-source {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+}
+
+.content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.content h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: var(--accent-dim);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--heading);
+  line-height: 1.7;
+}
+
+.principles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+.principle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.principle h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.principle p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.planes {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0 2rem;
+}
+.plane {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
+.plane:last-child { border-bottom: none; }
+.plane-age {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+.plane-name {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  color: var(--heading);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.plane-desc {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.castalia-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0;
+}
+.castalia-section h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+  color: var(--amber);
+}
+
+.mapping {
+  margin: 1.5rem 0;
+}
+.mapping-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.mapping-row:last-child { border-bottom: none; }
+.mapping-from {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-align: right;
+}
+.mapping-arrow {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+}
+.mapping-to {
+  font-size: 1rem;
+  color: var(--heading);
+}
+
+.faculty-callout {
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--border);
+}
+.faculty-callout p {
+  font-size: 1.15rem;
+  color: var(--text);
+  max-width: 550px;
+  margin: 0 auto 1.5rem;
+}
+.faculty-callout .agent-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.faculty-callout .btn {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+.faculty-callout .btn:hover { opacity: 0.85; }
+
+.back-link {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.back-link:hover { color: var(--heading); }
+
+@media (max-width: 600px) {
+  .hero { padding: 3rem 1.5rem 2.5rem; }
+  .content { padding: 0 1.5rem 3rem; }
+  .mapping-row { grid-template-columns: 1fr; gap: 0.25rem; text-align: left; }
+  .mapping-from { text-align: left; }
+  .mapping-arrow { display: none; }
+  .plane { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="https://inquiry.institute">Inquiry Institute</a>
+  <span class="sep">/</span>
+  <a href="./">Pedagogy</a>
+  <span class="sep">/</span>
+  <span class="current">Montessori</span>
+</nav>
+
+<section class="hero">
+  <div class="hero-era">Italy · 1870–1952</div>
+  <h1>Maria Montessori</h1>
+  <div class="full-name">Maria Tecla Artemisia Montessori — Physician, Scientist, Educator, Nobel Peace Prize Nominee</div>
+  <p class="epigraph">"The hands are the instruments of man's intelligence."</p>
+  <p class="epigraph-source">— <cite>The Absorbent Mind</cite>, 1949</p>
+</section>
+
+<div class="content">
+
+  <h2>The Science</h2>
+
+  <p>Maria Montessori was Italy's first female physician. She didn't come to education through philosophy — she came through clinical observation. Watching children in the slums of Rome's San Lorenzo quarter, she discovered something that upended every assumption about how children learn: given the right materials in the right environment, children teach themselves.</p>
+
+  <p>This wasn't idealism. It was empirical. She built materials, tested them, discarded what didn't work, refined what did. The result was a science of education — a method grounded not in what adults think children need, but in what children actually do when free to follow their own developmental impulse.</p>
+
+  <div class="principles">
+    <div class="principle">
+      <h3>The Prepared Environment</h3>
+      <p>Everything in the child's space is chosen, sized, and arranged to invite independent use. The environment teaches; the adult observes. Order is not imposed — it is designed in.</p>
+    </div>
+    <div class="principle">
+      <h3>Concrete to Abstract</h3>
+      <p>The child holds the golden beads before she understands place value. She traces sandpaper letters before she writes. The hand teaches the mind, not the reverse.</p>
+    </div>
+    <div class="principle">
+      <h3>Sensitive Periods</h3>
+      <p>Windows of intense, transient interest — for order, language, movement, small objects, social behavior. When the window is open, learning is effortless. When it closes, the same learning requires immense effort.</p>
+    </div>
+    <div class="principle">
+      <h3>The Three-Hour Work Cycle</h3>
+      <p>Children need long, uninterrupted blocks to reach deep concentration. The cycle follows a predictable pattern: choosing, settling, intensifying, completing, resting. Interrupt it, and the deepest work never happens.</p>
+    </div>
+    <div class="principle">
+      <h3>Mixed-Age Communities</h3>
+      <p>Three-year age spans (3–6, 6–9, 9–12). Younger children absorb from older; older children solidify knowledge by teaching. Competition gives way to collaboration.</p>
+    </div>
+    <div class="principle">
+      <h3>Auto-Education</h3>
+      <p>The materials are self-correcting. The child doesn't need the adult to say "right" or "wrong" — the material itself provides feedback. Independence is built into the design.</p>
+    </div>
+  </div>
+
+  <h2>The Four Planes of Development</h2>
+
+  <p>Montessori's most profound insight was developmental: children don't grow in a straight line. They transform through four qualitatively different planes, each with its own psychology, needs, and mode of learning.</p>
+
+  <div class="planes">
+    <div class="plane">
+      <div class="plane-age">0–6</div>
+      <div>
+        <div class="plane-name">The Absorbent Mind</div>
+        <div class="plane-desc">The child absorbs the entire culture — language, movement, order, sensory discrimination — unconsciously at first (0–3), then consciously (3–6). "Help me do it myself."</div>
+      </div>
+    </div>
+    <div class="plane">
+      <div class="plane-age">6–12</div>
+      <div>
+        <div class="plane-name">The Reasoning Mind</div>
+        <div class="plane-desc">Imagination explodes. The child wants to know <em>why</em> and <em>how</em>. Cosmic education — the story of the universe, the story of life, the story of humanity — gives framework to insatiable curiosity. "Help me think for myself."</div>
+      </div>
+    </div>
+    <div class="plane">
+      <div class="plane-age">12–18</div>
+      <div>
+        <div class="plane-name">The Social Self</div>
+        <div class="plane-desc">The adolescent needs to find their place in society. Erdkinder — "children of the earth" — learning through real work, economic participation, and community contribution. "Help me find myself."</div>
+      </div>
+    </div>
+    <div class="plane">
+      <div class="plane-age">18–24</div>
+      <div>
+        <div class="plane-name">The Mature Adult</div>
+        <div class="plane-desc">The young adult specializes, contributes, and leads. Deep study in a chosen field, mentored by those who have mastered it. "Help me contribute."</div>
+      </div>
+    </div>
+  </div>
+
+  <blockquote>
+    "The child is not a miniature adult. He is a different being — with different needs, different psychology, a different mode of being in the world — at each stage of his development."
+  </blockquote>
+
+  <h2>Why It Endures</h2>
+
+  <p>There are over 22,000 Montessori schools worldwide. Amazon, Google, and Wikipedia were all founded by Montessori alumni. The method endures because it works — not as ideology, but as engineering. Montessori materials are precision instruments for cognitive development, and the results are measurable: Montessori children consistently outperform peers in reading, math, executive function, and social skills.</p>
+
+  <p>For homeschool families, Montessori offers something especially valuable: a method designed for self-directed learners in mixed-age environments — which is precisely what a homeschool is.</p>
+
+  <div class="castalia-section">
+    <h2>How Castalia Brings Montessori to Life</h2>
+
+    <p>Maria Montessori's prepared environment was physical — pink towers, golden beads, moveable alphabets. Castalia extends the principle into the life of the mind: a digital prepared environment where every text, every thinker, and every subject is sized, arranged, and self-correcting.</p>
+
+    <div class="mapping">
+      <div class="mapping-row">
+        <div class="mapping-from">Prepared Environment</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>The Platform</strong> — Encyclopaedia, Bibliotech, Dialogic, Faculty, and Symposia are arranged by epoch and difficulty. The learner navigates freely; the environment guides.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Auto-Education</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>AI Faculty</strong> — Adaptive, self-pacing mentors who respond to the learner's level. The child leads; the Faculty follows. No grades — comprehension checks that adjust in real time.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Concrete to Abstract</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>F451 Book Agents</strong> — Primary sources first, commentary second. The child encounters Darwin's own argument before anyone explains what Darwin "meant." Concrete text → abstract understanding.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Sensitive Periods</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Ontogenic Spiral</strong> — Castalia's seven-year spiral (5–12, 12–19, 19–26) maps directly onto Montessori's planes. Content is sequenced to meet the learner's developmental moment.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Cosmic Education</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>The Encyclopaedia</strong> — 483+ entries telling the story of human thought from origins to the present. The "Great Lessons" of Montessori's second plane, mapped across all seven epochs.</div>
+      </div>
+      <div class="mapping-row">
+        <div class="mapping-from">Mixed-Age Community</div>
+        <div class="mapping-arrow">→</div>
+        <div class="mapping-to"><strong>Symposia</strong> — Faculty-hosted discussions, debates, and salons where learners of all ages engage with ideas together. The social dimension Montessori knew was essential.</div>
+      </div>
+    </div>
+
+    <p>Montessori wrote: <em>"Education is not something which the teacher does, but a natural process which develops spontaneously in the human being."</em> Castalia is the prepared environment for that spontaneous process — not a teacher delivering content, but a world arranged for discovery.</p>
+  </div>
+
+  <div class="faculty-callout">
+    <p>Maria Montessori is a member of the Castalia AI Faculty. Ask her about the planes of development, cosmic education, the prepared environment, or how to observe your child's sensitive periods.</p>
+    <div class="agent-id">a.Montessori</div>
+    <br><br>
+    <a href="https://castalia.institute/faculty" class="btn">Speak with Maria Montessori →</a>
+  </div>
+
+  <a href="./" class="back-link">← All Traditions</a>
+</div>
+
+</body>
+</html>

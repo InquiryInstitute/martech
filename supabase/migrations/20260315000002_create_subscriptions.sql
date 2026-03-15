@@ -1,0 +1,1 @@
+-- Subscriptions are tracked in the memberships table. This file is intentionally empty.

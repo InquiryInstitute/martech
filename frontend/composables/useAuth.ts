@@ -1,21 +1,34 @@
-import { createClient } from '@supabase/supabase-js'
 import { ref, readonly } from 'vue'
-
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://pilmscrodlitdrygabvo.supabase.co'
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpbG1zY3JvZGxpdGRyeWdhYnZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIzNTAyMTAsImV4cCI6MjA3NzkyNjIxMH0.BZxQiztlwtKjhL1Jjjqd0CnvfIbuwYHV0YL2s50cQiA'
-
-const supabase = createClient(supabaseUrl, supabaseAnonKey)
+import { supabase } from './useSupabase'
 
 const user = ref<any>(null)
+const profile = ref<any>(null)
 const loading = ref(true)
 
-supabase.auth.getSession().then(({ data: { session } }) => {
+async function loadProfile(userId: string) {
+  const { data } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', userId)
+    .single()
+  profile.value = data
+}
+
+supabase.auth.getSession().then(async ({ data: { session } }) => {
   user.value = session?.user ?? null
+  if (session?.user) {
+    await loadProfile(session.user.id)
+  }
   loading.value = false
 })
 
-supabase.auth.onAuthStateChange((_event, session) => {
+supabase.auth.onAuthStateChange(async (_event, session) => {
   user.value = session?.user ?? null
+  if (session?.user) {
+    await loadProfile(session.user.id)
+  } else {
+    profile.value = null
+  }
   loading.value = false
   if (session) {
     history.replaceState(null, '', window.location.pathname)
@@ -35,12 +48,21 @@ export function useAuth() {
 
   const logout = async () => {
     await supabase.auth.signOut()
+    profile.value = null
+  }
+
+  const refreshProfile = async () => {
+    if (user.value) {
+      await loadProfile(user.value.id)
+    }
   }
 
   return {
     user: readonly(user),
+    profile: readonly(profile),
     loading: readonly(loading),
     loginWithGoogle,
     logout,
+    refreshProfile,
   }
 }

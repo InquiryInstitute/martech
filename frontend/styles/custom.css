@@ -5,10 +5,69 @@
   --slidev-theme-secondary: #764ba2;
 }
 
-/* Cover slide styling */
+/* Constrain each slide to viewport so content never overlaps adjacent slides */
+.slidev-page {
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Prevent content from spilling off; allow scroll when content is tall */
+.slidev-layout {
+  height: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem; /* room for slide number / progress */
+}
+
+/* Ensure grid/content areas can shrink and don't force slide to grow */
+.slidev-layout .grid {
+  min-height: 0;
+  flex-shrink: 1;
+}
+
+/* Content slide headings: compact to reclaim vertical space */
+.slidev-layout:not(.cover):not(.section):not(.center) h1 {
+  font-size: 1.4em !important;
+  margin-bottom: 0.15em !important;
+  line-height: 1.2 !important;
+}
+
+/* Tighter h3 inside content slides */
+.slidev-layout h3 {
+  font-size: 0.88em !important;
+  margin-top: 0.2em !important;
+  margin-bottom: 0.1em !important;
+  line-height: 1.25 !important;
+}
+
+/* Tighter paragraph and list spacing */
+.slidev-layout:not(.cover):not(.section):not(.center) p {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  line-height: 1.35;
+}
+
+.slidev-layout ul,
+.slidev-layout ol {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  padding-left: 1.2em;
+}
+
+.slidev-layout li {
+  margin-top: 0.02em;
+  margin-bottom: 0.02em;
+  line-height: 1.3;
+}
+
+/* Cover slide styling — extra padding so abs-bl footer doesn't overlap */
 .slidev-layout.cover {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
   color: white !important;
+  padding-bottom: 3.5rem !important;
 }
 
 .slidev-layout.cover h1 {
@@ -52,9 +111,24 @@
   background: none;
 }
 
+/* Two-cols layout: prevent columns from overlapping, allow scroll */
+.slidev-layout.two-cols {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-content: start;
+}
+
+.slidev-layout.two-cols .slidev-layout-left,
+.slidev-layout.two-cols .slidev-layout-right,
+.slidev-layout.two-cols > div {
+  min-height: 0;
+  overflow-y: auto;
+}
+
 /* Tables */
 .slidev-layout table {
-  font-size: 0.85em;
+  font-size: 0.78em;
   width: 100%;
 }
 
@@ -65,13 +139,15 @@
 
 .slidev-layout table td,
 .slidev-layout table th {
-  padding: 6px 12px;
+  padding: 2px 6px;
   border-bottom: 1px solid #e8e8f0;
 }
 
-/* Code blocks */
+/* Code blocks — constrain height so they don't push content off slide */
 .slidev-layout pre {
   font-size: 0.8em;
+  max-height: 45vh;
+  overflow: auto;
 }
 
 /* Slide number */

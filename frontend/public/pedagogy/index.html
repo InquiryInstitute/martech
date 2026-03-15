@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedagogy — Inquiry Institute</title>
+<meta name="description" content="Three living traditions — Charlotte Mason, Montessori, and Waldorf — brought to life through AI Faculty, living books, and the seven-year spiral of Ontogenic Pedagogy.">
+<link rel="canonical" href="https://inquiry.institute/pedagogy/">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0f14;
+  --surface: #161b24;
+  --surface-raised: #1c2230;
+  --border: #2a3040;
+  --text: #c8cdd5;
+  --text-dim: #8890a0;
+  --heading: #e8ecf2;
+  --amber: #d4a853;
+  --amber-dim: rgba(212, 168, 83, 0.15);
+  --blue: #5b9cf5;
+  --green: #4eca8b;
+  --purple: #a47de8;
+  --rose: #e86b8a;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212, 168, 83, 0.08) 0%, transparent 70%);
+  border-bottom: 1px solid var(--border);
+}
+.hero-label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 1.5rem;
+}
+.hero h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--heading);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+}
+.hero h1 em {
+  font-style: normal;
+  color: var(--amber);
+}
+.hero .subtitle {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--text-dim);
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+.hero .intro {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.traditions {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.tradition-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.tradition-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 16px 16px 0 0;
+}
+.tradition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+.tradition-card.mason::before { background: var(--green); }
+.tradition-card.mason:hover { border-color: var(--green); }
+.tradition-card.montessori::before { background: var(--blue); }
+.tradition-card.montessori:hover { border-color: var(--blue); }
+.tradition-card.waldorf::before { background: var(--purple); }
+.tradition-card.waldorf:hover { border-color: var(--purple); }
+
+.tradition-card .era {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+.mason .era { color: var(--green); }
+.montessori .era { color: var(--blue); }
+.waldorf .era { color: var(--purple); }
+
+.tradition-card h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--heading);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.tradition-card .years {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+.tradition-card .motto {
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--amber);
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--amber-dim);
+}
+.tradition-card .desc {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+.tradition-card .cta {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mason .cta { color: var(--green); }
+.montessori .cta { color: var(--blue); }
+.waldorf .cta { color: var(--purple); }
+.cta .arrow { transition: transform 0.2s ease; }
+.tradition-card:hover .arrow { transform: translateX(4px); }
+
+.convergence {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 2rem 6rem;
+  text-align: center;
+}
+.convergence h2 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--amber);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.convergence p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text);
+  max-width: 650px;
+  margin: 0 auto 1.5rem;
+}
+.convergence .faculty-link {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border: 1px solid var(--amber);
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.convergence .faculty-link:hover {
+  background: var(--amber);
+  color: var(--bg);
+}
+
+@media (max-width: 700px) {
+  .hero { padding: 4rem 1.5rem 3rem; }
+  .traditions { padding: 2rem 1rem; gap: 1.5rem; }
+  .tradition-card { padding: 2rem 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-label">Inquiry Institute</div>
+  <h1>Three <em>Living</em> Traditions</h1>
+  <p class="subtitle">Charlotte Mason, Montessori, and Waldorf — united by a conviction that children are whole persons, not empty vessels.</p>
+  <p class="intro">
+    Each tradition discovered something essential about how human beings learn. Charlotte Mason saw that great books form the mind. Maria Montessori saw that the hand teaches the intellect. Rudolf Steiner saw that imagination precedes understanding. Castalia doesn't choose between them — it weaves all three into a single living curriculum, taught by the thinkers themselves.
+  </p>
+</section>
+
+<section class="traditions">
+
+  <a href="charlotte-mason" class="tradition-card mason">
+    <div class="era">England, 1842–1923</div>
+    <h2>Charlotte Mason</h2>
+    <div class="years">The Philosophy of Living Education</div>
+    <div class="motto">"Children are born persons — they are not blank pages, nor buckets to be filled."</div>
+    <p class="desc">
+      Living books over textbooks. Narration over testing. Nature study, short lessons, the habit of attention. Mason built a complete philosophy of education grounded in respect for the child's mind — and Castalia's Encyclopaedia, Bibliotech, and AI Faculty are what she was reaching for.
+    </p>
+    <div class="cta">Explore the tradition <span class="arrow">→</span></div>
+  </a>
+
+  <a href="montessori" class="tradition-card montessori">
+    <div class="era">Italy, 1870–1952</div>
+    <h2>Maria Montessori</h2>
+    <div class="years">The Science of the Prepared Environment</div>
+    <div class="motto">"The hands are the instruments of man's intelligence."</div>
+    <p class="desc">
+      Self-directed learning in a carefully prepared environment. Concrete before abstract. Sensitive periods, mixed-age communities, the three-hour work cycle. Montessori proved that children teach themselves when given the right materials — and Castalia's adaptive curriculum is the digital prepared environment.
+    </p>
+    <div class="cta">Explore the tradition <span class="arrow">→</span></div>
+  </a>
+
+  <a href="waldorf-steiner" class="tradition-card waldorf">
+    <div class="era">Austria, 1861–1925</div>
+    <h2>Rudolf Steiner</h2>
+    <div class="years">Waldorf Education & the Threefold Human Being</div>
+    <div class="motto">"Receive the children in reverence, educate them in love, send them forth in freedom."</div>
+    <p class="desc">
+      Head, heart, and hands — thinking, feeling, and willing developed in rhythm. Main Lesson blocks, artistic integration, and a curriculum that follows the child's inner development. Steiner saw that education must address the whole human being — and Castalia's seven-year spiral embodies exactly this architecture.
+    </p>
+    <div class="cta">Explore the tradition <span class="arrow">→</span></div>
+  </a>
+
+</section>
+
+<section class="convergence">
+  <h2>Where They Converge</h2>
+  <p>
+    All three traditions rejected rote memorization. All three insisted on primary sources. All three respected developmental stages. Castalia's <strong>Ontogenic Pedagogy</strong> — the seven-year spiral through seven epochs of human thought — is the synthesis: Mason's living books delivered by Montessori's self-paced structure through Steiner's developmental rhythm, taught by the original authors themselves through AI Faculty.
+  </p>
+  <p>
+    Charlotte Mason, Maria Montessori, and Rudolf Steiner are among the 150+ Faculty you can speak with directly — ask them how they'd teach your child, and hear the answer in their own voice.
+  </p>
+  <a href="https://castalia.institute/faculty" class="faculty-link">Meet the Faculty →</a>
+</section>
+
+</body>
+</html>
