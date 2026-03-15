@@ -241,6 +241,56 @@ Free tier: generous enough to create love, limited enough to create want.
 
 ---
 
+# Pedagogical Foundation: Ontogenic Pedagogy
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### The Principle
+
+*"The developing intellect should traverse the same path that human understanding itself has traveled."*
+
+Modern curricula present knowledge in its final form — definitions before intuition, theorems before the problems that demanded them. Ontogenic pedagogy reverses this. The student encounters ideas in the order humanity discovered them.
+
+**This is Castalia's deepest competitive moat.** No other platform has an integrated philosophy of knowledge rooted in the chronological history of human thought.
+
+### The Seven-Year Spiral
+
+| Spiral | Ages | Mode |
+|--------|------|------|
+| **First** | 5–12 | Experiential — the child *lives* the discovery |
+| **Second** | 12–19 | Analytical — proofs replace demonstrations |
+| **Third** | 19–26 | Synthetic — original work and creation |
+
+Each spiral traverses all seven epochs. Three passes across 21 years.
+
+</div>
+<div>
+
+### The Seven Epochs
+
+1. **Origins & Number** — Prehistory to Early Antiquity
+2. **Writing & Measure** — Early Civilizations (3500–800 BCE)
+3. **Reason & Proof** — Classical Antiquity (800–200 BCE)
+4. **Synthesis & Transmission** — Medieval (200 BCE–1200 CE)
+5. **Observation & Revolution** — Renaissance (1200–1600)
+6. **Method & Mechanism** — Enlightenment (1600–1800)
+7. **Unification & Complexity** — Modern Era (1800–Present)
+
+### Why This Sells
+
+- **Homeschool**: This *is* the Charlotte Mason / Classical curriculum — complete, integrated, with AI Faculty who teach each epoch
+- **Lifelong learner**: The Third Spiral is his entry point — he's already lived the first two informally
+- **Investor**: IP that cannot be replicated by adding a chatbot to a textbook
+- **Patron**: The 21-year vision worth funding
+
+**Enrollment story:** *"My child learned geometry by surveying a field after a flood. Then she asked Euclid why it works. She's nine."*
+
+</div>
+</div>
+
+---
+
 # Channel Strategy Overview
 
 <div class="text-xs mt-2">

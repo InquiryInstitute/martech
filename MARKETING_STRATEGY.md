@@ -20,12 +20,246 @@ This document is the detailed marketing strategy for Castalia Institute. It cove
 - Physical-first — books, devices, robots, medals, cards, not just screens
 - Canonical authority — every entry by the historical figure best suited to write it
 - Bootstrap-funded — community-supported, not VC-dependent
-- Full-spectrum audience — ages 5 to 105, homeschoolers to researchers
+- Full-spectrum product, focused marketing — the ecosystem serves ages 5 to 105, but Year 1 marketing targets 500 homeschool families (see Godin SVA framework below)
 
 **Brand voice:**
 - Scholarly but accessible — not academic jargon, not dumbed down
 - Confident without hype — "we built this" not "we're disrupting education"
 - Build-in-public transparency — share the real numbers, the real challenges
+
+---
+
+## Strategic Framework: "This Is Marketing" Applied to Castalia
+
+*Analysis in the tradition of Seth Godin's "This Is Marketing" — who is it for, what is it for, and what change are we seeking to make?*
+
+### The Change We Seek to Make
+
+Every marketing action must answer one question: **What change are we trying to make in the world?**
+
+Castalia's answer: **We believe the great conversation of human history — the real texts, the real arguments, the real minds — belongs to everyone, not just people who can afford a university or tolerate a lecture hall.** We're making it possible for a 10-year-old in suburban Texas, a retired engineer in London, and a curious autodidact in Lagos to sit down with Darwin, Hypatia, or Rumi and have a real conversation.
+
+This is not "disrupting education." This is *restoring* something that was lost — the ancient model where a student sits with a teacher and they talk. We're using AI to bring that back at scale.
+
+### The Smallest Viable Audience
+
+Godin's central insight: **Don't try to reach everyone. Find the smallest group of people who, if you delighted them completely, would carry your message to the world.**
+
+For Castalia, this is not "all parents" or "all learners." It is:
+
+**The 500.**
+
+Five hundred homeschool mothers who:
+- Believe in "living books" over textbooks
+- Are already spending $500-2,000/year assembling curriculum from 5-10 different sources
+- Are active in at least one homeschool Facebook group or co-op
+- Have tried and been disappointed by at least one digital learning tool
+- Would describe themselves as "Charlotte Mason" or "classical" or "eclectic"
+- Trust their own judgment over institutional authority
+
+If we serve these 500 women so well that each one tells her co-op, her Facebook group, and her church homeschool circle — we don't need a marketing budget. We need to be *remarkable* (worth remarking about) to 500 people, not adequate to 50,000.
+
+**The math:** 500 members × $49/mo = $24,500/mo MRR = $294K ARR. That's enough to fund everything through Year 2 without a single ad dollar.
+
+### "People Like Us Do Things Like This"
+
+Marketing doesn't work by shouting. It works by matching an existing worldview. The question is: **What does our audience already believe about themselves?**
+
+**The Homeschool Mother's Story:**
+> "I am the kind of mother who takes my children's education seriously enough to do it myself. I choose real books over worksheets, conversation over multiple choice, and depth over breadth. I don't trust Silicon Valley to raise my kids. I'm looking for tools that respect my values and my intelligence."
+
+Castalia doesn't need to create this belief — it already exists in 2 million families. We need to **show up as the thing she's been looking for.** The Encyclopaedia, written by the actual historical figures. Faculty conversations her kids can have at the dinner table. iNQ Cards her son collects like Pokémon but each one teaches him about a real thinker. A credential system that actually proves what he learned.
+
+Everything in our marketing must reinforce: **"This is what people like you use. People who care about real education."**
+
+**The Lifelong Learner's Story:**
+> "I am a person who never stopped being curious. I've outgrown MOOCs and podcasts and I want something that treats me like an adult — not a customer, not a 'user,' not a 'learner.' I want to engage with real ideas at a real level. I want intellectual peers, not gamification streaks."
+
+For him, the story is: **"Castalia is where serious people go to think."** Not edutainment. Not AI novelty. The Encyclopaedia's authority. Magisteria credentials that mean something. Physical artifacts (iNQ Cards, hardbound volumes) that signal "I am a person who values knowledge."
+
+### Status: Affiliation vs. Dominance
+
+Godin identifies two status motivations:
+
+- **Affiliation** — "I belong to this group" (connection, community, shared identity)
+- **Dominance** — "I have achieved something" (rank, credentials, recognition)
+
+Castalia uniquely serves both:
+
+| Product | Status Type | The Story It Tells |
+|---------|------------|-------------------|
+| Membership | Affiliation | "I'm part of an intellectual community" |
+| Symposia / Faculty Club | Affiliation | "I witnessed Nietzsche crash a Buddhist drinking party" |
+| Book Club | Affiliation | "I'm in Austen's reading group" |
+| Feed (Fediverse) | Affiliation | "My intellectual social feed, not my doomscroll feed" |
+| Magisteria credentials | Dominance | "I earned the rank of Adept through demonstrated mastery" |
+| iNQ Cards collection | Dominance | "I have the complete Volume III set — do you?" |
+| Encyclopaedia (hardbound) | Dominance | "These are on my shelf. I own them." |
+| Map of Inquiry progress | Dominance | "I've explored 60% of the map" |
+| Table (TTRPG) | Affiliation | "I played D&D with Tolkien as the DM" |
+
+**Key insight:** The homeschool mother buys for affiliation ("this is what our family does") but stays for dominance ("my child earned the Apprentice rank"). The lifelong learner discovers through dominance ("I need to be intellectually challenged") but stays for affiliation ("I found my people").
+
+### Permission, Not Interruption
+
+Godin's hierarchy: **Strangers → Friends → Customers → Loyal Advocates.**
+
+The traditional EdTech playbook is: buy Google Ads → landing page → free trial → payment wall. This is **interruption marketing** — you're buying someone's attention and hoping they convert before they leave.
+
+Castalia's model is the opposite — **permission marketing**:
+
+1. **A stranger finds an Encyclopaedia entry via Google.** She didn't search for "Castalia." She searched for "Darwin on adaptation" or "philosophy curriculum homeschool." The entry is so good she bookmarks it.
+2. **She returns.** This time she tries an AI Faculty conversation. She didn't "sign up for a demo." She had a 5-minute conversation with Darwin that her son overheard and joined.
+3. **She gives us permission** to email her: "Get the weekly Encyclopaedia reading list." This is earned, not bought.
+4. **She converts on her own timeline.** Day 14, day 30, day 60 — when she's ready, not when our drip campaign says so.
+5. **She becomes an advocate.** She tells her co-op. She posts in her Facebook group. She doesn't do this because we asked — she does it because Castalia is *remarkable* (worth remarking about).
+
+**No step in this funnel requires a single dollar of paid advertising.** The Encyclopaedia IS the marketing. The Faculty conversation IS the demo. The quality IS the pitch.
+
+### Tension: The Productive Discomfort That Drives Action
+
+Godin: "Good marketing creates tension — the gap between where someone is and where they want to be."
+
+For the homeschool mother:
+> "Your child is reading *about* Darwin in a textbook. Wouldn't it be better if they could *talk to* Darwin?"
+
+That's tension. She knows the answer. The question is whether she acts on it.
+
+For the lifelong learner:
+> "You've listened to 200 podcast episodes about philosophy. When was the last time you actually *argued* with a philosopher?"
+
+That's tension. It's not an insult — it's an invitation to close the gap between consuming and engaging.
+
+**Where we create tension in the product:**
+
+| Moment | Tension Created | Resolution Offered |
+|--------|----------------|-------------------|
+| Free Faculty conversation hits 5/day limit | "I was in the middle of something real" | Membership ($49/mo) removes the limit |
+| Encyclopaedia entry references a primary source | "I want to read the actual text" | Bibliotech has it (free, but reader features are membership) |
+| iNQ Card QR code scans to a gated conversation | "I have the card but can't use it fully" | Membership unlocks unlimited conversations |
+| Map of Inquiry shows locked cities | "I want to see what's next" | Complete activities to unlock (engagement + retention) |
+| Magisteria shows next rank requirements | "I'm so close to Adept" | Continue the program (retention) |
+
+This is not dark-pattern friction. Every free user gets enormous value (5 conversations/day, full Encyclopaedia, Apocalypso dashboard). The tension is natural — **people who fall in love with something want more of it.**
+
+### "It's Not for Everyone"
+
+The most important marketing decision is **who it's NOT for.** Trying to be for everyone means being remarkable to no one.
+
+**Castalia is NOT for people who:**
+- Want test prep or exam cramming (we don't optimize for standardized tests)
+- Want gamified dopamine loops (no streaks, no points, no leaderboards — the Map is progression, not competition)
+- Want AI to replace human judgment (our Faculty enrich human learning, they don't shortcut it)
+- Want the cheapest option (we cost more than Khan Academy because we offer more)
+- Want passive consumption (you have to *engage* — read, talk, argue, annotate)
+
+Saying this out loud — on our website, in our pitch, in our social media — isn't a weakness. **It's a filter.** It tells the right people "this is for you" by clearly showing who it isn't for. The homeschool mother who reads "no gamified dopamine loops" exhales with relief. The lifelong learner who reads "you have to engage" feels respected.
+
+### The Remarkable Product Test
+
+Godin's test: **Would someone who just experienced your product remark about it to someone else?**
+
+| Product | Remark |
+|---------|--------|
+| Encyclopaedia entry | "I just read what Darwin *himself* would say about adaptation. Not a summary — his actual argument." |
+| AI Faculty conversation | "My daughter just argued with Socrates about justice for 20 minutes. She's 11." |
+| Symposium | "I watched Nietzsche crash a Buddhist symposium. You have to see this." |
+| Singh lecture | "I interrupted Euler in the middle of a calculus lecture to ask a question. He answered." |
+| iNQ Cards | "These cards are beautiful — my son scans the QR code and talks to the person on the card." |
+| Talking Bust | "The marble bust actually *spoke* to me. Mouth moving, voice, everything. It's like a museum that talks back." |
+| Table | "I just played D&D with Tolkien as the DM." |
+| Faculty Club | "I overheard Darwin and Wallace arguing about beetles over lunch." |
+
+Every single one of these is a sentence someone would say to a friend. **That's the marketing.** Not "Castalia Institute offers AI-powered personalized learning experiences." That sentence has never been repeated by anyone in the history of language.
+
+### The Enrollment Decision: How People Decide
+
+Godin's model: People don't buy products. They buy **stories about themselves.** They buy **enrollment in a future they want.**
+
+When a homeschool mother signs up for Castalia, she is not buying "a $49/month educational subscription." She is enrolling in the story: **"I am giving my children an education that even the best private schools can't match — access to the greatest minds in history, real books, real credentials, real intellectual depth."**
+
+When a lifelong learner subscribes, he is not buying "unlimited AI conversations." He is enrolling in: **"I am the kind of person who spends my evenings with Kant and Darwin, not Netflix. I have a credential that proves it. I belong to a community that values what I value."**
+
+**Every piece of marketing must reinforce the enrollment story, not the feature list.**
+
+- Wrong: "Castalia offers 10,000 AI faculty personas with Socratic dialogue."
+- Right: "What if your daughter could ask Darwin a question — and he answered?"
+
+- Wrong: "Our Encyclopaedia contains 483 entries across 13 volumes."
+- Right: "We asked the world's greatest minds to write the definitive entry on their life's work. Then we let you talk to them about it."
+
+- Wrong: "Singh delivers Khan Academy content through AI-powered interactive lectures."
+- Right: "Euler teaches calculus. You can interrupt him. He doesn't mind."
+
+### Applying This to Channel Strategy
+
+Every channel decision flows from Godin's framework:
+
+| Principle | Channel Implication |
+|-----------|-------------------|
+| Smallest viable audience | Homeschool Facebook groups (500 mothers), not Google Ads to "all parents" |
+| People like us | Share in the communities where the identity already exists (Charlotte Mason groups, r/philosophy) |
+| Permission, not interruption | The Encyclopaedia earns attention; email captures permission; conversion happens organically |
+| Tension | Free tier is generous enough to create love, limited enough to create want |
+| Remarkable | Every social post must pass the "would she text this to her friend?" test |
+| Not for everyone | Don't water down the message for broader appeal — specificity is the strategy |
+| Status | iNQ Cards and hardbound volumes serve dominance (collection); Book Club and Symposia serve affiliation (community) |
+
+---
+
+## Ontogenic Pedagogy — The Intellectual Foundation
+
+*ontogeny.castalia.institute*
+
+Every EdTech platform has features. Castalia has a philosophy of knowledge. **Ontogenic Pedagogy** is the principle that the developing intellect should traverse the same path that human understanding itself has traveled — from the first marks on bone to the unification of forces.
+
+Modern curricula present knowledge in its final, polished form: definitions before intuition, theorems before the problems that demanded them. Ontogenic pedagogy reverses this. The student encounters ideas in the order humanity discovered them, experiencing the same confusions and the same breakthroughs.
+
+### The Seven-Year Spiral
+
+The curriculum is organized as a spiral of seven years. Each cycle traverses the full arc of human intellectual history at increasing depth. The student meets each epoch three times across twenty-one years:
+
+| Spiral | Ages | Mode | Description |
+|--------|------|------|-------------|
+| First | 5–12 | Experiential & Concrete | Knowledge through the hands and senses. The child *lives* the discovery. |
+| Second | 12–19 | Analytical & Formal | The same territory revisited with abstraction. Proofs replace demonstrations. |
+| Third | 19–26 | Synthetic & Creative | Original work. The student contributes to the landscape of knowledge. |
+
+### The Seven Epochs
+
+Within each spiral, seven years follow the chronological progression of human discovery:
+
+1. **Origins & Number** — Prehistory to Early Antiquity
+2. **Writing & Measure** — Early Civilizations (3500–800 BCE)
+3. **Reason & Proof** — Classical Antiquity (800–200 BCE)
+4. **Synthesis & Transmission** — Late Antiquity through Medieval (200 BCE–1200 CE)
+5. **Observation & Revolution** — Renaissance & Reformation (1200–1600)
+6. **Method & Mechanism** — The Enlightenment (1600–1800)
+7. **Unification & Complexity** — The Modern Era (1800–Present)
+
+### Why This Matters for Marketing
+
+Ontogenic Pedagogy is Castalia's deepest competitive moat. No other platform has an integrated philosophy of how knowledge should be taught, organized chronologically across the entire history of human thought. This matters because:
+
+1. **For homeschool mothers**: This is the curriculum framework they've been assembling from 10 different sources. Charlotte Mason, classical, and eclectic families all recognize this approach — living books, primary sources, chronological learning. Castalia delivers it as a complete, integrated system.
+
+2. **For lifelong learners**: The Third Spiral (Synthetic & Creative) is their entry point — they've already lived the first two spirals informally. Castalia gives structure and community to what they've been doing alone.
+
+3. **For investors**: This is intellectual property that cannot be replicated by adding a chatbot to a textbook. The seven-year spiral, the epoch structure, the pedagogical principles — this is the architecture that makes Castalia an *institution*, not an app.
+
+4. **For patrons**: Ontogenic Pedagogy is the vision worth preserving. Funding Castalia isn't funding a startup — it's funding a 21-year curriculum built on 3,000 years of pedagogical wisdom.
+
+### Guiding Principles (for messaging consistency)
+
+- **Discovery before definition** — every concept is first a problem, never a fact to memorize
+- **Chronological integrity** — ideas presented in the order humanity discovered them
+- **Spiral deepening** — no topic visited only once; each pass adds tools, context, and autonomy
+- **Integration over specialization** — math, science, language, art, and philosophy woven together as they were in each era
+- **Primary sources** — students read Euclid, not a summary of Euclid
+- **The teacher as companion** — the teacher walks alongside, not at the end dispensing answers
+
+**Enrollment story for Ontogenic Pedagogy:**
+> "My child learned geometry the way Euclid's students did — by surveying a field after a flood. Then she asked Euclid why it works. She's nine."
 
 ---
 
@@ -57,6 +291,7 @@ These products strengthen engagement and retention but are not the primary marke
 | Book Club | bookclub.inquiry.institute | LIVE | Faculty-hosted reading groups with Matrix rooms + Bibliotech integration. |
 | Table | table.inquiry.institute | LIVE | Faculty TTRPG (Foundry VTT). Inherently viral — "D&D with Tolkien as DM." |
 | Monastory | monastory.inquiry.institute | LIVE | Contemplative sanctuary. Appeals to depth-seeking learners. |
+| Reliquary (Talking Bust) | (embedded in Faculty UI) | IN DEV | 2.5D interactive marble busts with viseme-driven speech. The visual "wow" layer for every Faculty demo. |
 | Map of Inquiry | maps.castalia.institute | IN DEV | Hex-grid curriculum map. Gamified progression. Retention mechanic. |
 | The Inquirer | inquirer.inquiry.institute | LIVE | Quarterly journal. Publishing credibility. |
 
@@ -69,6 +304,7 @@ Mentioned in investor materials but not part of active marketing until they ship
 | Puppet | (in development) | IN DEV | LLM-driven marionette puppets. Great demo content when ready. |
 | Atrium | (in development) | IN DEV | Matrix chat client (web/iOS/Android). The access layer. |
 | Grounds | grounds.inquiry.institute | LIVE | WorkAdventure virtual campus. Convention demo material. |
+| Game (Inquiry Cup) | game.inquiry.institute | IN DEV | Philosophy-themed football — NAT vs LOG teams with philosopher players. Landing page live, playable game coming soon. |
 
 ### Domain Clarification
 
@@ -191,11 +427,19 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Human observers/players can join alongside AI agents — converts spectators into participants
 - Deeply novel: no competitor has anything remotely like this
 
+**Reliquary (Talking Bust) flywheel:**
+- White marble busts that speak with synchronized lip movement — faculty literally talk to you
+- Transforms text-based AI chat into something that feels like visiting a museum that talks back
+- Every Faculty conversation becomes a visual experience: "I watched Aristotle's marble bust explain consciousness"
+- Screenshots and screen recordings of talking busts are inherently shareable — uncanny, beautiful, and novel
+- Scales to all 10,000+ faculty personas
+- Salon mode (planned): multiple busts on screen in conversation — Symposia and Faculty Club become visual spectacles
+
 **Tier 3 products (not actively marketed — marketing value accrues when they ship):**
 - **Puppet:** LLM-driven marionette puppets. Great demo/video content when ready (TikTok, Reels).
-- **Monastory:** Contemplative sanctuary. Niche appeal but strong differentiator (no edtech competitor has one).
 - **Atrium:** Matrix chat client. Becomes the access layer for all faculty conversations when it ships.
 - **Grounds:** WorkAdventure campus. Convention demo material; visual "this is a real institution" narrative.
+- **Game (Inquiry Cup):** Philosophy-themed football — Naturalists vs Logicians. "I watched Nietzsche score on Confucius" is a headline. Pairs with Grounds for interactive campus experiences.
 
 ---
 
@@ -246,14 +490,14 @@ News article on AI regulation → matched to Turing's interests via RAG
 
 1. Searches "Charlotte Mason science curriculum upper elementary" on Google
 2. Finds Encyclopaedia entry "Darwin on Adaptation" — impressed by depth and writing quality (SEO)
-3. Browses the volume index. Sees adult AND children's editions. Bookmarks.
-4. Returns next day. Prompted to try AI Faculty — talks to Darwin for 5 minutes. Her 10-year-old leans in. (Hook)
+3. Browses the volume index. Sees adult AND children's editions. Clicks into Bibliotech to read Darwin's original *Origin of Species* — the full text is right there. Bookmarks.
+4. Returns next day. Prompted to try AI Faculty — Darwin's marble bust appears and speaks. She talks to him for 5 minutes. Her 10-year-old leans in. (Hook)
 5. Email capture: "Get the weekly Encyclopaedia reading list — free"
-6. Welcome sequence over 10 days: introduces Children's Edition, Faculty conversations, how families use it
+6. Welcome sequence over 10 days: introduces Homeschool lesson plans, Faculty conversations, Singh lectures, how families use it
 7. Day 14 conversion email: "Unlock unlimited Faculty conversations for your whole family — $49/mo"
-8. Month 2: adds iNQ Cards ($20/mo) — kids love the illustrated cards with QR codes
-9. Month 3: pre-orders Atlas Field Tablet ($99) as a dedicated learning device for the kids
-10. Month 6: shares Castalia in her Facebook group: "This replaced three of our curriculum resources"
+8. Month 2: kids discover Singh lectures — Euler teaches math, they can interrupt and ask questions. Adds iNQ Cards ($20/mo) — kids collect the illustrated cards with QR codes
+9. Month 3: listens to a Symposium where Nietzsche crashes a Buddhist discussion. Pre-orders Atlas Field Tablet ($99) as a dedicated learning device
+10. Month 6: shares Castalia in her Facebook group: "This replaced three of our curriculum resources. My kids argue with Socrates for fun now."
 
 ### Segment 2: Lifelong Learners
 
@@ -299,14 +543,14 @@ News article on AI regulation → matched to Turing's interests via RAG
 
 1. Googles "Henri Bergson intuition consciousness" after listening to a Philosophize This! episode
 2. Finds Encyclopaedia entry authored by "Bergson" — reads it, struck by the authenticity of the voice (SEO)
-3. Clicks through to Volume I: Mind. Reads 3 more entries. This isn't a wiki; it's a real scholarly work.
-4. Tries AI Faculty: has a 10-minute conversation with Bergson about creative evolution. This is better than any MOOC.
+3. Clicks through to Volume I: Mind. Reads 3 more entries. Opens Bergson's *Creative Evolution* in Bibliotech — sees Bergson's own marginalia on his text. This isn't a wiki; it's a living scholarly institution.
+4. Tries AI Faculty: Bergson's marble bust appears and speaks. 10-minute conversation about creative evolution. This is better than any MOOC.
 5. Subscribes to "The Encyclopaedia Weekly" email — curated highlights
-6. Day 21 conversion email: "Unlimited conversations with 10,000 minds — $49/mo"
-7. Signs up. First month: works through a structured course on consciousness with James, Husserl, Bergson as faculty.
-8. Month 2: orders iNQ Cards ($20/mo) — the physical collection appeals to the "Folio Society" collector in him
-9. Month 4: pursues Magisteria Apprentice rank — first tangible credential he's earned since his MBA in 1998
-10. Month 6: posts about Castalia on r/philosophy, generating 50+ signups from a single authentic recommendation
+6. Discovers a Faculty Club lunch: Bergson and William James debating pragmatism over coffee. Watches the full transcript. Day 21 conversion email: "Unlimited conversations with 10,000 minds — $49/mo"
+7. Signs up. First month: attends a Symposium on consciousness (6 philosophers + a heretic neuroscientist). Takes Singh lectures on philosophy of mind from Husserl.
+8. Month 2: orders iNQ Cards ($20/mo) — the physical collection appeals to the "Folio Society" collector in him. Joins Austen's Book Club reading Brontë.
+9. Month 4: pursues Magisteria Apprentice rank — first tangible credential he's earned since his MBA in 1998. His Map of Inquiry shows 30% explored.
+10. Month 6: posts about Castalia on r/philosophy — "I just argued with Bergson about consciousness and he cited passages from his own book. This is not like anything else." Generates 50+ signups.
 
 ### Segment 3: STEM Educators (Secondary, Phase 2)
 
@@ -382,7 +626,7 @@ News article on AI regulation → matched to Turing's interests via RAG
 
 ### Channel 2: Social Media — Platform-by-Platform Playbook
 
-**Total time investment:** ~20 hr/week across all platforms. This is the founder's primary marketing activity in Year 1.
+**Total time investment:** ~18-26 hr/week across all platforms (Phase 1 → Phase 2). This is the founder's primary marketing activity in Year 1, reduced to ~7.5 hr/week with the Agentic AI stack (see Agent section).
 
 #### Facebook — Primary Channel for Homeschool Segment
 
@@ -404,7 +648,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 **Tactical playbook:**
 
 1. **Answer-first rule.** When a parent asks "What science curriculum works for my 10-year-old?" — write a genuine 3-4 sentence answer addressing her specific situation. Only then mention "I also put together [Encyclopaedia entry] on this topic if it helps" at the end. Never lead with a link.
-2. **"Free resource" framing.** Share entries as "something I made for my own kids" or "a free resource I found useful." The Encyclopaedia IS free on the web — this is honest, not a trick.
+2. **"Free resource" framing.** Share entries as "a free resource I put together" or "something I built that might help." The Encyclopaedia IS free on the web — this is honest, not a trick. Never claim a personal use case you don't have.
 3. **Co-op demo pipeline.** Post monthly in local/state groups: "Happy to do a free 20-min demo of our AI Faculty for your co-op's Zoom call." Track co-ops contacted vs. demos completed vs. members converted.
 4. **Saturday AM share.** Post one Encyclopaedia entry every Saturday morning with a personal note. Saturday AM is peak homeschool-parent Facebook time (kids doing chores, parent planning the week).
 5. **Convention momentum.** Before/after each convention, post in relevant state groups: "We'll be at [convention] — stop by booth [X] for a free demo." Post follow-up photos and thank-yous.
@@ -571,11 +815,11 @@ Groups to join and actively participate in (do NOT create a competing group):
 
 | Tier | Target Shows | Pitch Angle | Audience Overlap |
 |------|-------------|------------|-----------------|
-| Homeschool | Read-Aloud Revival, Brave Writer, Pam Barnhill, Schole Sisters | "A 13-volume encyclopaedia for classical homeschooling" | Direct to Segment 1 |
-| Philosophy/Intellectual | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "What happens when you have a real conversation with Aristotle?" | Direct to Segment 2 |
-| AI/Technology | Practical AI, AI Breakdown, Latent Space | "10K AI personas — building beyond the chatbot" | Segment 2 + 4 |
-| Indie maker | Indie Hackers, My First Million, Tropical MBA | "Bootstrapping atoms + bits: hardware, books, and AI on $3K" | Segment 4 + general |
-| Niche | The Great Books Podcast, Intellectual Explorers, The History of Philosophy | "Rebuilding the great conversation with AI" | Deep Segment 2 |
+| Homeschool | Read-Aloud Revival, Brave Writer, Pam Barnhill, Schole Sisters | "What if your daughter could ask Darwin a question — and he answered?" | Direct to Segment 1 |
+| Philosophy/Intellectual | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "Euler teaches calculus. You can interrupt him. He doesn't mind." | Direct to Segment 2 |
+| AI/Technology | Practical AI, AI Breakdown, Latent Space | "We built 10,000 historically accurate minds you can actually talk to — here's what we learned" | Segment 2 + 4 |
+| Indie maker | Indie Hackers, My First Million, Tropical MBA | "Solo founder, $3K, 4 months — 20 live products, from marble busts that talk to robots that dig" | Segment 4 + general |
+| Niche | The Great Books Podcast, Intellectual Explorers, The History of Philosophy | "The great conversation never ended. We're just making it easier to join." | Deep Segment 2 |
 
 **Pitch template:** Personal story (NASA → PhD → built an encyclopaedia with AI) + the Encyclopaedia concept (not the product pitch) + one specific surprising example ("When I asked Kant about AI ethics, he cited the categorical imperative. Then Hume disagreed in the marginalia.")
 
@@ -737,7 +981,7 @@ Expected CPA: $50-80 per paid member.
 
 ## Budget Detail
 
-### Year 1: $2,940 + $1,000 reserve = $3,940
+### Year 1: ~$3,000 (plus $1,000 reserve)
 
 | Category | Monthly | Annual | Notes |
 |----------|---------|--------|-------|
@@ -837,6 +1081,7 @@ This section defines what happens in the first three months. Every action maps t
 - [ ] Create UTM tracking templates for all social channels
 - [ ] Set up Stripe billing for $49/mo membership and $20/mo iNQ Cards
 - [ ] Create dedicated social accounts: X/Twitter, Instagram, Pinterest, Threads, Bluesky
+- [ ] Deploy News Agent (GitHub Actions cron), SEO Agent, and Analytics Agent (see Agentic AI section)
 
 ### Week 3–4: Content Seeding
 
@@ -854,6 +1099,7 @@ This section defines what happens in the first three months. Every action maps t
 - [ ] Begin weekly content cadence (Mon entry highlight → Sat deep-read thread)
 - [ ] Pitch first 3 podcasts (1 homeschool, 1 philosophy, 1 indie maker)
 - [ ] Publish first Instagram Reel: AI Faculty conversation demo (30s)
+- [ ] Deploy Social Content Agent, Email Agent, and Commonplace Agent
 
 ### Month 3: Conversion & Validation
 
@@ -862,7 +1108,9 @@ This section defines what happens in the first three months. Every action maps t
 - [ ] Target: 500 email subscribers, 10 paid members, 1 podcast appearance
 - [ ] First build-in-public post with real metrics (readers, signups, conversations)
 - [ ] Submit AMA to r/edtech or r/IAmA
+- [ ] Deploy Pinterest Agent, Singh Lecture Builder, and Book Club Agent
 - [ ] Review M1–M3 funnel data: SEO impressions, email open rates, conversion rates, channel attribution
+- [ ] Review agent output quality; tune voice fidelity and throttling based on first 8 weeks of data
 
 ### 90-Day Success Criteria
 
@@ -915,14 +1163,14 @@ This section defines what happens in the first three months. Every action maps t
 
 ## Competitive Positioning
 
-### What We Say (Messaging)
+### What We Say (Enrollment Stories, Not Feature Lists)
 
-| Audience | Message | Proof Point |
-|----------|---------|-------------|
-| Homeschool parents | "A complete curriculum built around history's greatest minds" | 13 volumes, 483 entries, adult + children's editions |
-| Lifelong learners | "Ask Darwin about evolution — then read the entry he wrote for you" | 10,000 AI Faculty, Socratic dialogue |
-| STEM educators | "Robots that learn to dig — so do your students" | TerrAIn platform, NVIDIA Inception |
-| Institutions | "Encyclopedia access + AI tutors + credentials for your students" | 50-seat institutional tier, Inquiry Appliance |
+| Audience | Enrollment Story | Why She Believes It |
+|----------|-----------------|-------------------|
+| Homeschool parents | "What if your daughter could ask Darwin a question — and he answered?" | She tries it. Her kid leans in. It's real. |
+| Lifelong learners | "Euler teaches calculus. You can interrupt him. He doesn't mind." | He has the conversation. It's better than any MOOC he's tried. |
+| STEM educators | "Your students build robots that dig. Darwin explains why that matters." | TerrAIn demo at NVIDIA GTC. Hands-on proof. |
+| Institutions | "76,000 texts, 10,000 faculty, offline-capable — for your entire campus." | Inquiry Appliance pilot. 50 seats. Real usage data. |
 
 ### Competitive Matrix
 
@@ -937,7 +1185,7 @@ This section defines what happens in the first three months. Every action maps t
 
 **Where competitors are stronger:** Khan's 20K+ video library and brand trust. Brilliant's interactive STEM exercises. Great Courses' production quality. Kiwi Crate's proven physical-kit logistics.
 
-**What no one else has:** A published 13-volume encyclopaedia, 10,000 historically accurate AI personas, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
+**What no one else has:** A published 13-volume encyclopaedia, 10,000 historically accurate AI personas brought to life as interactive marble busts, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
 
 ---
 
@@ -949,7 +1197,7 @@ This section defines what happens in the first three months. Every action maps t
 | Atlas crowdfunding undersells | Med | Med | Build 2K email list before launch, $99 low barrier | Reduce to 150 units |
 | $49/mo too expensive | Med | High | Free tier is generous (5 chats/day + full Encyclopaedia) | Test $29/mo or $399/yr |
 | iNQ Cards low retention | Med | Med | First 3 packs must be exceptional; collector mechanics | Switch to quarterly box |
-| Solo founder bandwidth | High | High | AI workflow, ruthless prioritization | First hire: Content Lead (Month 8-10) |
+| Solo founder bandwidth | High | High | Agentic AI stack reduces 34 hr/wk → 7.5 hr/wk (see Agent section) | First hire: Content Lead (Month 8-10) |
 | Homeschool community skepticism | Med | Med | Lead with free value, never sell in groups | Partner with trusted voices |
 | Convention ROI unclear | Low | Low | Track UTM per event | Drop events, shift to ads |
 
@@ -957,6 +1205,108 @@ This section defines what happens in the first three months. Every action maps t
 - Begin Google Ads when: MRR > $5K/mo AND organic CPA known AND LTV:CAC > 5:1
 - Begin Meta Ads when: Google Ads CPA < $60 for 3 consecutive months
 - Kill any channel where CPA > LTV/3 for 2 consecutive months
+
+---
+
+## Agentic AI Marketing Automation
+
+The solo-founder model works because Castalia doesn't just *talk* about AI — it runs on it. Every marketing function that can be automated by an AI agent *is* automated, freeing the founder to focus on strategy, partnerships, and the 20% of human work that drives 80% of results.
+
+**The Godin paradox:** The Godin framework above says our audience is deeply skeptical of "AI slop" and values human authenticity. So how do we reconcile that with 12 AI agents generating content at scale? The answer: **agents handle the mechanical work (formatting, scheduling, SEO markup, data pulls) while the founder handles the editorial judgment (what gets published, what gets killed, what voice is right).** The audience never sees the agent — they see the entry, the Faculty conversation, the social post. The human-in-the-loop isn't performative; it's the quality gate that prevents the exact output our audience will reject.
+
+### The Agent Stack
+
+| Agent | What It Does | Cadence | Human Role |
+|-------|-------------|---------|------------|
+| **Encyclopaedia Publisher** | Drafts new entries in faculty voice from source corpora, formats AsciiDoc, generates LaTeX PDFs and ePubs | Continuous (3-5 entries/week) | Editorial review, approve/reject |
+| **Singh Lecture Builder** | Ingests Khan Academy / MIT OCW transcripts, rewrites as dialogic lectures in faculty voice, generates interruptible segments | Batch (10-20 lectures/week) | Spot-check voice accuracy |
+| **Symposia Generator** | Orchestrates multi-agent conversations (6+1 Symposium, Faculty Club, Salon, Debate), manages turn-taking and heretic mechanics | On-demand | Set topic and cast, review transcript |
+| **News Agent** | Every 6 hours: ingest RSS (HN, arXiv, Reddit, Google AI, OpenAI), RAG-match to faculty interests, generate faculty takes, post to Feed | Automated (4×/day) | Monitor quality weekly |
+| **Commonplace Agent** | Scans Bibliotech texts assigned to faculty bookshelves, generates marginalia and reading notes in faculty voice | Continuous | Curate highlights for social |
+| **Social Content Agent** | Drafts social posts from Encyclopaedia entries, Symposia transcripts, Faculty quotes, and Apocalypso data; formats per platform (X, Threads, Bluesky, Instagram captions) | Daily (5-10 drafts) | Select, edit, schedule |
+| **Pinterest Agent** | Generates pin images from Encyclopaedia art + iNQ Card illustrations via Canva API; writes SEO descriptions | Batch (20-30 pins/month) | Approve batches |
+| **Email Agent** | Personalizes welcome sequences based on signup source and first Faculty interaction; drafts weekly digest from top content | Triggered + weekly | Review conversion sequences |
+| **SEO Agent** | Auto-generates meta descriptions, title tags, and schema markup for new pages; monitors Search Console for crawl errors and ranking changes; suggests internal link opportunities | Continuous | Review monthly SEO report |
+| **Analytics Agent** | Pulls Plausible + Stripe + Supabase data; generates weekly funnel dashboard; flags anomalies (traffic drops, churn spikes, conversion changes) | Weekly + alerts | Review dashboard, act on alerts |
+| **Book Club Agent** | Selects books from Bibliotech 76K library, creates reading schedules, facilitates Matrix chat discussions as the host faculty | On-demand | Pick themes, review discussions |
+| **Homeschool Plan Agent** | Generates daily Montessori and Waldorf lesson plans from Encyclopaedia entries + Bibliotech texts + Singh lectures | Daily | Parent feedback loop |
+
+### Architecture
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  ORCHESTRATOR (GitHub Actions + Supabase Edge Functions)  │
+│  Cron schedules · Event triggers · Rate limiting          │
+├──────────────┬──────────────┬──────────────┬─────────────┤
+│  Content     │  Distribution│  Analytics   │  Community   │
+│  Agents      │  Agents      │  Agents      │  Agents      │
+│              │              │              │              │
+│  Encyclopaedia│  Social      │  SEO Monitor │  Book Club   │
+│  Singh       │  Pinterest   │  Funnel Dash │  Homeschool  │
+│  Symposia    │  Email       │  Alert System│  Commonplace │
+│  News        │              │              │              │
+└──────┬───────┴──────┬───────┴──────┬───────┴──────┬──────┘
+       │              │              │              │
+       ▼              ▼              ▼              ▼
+   Bibliotech    Social APIs    Plausible/     Matrix /
+   + Encyclopaedia  + Email      Stripe/GSC    Supabase
+```
+
+### What This Means for Bandwidth
+
+Without agents, the full marketing + content pipeline requires ~34 hr/week (26 hr marketing distribution + 8 hr content creation and community). With the agent stack:
+
+| Task | Manual Hours/Week | With Agents | Savings |
+|------|------------------|-------------|---------|
+| Content creation (entries, lectures, symposia) | 15 | 3 (review only) | 12 hr |
+| Social media (drafting, scheduling, posting) | 8 | 2 (curate + approve) | 6 hr |
+| Email marketing (writing, segmenting) | 3 | 0.5 (review sequences) | 2.5 hr |
+| SEO (meta tags, sitemaps, monitoring) | 2 | 0.5 (monthly review) | 1.5 hr |
+| Analytics (pulling data, making reports) | 2 | 0.5 (review dashboards) | 1.5 hr |
+| Community (Book Club, Commonplace, Feed) | 4 | 1 (moderate, curate) | 3 hr |
+| **Total** | **34 hr** | **7.5 hr** | **26.5 hr** |
+
+The agent stack reduces the founder's marketing workload from 34 hours/week to ~7.5 hours/week — a 78% reduction. This is how a solo founder runs a 20+ product ecosystem on $3K.
+
+### Agent Quality Controls
+
+Automation without quality control produces "AI slop" — the exact thing our target audience is most skeptical of. Every agent operates under these constraints:
+
+1. **Faculty voice fidelity.** Content agents are fine-tuned per faculty member on their complete corpora. Outputs that don't match the faculty's known style, vocabulary, or positions are flagged and rejected.
+2. **Human-in-the-loop for public content.** No social post, email, or Encyclopaedia entry goes live without founder review. Agents draft; the founder publishes.
+3. **Rate limiting.** The News agent posts 4×/day, not 40×. The Social agent drafts 10 posts/day but the founder selects 2-3. Volume is throttled to avoid flooding.
+4. **Feedback loops.** Analytics agents track engagement per piece. Content that underperforms triggers review. Patterns (e.g., "Faculty Club transcripts get 3× the engagement of Salon transcripts") inform future agent priorities.
+5. **No fabrication.** Agents cite real sources from Bibliotech. Encyclopaedia entries reference real texts. Faculty marginalia references real passages. Everything is traceable.
+
+### Cost
+
+| Component | Monthly Cost | Notes |
+|-----------|-------------|-------|
+| LLM API (Bedrock / Anthropic / OpenAI) | $200-400 | Covered by AWS Activate + Google Cloud credits in Year 1 |
+| GitHub Actions compute | $0 | Free tier covers cron + CI/CD |
+| Supabase Edge Functions | $0 | Free tier covers event triggers |
+| Canva API (Pinterest agent) | $0-13 | Free tier or Pro ($13/mo) |
+| **Total** | **$0-400** | **Effectively $0 in Year 1 with cloud credits** |
+
+### Phased Rollout
+
+- **Month 1:** News Agent (already live), SEO Agent, Analytics Agent
+- **Month 2:** Social Content Agent, Email Agent, Commonplace Agent
+- **Month 3:** Pinterest Agent, Singh Lecture Builder, Book Club Agent
+- **Month 4-6:** Symposia Generator, Homeschool Plan Agent, Encyclopaedia Publisher
+- **Month 7+:** Agent refinement based on performance data; reduce human review as quality stabilizes
+
+### Why This Is a Competitive Moat
+
+No edtech competitor has this agent infrastructure because no competitor has the content substrate to power it. The agents work because:
+
+- The Encyclopaedia provides 483+ structured entries for content generation
+- Bibliotech provides 76K source texts for citation and marginalia
+- 10,000 faculty personas provide voice models for every content type
+- The Fediverse feed provides a native distribution layer
+- Supabase provides the event system that connects everything
+
+A competitor would need to build the content library, the faculty system, AND the agent stack. We built the library first — the agents are the leverage layer on top.
 
 ---
 
