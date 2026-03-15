@@ -749,7 +749,7 @@ class: text-center
 
 <br>
 
-**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 10,000 AI faculty brought to life as interactive marble busts, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
+**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 150+ AI faculty (scaling to 10,000) brought to life as interactive marble busts, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
 
 <br>
 

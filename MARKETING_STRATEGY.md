@@ -273,7 +273,7 @@ These are the products that appear in every pitch, every social post, and every 
 |---------|-----|--------|---------------|
 | The Encyclopaedia | cyc.castalia.institute | LIVE | SEO engine. 483+ entries = indexed pages + social content. The front door. |
 | Bibliotech | bibliotech.castalia.institute | LIVE | Depth engine. 76,000+ texts, 177 faculty bookshelves, full reader with marginalia/TTS/AI. The product demo. |
-| AI Faculty | castalia.institute | LIVE | Demo engine. 10,000 personas. A 2-minute conversation sells better than any ad. |
+| AI Faculty | castalia.institute | LIVE | Demo engine. 150+ personas (scaling to 10,000). A 2-minute conversation sells better than any ad. |
 | Homeschool | homeschool.inquiry.institute | LIVE | Segment engine. Day-to-day Montessori/Waldorf plans. Directly serves primary target (homeschool families). |
 | Singh | singh.castalia.institute | LIVE | Lecture engine. Khan Academy + MIT OCW delivered by AI Faculty. Interruptible, dialogic. |
 | Symposia | symposia.castalia.institute | LIVE | Spectacle engine. Four social formats (6+1 drinking party, Faculty Club, Salons, Debates). Every session = shareable content. |
@@ -432,7 +432,7 @@ News article on AI regulation → matched to Turing's interests via RAG
 - Transforms text-based AI chat into something that feels like visiting a museum that talks back
 - Every Faculty conversation becomes a visual experience: "I watched Aristotle's marble bust explain consciousness"
 - Screenshots and screen recordings of talking busts are inherently shareable — uncanny, beautiful, and novel
-- Scales to all 10,000+ faculty personas
+- Scales to all 150+ faculty personas (10,000 roadmap)
 - Salon mode (planned): multiple busts on screen in conversation — Symposia and Faculty Club become visual spectacles
 
 **Tier 3 products (not actively marketed — marketing value accrues when they ship):**
@@ -546,7 +546,7 @@ News article on AI regulation → matched to Turing's interests via RAG
 3. Clicks through to Volume I: Mind. Reads 3 more entries. Opens Bergson's *Creative Evolution* in Bibliotech — sees Bergson's own marginalia on his text. This isn't a wiki; it's a living scholarly institution.
 4. Tries AI Faculty: Bergson's marble bust appears and speaks. 10-minute conversation about creative evolution. This is better than any MOOC.
 5. Subscribes to "The Encyclopaedia Weekly" email — curated highlights
-6. Discovers a Faculty Club lunch: Bergson and William James debating pragmatism over coffee. Watches the full transcript. Day 21 conversion email: "Unlimited conversations with 10,000 minds — $49/mo"
+6. Discovers a Faculty Club lunch: Bergson and William James debating pragmatism over coffee. Watches the full transcript. Day 21 conversion email: "Unlimited conversations with 150+ minds (and growing) — $49/mo"
 7. Signs up. First month: attends a Symposium on consciousness (6 philosophers + a heretic neuroscientist). Takes Singh lectures on philosophy of mind from Husserl.
 8. Month 2: orders iNQ Cards ($20/mo) — the physical collection appeals to the "Folio Society" collector in him. Joins Austen's Book Club reading Brontë.
 9. Month 4: pursues Magisteria Apprentice rank — first tangible credential he's earned since his MBA in 1998. His Map of Inquiry shows 30% explored.
@@ -817,7 +817,7 @@ Groups to join and actively participate in (do NOT create a competing group):
 |------|-------------|------------|-----------------|
 | Homeschool | Read-Aloud Revival, Brave Writer, Pam Barnhill, Schole Sisters | "What if your daughter could ask Darwin a question — and he answered?" | Direct to Segment 1 |
 | Philosophy/Intellectual | Philosophize This!, Partially Examined Life, Hi-Phi Nation | "Euler teaches calculus. You can interrupt him. He doesn't mind." | Direct to Segment 2 |
-| AI/Technology | Practical AI, AI Breakdown, Latent Space | "We built 10,000 historically accurate minds you can actually talk to — here's what we learned" | Segment 2 + 4 |
+| AI/Technology | Practical AI, AI Breakdown, Latent Space | "We built 150+ historically accurate minds you can actually talk to — here's what we learned" | Segment 2 + 4 |
 | Indie maker | Indie Hackers, My First Million, Tropical MBA | "Solo founder, $3K, 4 months — 20 live products, from marble busts that talk to robots that dig" | Segment 4 + general |
 | Niche | The Great Books Podcast, Intellectual Explorers, The History of Philosophy | "The great conversation never ended. We're just making it easier to join." | Deep Segment 2 |
 
@@ -1170,7 +1170,7 @@ This section defines what happens in the first three months. Every action maps t
 | Homeschool parents | "What if your daughter could ask Darwin a question — and he answered?" | She tries it. Her kid leans in. It's real. |
 | Lifelong learners | "Euler teaches calculus. You can interrupt him. He doesn't mind." | He has the conversation. It's better than any MOOC he's tried. |
 | STEM educators | "Your students build robots that dig. Darwin explains why that matters." | TerrAIn demo at NVIDIA GTC. Hands-on proof. |
-| Institutions | "76,000 texts, 10,000 faculty, offline-capable — for your entire campus." | Inquiry Appliance pilot. 50 seats. Real usage data. |
+| Institutions | "76,000 texts, 150+ faculty (scaling to 10,000), offline-capable — for your entire campus." | Inquiry Appliance pilot. 50 seats. Real usage data. |
 
 ### Competitive Matrix
 
@@ -1178,14 +1178,14 @@ This section defines what happens in the first three months. Every action maps t
 |---|---|---|---|---|---|
 | **Price** | Free | $24/mo | $20/mo | $24/mo | **Free–$49/mo** |
 | **Content** | Video lessons | Interactive problems | Filmed lectures | STEM kits | **13-vol Encyclopaedia** |
-| **AI** | Khanmigo ($4/mo) | None | None | None | **10K faculty personas** |
+| **AI** | Khanmigo ($4/mo) | None | None | None | **150+ faculty personas (10K roadmap)** |
 | **Hardware** | None | None | None | Activity kits | **Atlas devices + TerrAIn** |
 | **Physical** | None | None | None | Monthly kit | **iNQ Cards + medals** |
 | **Credentials** | Mastery points | None | None | None | **5-rank Magisteria** |
 
 **Where competitors are stronger:** Khan's 20K+ video library and brand trust. Brilliant's interactive STEM exercises. Great Courses' production quality. Kiwi Crate's proven physical-kit logistics.
 
-**What no one else has:** A published 13-volume encyclopaedia, 10,000 historically accurate AI personas brought to life as interactive marble busts, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
+**What no one else has:** A published 13-volume encyclopaedia, 150+ historically accurate AI personas (scaling to 10,000) brought to life as interactive marble busts, purpose-built learning hardware, and physical artifact subscriptions — all in one ecosystem. This integration is the moat.
 
 ---
 
@@ -1302,7 +1302,7 @@ No edtech competitor has this agent infrastructure because no competitor has the
 
 - The Encyclopaedia provides 483+ structured entries for content generation
 - Bibliotech provides 76K source texts for citation and marginalia
-- 10,000 faculty personas provide voice models for every content type
+- 150+ faculty personas (scaling to 10,000) provide voice models for every content type
 - The Fediverse feed provides a native distribution layer
 - Supabase provides the event system that connects everything
 
@@ -1327,7 +1327,7 @@ PhD Computational Biosciences (CU Anschutz) · 25+ years aerospace (NASA: Orion,
 
 Programs: NVIDIA Inception · AWS Activate ($1K) · Google Cloud for Startups ($2K)
 
-Built the entire ecosystem — 20+ live products, 10,000 faculty, 13-volume encyclopaedia, hardware prototypes — solo using AI-augmented development in 4 months on $3K in cloud credits.
+Built the entire ecosystem — 20+ live products, 150+ faculty (10,000 roadmap), 13-volume encyclopaedia, hardware prototypes — solo using AI-augmented development in 4 months on $3K in cloud credits.
 
 ---
 
