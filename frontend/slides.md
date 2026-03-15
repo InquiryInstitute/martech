@@ -1,5 +1,6 @@
 ---
 theme: seriph
+colorSchema: light
 title: Castalia Institute — Marketing Plan
 info: |
   Castalia Institute — Marketing Plan FY2026–2028
@@ -12,7 +13,7 @@ mdc: true
 
 # Castalia Institute — Marketing Plan
 
-*How we reach learners, build community, and grow revenue on a bootstrap budget*
+*The great conversation of human history belongs to everyone, not just universities. We're restoring the ancient model — a student sits with a teacher and they talk — at scale.*
 
 FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
@@ -181,34 +182,89 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
+# Strategic Philosophy: "People Like Us Do Things Like This"
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### The Smallest Viable Audience
+
+We don't need 50,000 adequate customers. We need **500 delighted ones** — homeschool mothers who believe in living books, are active in co-ops and Facebook groups, and tell everyone when they find something remarkable.
+
+**500 members × $49/mo = $294K ARR.** Enough to fund Year 2 with zero ad spend.
+
+### The Enrollment Story
+
+People don't buy subscriptions. They enroll in a story about who they are:
+
+- **Homeschool mom:** "I'm giving my children access to the greatest minds in history — not a textbook *about* them."
+- **Lifelong learner:** "I spend my evenings with Kant and Darwin. I have the credential to prove it."
+
+### The Remarkable Test
+
+Every product must pass: *Would she text this to a friend?*
+
+- "My daughter just argued with Socrates about justice. She's 11." ✓
+- "I watched Nietzsche crash a Buddhist symposium." ✓
+- "Castalia offers AI-powered personalized learning." ✗
+
+</div>
+<div>
+
+### Permission, Not Interruption
+
+Every step costs $0:
+
+1. Stranger finds Encyclopaedia entry via Google → bookmarks it
+2. Returns, tries Faculty conversation → son joins in
+3. Gives email permission → "Get the weekly reading list"
+4. Converts on her timeline → Day 14 or day 60
+5. Becomes advocate → posts in co-op Facebook group
+
+**The Encyclopaedia IS the marketing. The Faculty conversation IS the demo.**
+
+### Productive Tension
+
+Free tier: generous enough to create love, limited enough to create want.
+
+- 5 chats/day limit hits mid-conversation → "I was in the middle of something"
+- iNQ Card QR scan → gated Faculty chat → the card is the key
+- Map shows locked cities → "What's next?"
+- Magisteria shows next rank → "I'm so close"
+
+### "It's Not for Everyone"
+
+**NOT for:** test prep, gamified dopamine, passive consumption, cheapest option. Saying this filters *in* the right people.
+
+</div>
+</div>
+
+---
+
 # Channel Strategy Overview
 
 <div class="text-xs mt-2">
 
 | Channel | Cost | Expected Impact | Phase |
 |---------|------|----------------|-------|
-| **SEO** (Encyclopaedia + Bibliotech) | $0 | 483+ entries + 76K texts indexed | 1 |
-| **Bibliotech / Commonplace / Feed + News** | $0 | Faculty marginalia + social proof + news takes | 1 |
-| **Singh + Symposia + Map** | $0 | Lectures, 4 social formats, hex-grid curriculum | 1-2 |
-| **Book Club + Homeschool + Table** | $0 | Reading groups, lesson plans, faculty TTRPG | 1 |
-| **Organic social** (X, Reddit, FB) | $0 | Community seeding, 5-10 posts/week | 1 |
-| **Email** (Buttondown/Loops) | $0-29/mo | Nurture + conversion, 2-3 emails/week | 1 |
-| **Homeschool outreach** | $0-200/mo | Direct access to target segment | 1 |
-| **Apocalypso hooks** | $0 | Topical virality, risk updates as content | 1 |
-| **YouTube & TikTok** | $0-50/video | Atlas unboxing, Encyclopaedia readings | 2 |
-| **Crowdfunding** | Platform fees | Atlas + TerrAIn launches, PR catalyst | 1-2 |
-| **Conventions** | $300-800/event | Direct sales, credibility, feedback | 2 |
-| **Podcasts** | $0 | Authority building, niche audiences | 1-2 |
+| **SEO** (Encyclopaedia + Bibliotech + Commonplace) | $0 | 483+ entries + 76K texts + marginalia indexed | 1 |
+| **Content ecosystem** (Singh, Symposia, Book Club, Table, Map, Reliquary) | $0 | Lectures, 4 social formats, reading groups, TTRPG, talking busts | 1-2 |
+| **Feed + News + Apocalypso** | $0 | Faculty social proof, news takes, risk hooks — always-fresh content | 1 |
+| **Organic social** (X, Reddit, FB, Pinterest, Instagram) | $0 | Community seeding, 5-10 posts/week, homeschool outreach | 1 |
+| **Email** (Buttondown → Loops) | $0-29/mo | Welcome → activation → conversion sequences, weekly digest | 1 |
+| **YouTube & TikTok** | $0-50/video | Faculty demos, Atlas unboxing, Encyclopaedia readings | 2 |
+| **Crowdfunding** | Platform fees | Atlas ($99 founding) + TerrAIn (Kickstarter), PR catalyst | 1-2 |
+| **Conventions + Podcasts** | $300-800/event | Homeschool conventions, NVIDIA GTC, 1-2 podcast appearances/mo | 1-2 |
 | **Paid ads** (Google + Meta) | $1.5-3K/mo | Long-tail educational + parent targeting | 3 |
-| **Affiliates** | 10-15% rev share | Scalable, performance-based | 2-3 |
+| **Affiliates** | 10-15% rev share | Homeschool bloggers, education YouTubers, performance-based | 2-3 |
 
 </div>
 
-**Year 1 marketing spend: < $3,000 total.** Everything before paid ads must prove the funnel works organically.
+**Year 1 marketing spend: ~$3,000 + $1K reserve.** Everything before paid ads must prove the funnel works organically.
 
 ---
 
-# Channel 1: SEO — The $0 Growth Engine
+# SEO — The $0 Growth Engine
 
 **Why this works:** 483+ Encyclopaedia entries + 76,000 Bibliotech texts + 177 faculty bookshelves = massive indexable surface. Faculty marginalia in the Commonplace creates unique content no competitor can replicate.
 
@@ -250,71 +306,63 @@ FY 2026–2028 &middot; Solo Founder &middot; $0 Paid Marketing in Year 1
 
 ---
 
-# Social Media Playbook
+# Social Media, Content & Email
 
 <div class="grid grid-cols-2 gap-4 mt-2 text-xs">
 <div>
 
-### Facebook — Homeschool (5 hr/wk, $0)
-Join groups (Well-Trained Mind 20K, Classical Conversations 100K+, state groups). **Answer first, link second.** Co-op demo offers. Saturday AM shares.
+### Platform Playbook (18 hr/wk Phase 1 → 26 Phase 2, $0)
 
-### Pinterest — Visual for Homeschool (3 hr/wk, $0)
-80% women 25-54. Pins last 3-6 months. Curriculum planning, entry highlights, iNQ Card art, infographics. 5-10 pins/week via Tailwind.
+**Facebook** (5 hr): Join homeschool groups. **Answer first, link second.** Co-op demos. Saturday AM shares.
+<br>**Pinterest** (3 hr): 5-10 pins/week. Curriculum planning, entry highlights, iNQ Card art. Pins last 3-6 months.
+<br>**X/Twitter** (5 hr): Faculty quotes, Apocalypso hooks, build-in-public threads. First-person founder voice.
+<br>**Reddit** (3 hr): Build karma 4-6 weeks, then AMA. r/homeschool, r/philosophy, r/AskHistorians.
+<br>**Instagram** (2 hr): iNQ Cards, Atlas, Encyclopaedia art. Reels 1-2×/wk. Focus on saves.
+<br>**Phase 2** (M7+): YouTube, TikTok, Podcasts
 
-### Reddit — High Trust (3 hr/wk, $0)
-Build karma 4-6 weeks first. r/homeschool, r/philosophy, r/AskHistorians. Then AMA: "I built a 13-vol AI encyclopaedia."
+### Weekly Content Cadence
+
+| Day | Content | Channel |
+|-----|---------|---------|
+| Mon | Encyclopaedia entry highlight | Social + Email |
+| Tue | Apocalypso risk update | X/Threads |
+| Wed | Faculty conversation excerpt | Social + Blog |
+| Thu | Build-in-public update | X |
+| Fri | Homeschool resource share | Facebook + Reddit |
+| Sat | "Deep read" thread | X |
 
 </div>
 <div>
 
-### X/Twitter — Lifelong Learners (5 hr/wk, $0)
-10-12 posts/week: Faculty quotes, Apocalypso hooks, build-in-public, threads, engagement polls. First-person founder voice. Engage @waitbutwhy, @AstralCodex, #buildinpublic.
-
-### Instagram — Visual Showcase (2 hr/wk, $0)
-iNQ Cards, Atlas, Encyclopaedia art. Feed (3×/wk), Stories (daily), Reels (1-2×/wk). Focus on saves.
-
-### Phase 2 (M7+): YouTube, TikTok, Podcasts
-YouTube: "Ask the Faculty" clips, Atlas unboxing, build-in-public. TikTok: #BookTok #LearnOnTikTok. Podcasts: 1-2 guest appearances/month.
-
-</div>
-</div>
-
-**Total: 18 hr/week Phase 1 → 26 hr/week Phase 2. All $0.**
-
----
-
-# Channel 3: Content Calendar & Email
-
-<div class="text-xs">
-
-### Weekly Content Cadence
-
-| Day | Content | Channel | Purpose |
-|-----|---------|---------|---------|
-| Mon | Encyclopaedia entry highlight | Social + Email | Traffic to new content |
-| Tue | Apocalypso risk update | X/Threads | News hook |
-| Wed | AI Faculty conversation excerpt | Social + Blog | Product value demo |
-| Thu | Build-in-public update | X | Founder brand |
-| Fri | Homeschool resource share | Facebook + Reddit | Relationship building |
-| Sat | Encyclopaedia "deep read" thread | X | Long-form engagement |
-
 ### Email Marketing ($0-29/mo — Buttondown → Loops)
 
-| Sequence | Trigger | Emails | Goal |
-|----------|---------|--------|------|
-| Welcome | Signup | 5 / 10 days | Intro Encyclopaedia, Faculty, Apocalypso |
-| Activation | No Faculty chat | 3 / 7 days | First AI Faculty conversation |
-| Conversion | Free user day 14+ | 4 / 14 days | Convert to $49/mo |
-| Winback | Churned | 3 / 21 days | Re-engage with new content |
-| Digest | All subs | 1/week | Top entries, Faculty highlights |
+| Sequence | Trigger | Goal |
+|----------|---------|------|
+| Welcome (5 emails / 10 days) | Signup | Intro ecosystem |
+| Activation (3 / 7 days) | No Faculty chat | First conversation |
+| Conversion (4 / 14 days) | Free user day 14+ | Convert to $49/mo |
+| Winback (3 / 21 days) | Churned | Re-engage |
+| Weekly digest | All subs | Retention + traffic |
 
-**Targets:** 40% welcome open rate · 2% email → paid · < 0.5% unsubscribe/send
+**Targets:** 40% welcome open rate · 2% email → paid · < 0.5% unsub
 
+### Voice & Messaging (Godin)
+
+Every post must pass: *Would she text this to a friend?*
+
+- ✓ "The marble bust *spoke* to me. Like a museum that talks back."
+- ✓ "I played D&D with Tolkien as the DM."
+- ✓ "Darwin and Wallace argued about beetles over lunch. I listened."
+- ✗ "AI-powered personalized learning experiences."
+
+**First-person founder voice, always.** "I just shipped Volume VII" — never "Castalia Institute is pleased to announce."
+
+</div>
 </div>
 
 ---
 
-# Channel 4: Crowdfunding & Product Launches
+# Crowdfunding & Product Launches
 
 <div class="grid grid-cols-2 gap-6 mt-2 text-xs">
 <div>
@@ -362,7 +410,7 @@ YouTube: "Ask the Faculty" clips, Atlas unboxing, build-in-public. TikTok: #Book
 
 ---
 
-# Channel 5: Partnerships & Events
+# Partnerships & Events
 
 <div class="grid grid-cols-2 gap-6 mt-2 text-xs">
 <div>
@@ -414,7 +462,7 @@ YouTube: "Ask the Faculty" clips, Atlas unboxing, build-in-public. TikTok: #Book
 
 # Budget: Year 1 Breakdown
 
-**Total Year 1 marketing budget: $2,940** (excludes infrastructure/hosting)
+**Total Year 1 marketing budget: ~$3,000 + $1K reserve** (excludes infrastructure/hosting)
 
 <div class="text-xs mt-2">
 
@@ -431,7 +479,7 @@ YouTube: "Ask the Faculty" clips, Atlas unboxing, build-in-public. TikTok: #Book
 
 **Reserve fund:** $1,000 for unexpected costs (shipping, tool upgrades, booth materials).
 
-**Total: $150 + $500 + $700 + $200 + $290 + $1,000 = $2,940**
+**Activities: ~$3,000 · Reserve: $1,000 · See strategy doc for line-item detail.**
 
 <div class="grid grid-cols-2 gap-4 mt-2 text-xs">
 <div class="border rounded-lg p-2">
@@ -525,7 +573,7 @@ Membership ($49/mo) + iNQ Cards ($20/mo)
 | $49/mo too expensive | Med | High | Generous free tier (5 chats/day + Encyclopaedia) | Test $29/mo or annual $399/yr |
 | iNQ Cards low retention | Med | Med | Outstanding first 3 packs, collector mechanics | Quarterly premium box instead |
 | Convention ROI unclear | Low | Low | UTM codes per event, email for swag | Drop events → Google Ads |
-| Solo founder bandwidth | High | High | AI-augmented workflow, ruthless priority | Hire Content Lead M8-10 |
+| Solo founder bandwidth | High | High | Agentic AI stack: 34 hr → 7.5 hr/wk | Hire Content Lead M8-10 |
 | Homeschool skepticism | Med | Med | Lead with free value, never sell in groups | Partner with trusted voices |
 
 </div>
@@ -550,8 +598,10 @@ layoutClass: gap-8
 | Conventions | — | $500 | $500 | — | **$1,000** |
 | Content & Misc | $50 | $100 | $200 | $200 | **$550** |
 | Reserve | — | — | — | — | **$1,000** |
-| **Total Marketing** | **$150** | **$737** | **$937** | **$437** | **$3,261** |
+| **Total Marketing** | **$150** | **$737** | **$937** | **$437** | **$3,261**¹ |
 | **Mktg as % Rev** | 3.8% | 2.8% | 2.7% | 0.9% | **2.9%** |
+
+¹ Quarterly totals = $2,261; annual includes $1,000 reserve not allocated to a quarter.
 
 </div>
 
@@ -578,6 +628,63 @@ Transition from organic-only to blended acquisition.
 </div>
 
 ---
+
+# Agentic AI: How a Solo Founder Runs 20+ Products
+
+<div class="grid grid-cols-2 gap-4 mt-2 text-xs">
+<div>
+
+### Content Agents (draft → human review → publish)
+
+| Agent | Output | Cadence |
+|-------|--------|---------|
+| **Encyclopaedia Publisher** | New entries in faculty voice | 3-5/week |
+| **Singh Lecture Builder** | Dialogic lectures from Khan/MIT OCW | 10-20/week |
+| **Symposia Generator** | Multi-agent conversations (4 formats) | On-demand |
+| **News Agent** | Faculty takes on current events via RAG | 4×/day (live) |
+| **Commonplace Agent** | Faculty marginalia on Bibliotech texts | Continuous |
+
+### Distribution Agents (automate the 26 hr/week)
+
+| Agent | Output | Cadence |
+|-------|--------|---------|
+| **Social Content** | Platform-formatted posts from content | 10 drafts/day |
+| **Pinterest** | Pin images + SEO descriptions via Canva API | 20-30/month |
+| **Email** | Personalized sequences + weekly digest | Triggered |
+| **SEO** | Meta tags, schema, internal links, GSC monitoring | Continuous |
+| **Analytics** | Funnel dashboards, anomaly alerts | Weekly |
+
+</div>
+<div>
+
+### Bandwidth Impact
+
+| Task | Manual | With Agents | Saved |
+|------|--------|-------------|-------|
+| Content creation | 15 hr | 3 hr | 12 hr |
+| Social media | 8 hr | 2 hr | 6 hr |
+| Email + SEO + Analytics | 7 hr | 1.5 hr | 5.5 hr |
+| Community | 4 hr | 1 hr | 3 hr |
+| **Total/week** | **34 hr** | **7.5 hr** | **78%** |
+
+### Quality Controls
+
+1. **Faculty voice fidelity** — fine-tuned per persona on complete corpora
+2. **Human-in-the-loop** — agents draft, founder publishes
+3. **Rate limiting** — volume throttled to avoid flooding
+4. **No fabrication** — all content cites real Bibliotech sources
+5. **Feedback loops** — analytics drive agent priorities
+
+### Cost: $0 in Year 1
+
+LLM APIs covered by AWS Activate + Google Cloud credits. GitHub Actions + Supabase Edge Functions = free tier.
+
+**This is the moat:** competitors need the content library AND the agent stack. We built the library first — agents are the leverage layer.
+
+</div>
+</div>
+
+---
 layout: center
 class: text-center
 ---
@@ -592,7 +699,7 @@ class: text-center
 
 <br>
 
-**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 10,000 AI faculty, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
+**The moat isn't marketing spend — it's content.** No competitor has a 13-volume encyclopaedia, 10,000 AI faculty brought to life as interactive marble busts, purpose-built hardware, and physical artifacts in one ecosystem. The marketing plan is to let people discover that for themselves, then make it easy to go deeper.
 
 <br>
 
